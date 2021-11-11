@@ -1,0 +1,4 @@
+# m h  dom mon dow   command
+59 23 * * * /usr/local/mysql_backup/mysqlbackup.sh
+00 10 * * * php /home/joe/bazaar/symfony maintenance:itemcleaner
+01 10 * * * php /home/joe/bazaar/symfony maintenance:itemreminder

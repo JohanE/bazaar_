@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="uk" datatype="plaintext" original="messages" date="2011-06-03T11:02:45Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>Стартовая страница</source>
+        <target>Головна сторінка</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Подать объявление</source>
+        <target>Подати оголошення</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>Контакты</source>
+        <target>Контакти</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>К сожалению ничего не найдено</source>
+        <target>На жаль нічого не знайдено</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>Львовская область</source>
+        <target>Львівська область</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>Волынская область</source>
+        <target>Волинська область</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>Ровенская область</source>
+        <target>Рівненська область</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>Тернопольская область</source>
+        <target>Тернопільська область</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>Закарпатская область</source>
+        <target>Закарпатська область</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>Ивано-Франковская область</source>
+        <target>Івано-Франківська область</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Черновицкая область</source>
+        <target>Чернівецька область</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>Хмельницкая область</source>
+        <target>Хмельницька область</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>Житомирская область</source>
+        <target>Житомирська область</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Винницкая область</source>
+        <target>Вінницька область</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>Киевская область</source>
+        <target>Київська область</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>Полтавская область</source>
+        <target>Полтавська область</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>Кировоградская область</source>
+        <target>Кіровоградська область</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Одесская область</source>
+        <target>Одеська область</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Николаевская область</source>
+        <target>Миколаївська область</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>Херсонская область</source>
+        <target>Херсонська область</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Днепропетровская область</source>
+        <target>Дніпропетровська область</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Харьковская область</source>
+        <target>Харківська область</target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>Луганская область</source>
+        <target>Луганська область</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>Донецкая область</source>
+        <target>Донецька область</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>Крым</source>
+        <target>Крим</target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>необходимый</source>
+        <target>необхідний</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>Выбрать категорию</source>
+        <target>Вибрати категорію</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>смежные области</source>
+        <target>суміжні області</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>вся Украина</source>
+        <target>вся Україна</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>искать!</source>
+        <target>шукати!</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>Цена от</source>
+        <target>Ціна вiд</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>Цена до</source>
+        <target>Ціна до</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>больше, чем</source>
+        <target>більше, ніж</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>Цена</source>
+        <target>Ціна</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>страница</source>
+        <target>сторінка</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>уточнить поиск</source>
+        <target>уточнити пошук</target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>Год выпуска от</source>
+        <target>Рік випуску вiд</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>Год выпуска до</source>
+        <target>Рік випуску до</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>Имя</source>
+        <target>Ім´я</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>(адрес скрытый, ответ посылается через объявление)</source>
+        <target>(адреса прихована, відповідь надсилається через оголошення)</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>Заглавие объявления</source>
+        <target>Заголовок оголошення</target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>(&lt;strong&gt;куплю&lt;/strong&gt;, &lt;strong&gt;продам&lt;/strong&gt; и т.д. не писать в заглавии)</source>
+        <target>(&lt;strong&gt;куплю&lt;/strong&gt;, &lt;strong&gt;продам&lt;/strong&gt; і т.д. не писати в заголовку)</target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>Текст объявление</source>
+        <target>Текст оголошення</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>цена до</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>Район или город</source>
+        <target>Район або мiсто</target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>Выбрать</source>
+        <target>Вибрати</target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>Категория</source>
+        <target>Категорія</target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>Пробег (километраж)</source>
+        <target>Пробіг (кілометраж)</target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>год випуска</source>
+        <target>рік випуску</target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>Топливо</source>
+        <target>Пальне</target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>длина</source>
+        <target>довжина</target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>Показать изображения</source>
+        <target>Показати зображення</target>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>Скрыть изображения</source>
+        <target>Сховати зображення</target>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>Сортировать по цене</source>
+        <target>Сортувати за ціною</target>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>Сортировать по дате</source>
+        <target>Сортувати за датою</target>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>Сегодня</source>
+        <target>Сьогодні</target>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>Вчера</source>
+        <target>Вчора</target>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>Количество комнат</source>
+        <target>Кількість кімнат</target>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>Площадь</source>
+        <target>Площа</target>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>Улица</source>
+        <target>Вулиця</target>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>Почтовый индекс</source>
+        <target>Поштовий індекс</target>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>пробег от</source>
+        <target>Пробіг вiд</target>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>пробег до</source>
+        <target>Пробіг до</target>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>Контактное лицо</source>
+        <target>Контактна особа</target>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>опубликовано</source>
+        <target>опублiковано</target>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>изменить</source>
+        <target>змінити</target>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>продам</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>куплю</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>фирма</source>
+        <target>фірма</target>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>Вулиця</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="72">
+        <source>Все объявления</source>
+        <target>Всі оголошення</target>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>Линк</source>
+        <target>Лінк</target>
+      </trans-unit>
+      <trans-unit id="74">
+        <source>Количество комнат от</source>
+        <target>Кількість кімнат вiд</target>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>Количество комнат до</source>
+        <target>Кількість кімнат до</target>
+      </trans-unit>
+      <trans-unit id="76">
+        <source>Площадь от</source>
+        <target>Площа вiд</target>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>Площадь до</source>
+        <target>Площа до</target>
+      </trans-unit>
+      <trans-unit id="78">
+        <source>Выбрать язык</source>
+        <target>Вибрати мову</target>
+      </trans-unit>
+      <trans-unit id="79">
+        <source>повторить</source>
+        <target>повторити</target>
+      </trans-unit>
+      <trans-unit id="80">
+        <source>Повторить</source>
+        <target>Повторити</target>
+      </trans-unit>
+      <trans-unit id="81">
+        <source>Продам</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="82">
+        <source>Куплю</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="83">
+        <source>дальше</source>
+        <target>далi</target>
+      </trans-unit>
+      <trans-unit id="85">
+        <source>Проверить объявление</source>
+        <target>Перевірити оголошення</target>
+      </trans-unit>
+      <trans-unit id="86">
+        <source>Загрузить фото</source>
+        <target>Завантажити фото</target>
+      </trans-unit>
+      <trans-unit id="87">
+        <source>Отправить</source>
+        <target>відправити</target>
+      </trans-unit>
+      <trans-unit id="88">
+        <source>Сервис</source>
+        <target>Сервіс</target>
+      </trans-unit>
+      <trans-unit id="89">
+        <source>самые распространенные вопросы и ответы</source>
+        <target>найпоширеніші запитання та відповіді</target>
+      </trans-unit>
+      <trans-unit id="90">
+        <source>запрещенные товары и услуги</source>
+        <target>заборонені товари і послуги</target>
+      </trans-unit>
+      <trans-unit id="91">
+        <source>Изменить объявление</source>
+        <target>Змінити оголошення</target>
+      </trans-unit>
+      <trans-unit id="92">
+        <source>Просмотр</source>
+        <target>Перегляд</target>
+      </trans-unit>
+      <trans-unit id="93">
+        <source>Отправить объявление</source>
+        <target>Відправити оголошення</target>
+      </trans-unit>
+      <trans-unit id="94">
+        <source>Черкасская область</source>
+        <target>Черкаська область</target>
+      </trans-unit>
+      <trans-unit id="95">
+        <source>Черниговская область</source>
+        <target>Чернігівська область</target>
+      </trans-unit>
+      <trans-unit id="96">
+        <source>Сумская область</source>
+        <target>Сумська область</target>
+      </trans-unit>
+      <trans-unit id="97">
+        <source>Запорожская область</source>
+        <target>Запорізька область</target>
+      </trans-unit>
+      <trans-unit id="98">
+        <source>удалить</source>
+        <target>видалити</target>
+      </trans-unit>
+      <trans-unit id="99">
+        <source>объявление</source>
+        <target>оголошення</target>
+      </trans-unit>
+      <trans-unit id="100">
+        <source>Позвонить</source>
+        <target>Подзвонити</target>
+      </trans-unit>
+      <trans-unit id="101">
+        <source>Послать мeйл</source>
+        <target>Послати мeйл</target>
+      </trans-unit>
+      <trans-unit id="102">
+        <source>Для того, чтобы изменить или удалить объявление введите пароль и нажмите "ОК".</source>
+        <target>Для того, щоб змінити або стерти оголошення введіть Ваш пароль і натисніть на “ОК”.</target>
+      </trans-unit>
+      <trans-unit id="103">
+        <source>Здесь Вы можете найти информацию о правилах на Internetbazar, самые распространенные вопросы и ответы, а также другую дополнительную информацию.</source>
+        <target>Тут Ви можете знайти інформацію про правила на Internetbazar, найпоширеніші питання та відповіді, а також іншу додаткову інформацію.</target>
+      </trans-unit>
+      <trans-unit id="104">
+        <source>Размещая объявление, Я соглашаюсь с правилами и условиями на Internetbazar, а также передаю все права на содержание этого объявления.</source>
+        <target>Розміщаючи оголошення, Я згоджуюсь з правилами і умовами на Internetbazar, а також передаю всі права на зміст цього  оголошення.</target>
+      </trans-unit>
+      <trans-unit id="105">
+        <source>Благодарим за сотрудничество!</source>
+        <target>Дякуєм за співпрацю!</target>
+      </trans-unit>
+      <trans-unit id="106">
+        <source>В ближайшее время ваше объявление будет проверено. На указанный Вами адрес было отправлено письмо с дополнительной информацией.</source>
+        <target>Найближчим часом ваше оголошення буде перевірено. На вказаний Вами адрес був відіслений лист з додадковою інформацією.</target>
+      </trans-unit>
+      <trans-unit id="107">
+        <source>В ближайшее время ваше объявление будет проверено.</source>
+        <target>Найближчим часом ваше оголошення буде перевірено.</target>
+      </trans-unit>
+      <trans-unit id="108">
+        <source>Просмотрите объявление, нажмите после этого “проверить обьявление”. Если Вы хотите удалить объявление, нажмите "удалить объявление.” Если Вы хотите продлить объявление, нажмите "продлить объявление.”</source>
+        <target>Перегляньте оголошення, натистіть після цього на “ перевірити оголошенння”. Якщо Ви бажаєте видалити оголошення, натисніть на “видалити оголошення”. Якщо Ви бажаєте продовжити оголошення, натисніть на “продовжити оголошення”.</target>
+      </trans-unit>
+      <trans-unit id="109">
+        <source>Вы действительно хотите удалить объявление?</source>
+        <target>Ви насправді бажаєте видалити оголошенння?</target>
+      </trans-unit>
+      <trans-unit id="110">
+        <source>Ваше объявление было удалено</source>
+        <target>Ваше оголошення було видалено</target>
+      </trans-unit>
+      <trans-unit id="111">
+        <source>Удалить</source>
+        <target>Видалити</target>
+      </trans-unit>
+      <trans-unit id="112">
+        <source>Послать письмо подателю объявления</source>
+        <target>Послати лист подавцю оголошення</target>
+      </trans-unit>
+      <trans-unit id="113">
+        <source>Ваше имя</source>
+        <target>Ваше ім'я</target>
+      </trans-unit>
+      <trans-unit id="114">
+        <source>Сообщение отправлено</source>
+        <target>Повідомлення надіслано</target>
+      </trans-unit>
+      <trans-unit id="115">
+        <source>Закрыть окно</source>
+        <target>Закрити вікно</target>
+      </trans-unit>
+      <trans-unit id="116">
+        <source>Посоветуйте другу это обьявление</source>
+        <target>Порадьте другу це оголошенння </target>
+      </trans-unit>
+      <trans-unit id="117">
+        <source>Е-мейл вашего друга</source>
+        <target>Е-мейл вашого друга</target>
+      </trans-unit>
+      <trans-unit id="118">
+        <source>Это поле обязательно для заполнения</source>
+        <target>Це поле є обов`язковим для заповнення</target>
+      </trans-unit>
+      <trans-unit id="119">
+        <source>Неверный  е-мейл</source>
+        <target>Невірний е-мейл</target>
+      </trans-unit>
+      <trans-unit id="120">
+        <source>\'%value%' - слишком короткое, должно содержать минимум %min_length% знака</source>
+        <target>"%value%" надто коротке, повинно містити мінімум %min_length% знаки</target>
+      </trans-unit>
+      <trans-unit id="121">
+        <source>Поле слишком длинное. Максимальная длинна составляет %max_length% знаков</source>
+        <target>Поле занадто довге. Максимальна довжина складає %max_length% знаків</target>
+      </trans-unit>
+      <trans-unit id="122">
+        <source>\'%value%' не является числом, используйте только цифры</source>
+        <target>"%value%" не являється числом, використовуйте тільки цифри</target>
+      </trans-unit>
+      <trans-unit id="123">
+        <source>Неправильный тип файла (%mime_type%). Допустимые форматы файлов: gif, jpg, png</source>
+        <target>Неправильний тип файлу (%mime_type%). Допустимі формати файлів: gif, jpg, png</target>
+      </trans-unit>
+      <trans-unit id="124">
+        <source>Фото уже загруженное. Удалите его сначала перед загрузкой нового.</source>
+        <target>Фото вже завантажене. Видаліть його перед завантаженням нового.</target>
+      </trans-unit>
+      <trans-unit id="125">
+        <source>Пароль слишком короткое, должно содержать минимум %min_length% знака</source>
+        <target>Пароль надто коротке, повинно містити мінімум %min_length% знаки</target>
+      </trans-unit>
+      <trans-unit id="126">
+        <source>Пароли не совпадают</source>
+        <target>Паролі не співпадають</target>
+      </trans-unit>
+      <trans-unit id="127">
+        <source>Неправильный пароль</source>
+        <target>Неправильний пароль</target>
+      </trans-unit>
+      <trans-unit id="128">
+        <source>К сожалению не удалось отправить е-мейл через технические неисправности</source>
+        <target>На жаль не вдалося відіслати е-мейл через технічні несправності</target>
+      </trans-unit>
+      <trans-unit id="129">
+        <source>Здесь вы можете бесплатно разместить или найти частное объявление или объявление фирмы, например: б/у авто, недвижимость, мебель, бытовая и электротехника и много другого из всей Украины.</source>
+        <target>Тут ви можете безкоштовно розмістити чи знайти приватне оголошення чи оголошення фірми, наприклад: б/у авто, нерухомість, мебель, побутова і електро техніка і багато іншого зі всієї України.</target>
+      </trans-unit>
+      <trans-unit id="132">
+        <source>Сдам</source>
+        <target>Здам в оренду</target>
+      </trans-unit>
+      <trans-unit id="133">
+        <source>Сниму</source>
+        <target>Візьму в оренду</target>
+      </trans-unit>
+      <trans-unit id="134">
+        <source>Internetbazar  бесплатные частные объявления: б/у авто, недвижимость, техника. Доска объявлений, дать объявление» - Украина</source>
+        <target>Internetbazar безкоштовні приватні оголошення: б/у авто, нерухомість,техніка. Дошка оголошень, подати оголошення.- Україна</target>
+      </trans-unit>
+      <trans-unit id="135">
+        <source>Internetbazar Подать объявление, дать объявление бесплатно</source>
+        <target>Internetbazar Подати оголошення, дати оголошення безкоштовно</target>
+      </trans-unit>
+      <trans-unit id="136">
+        <source>Вы забыли пароль? Нажмите кнопку "Отправить" и мы отправим Вам пароль на ваш ящик</source>
+        <target>Ви забули пароль? Натисніть на "Відправити" і Ми відправим Вам пароль на вашу скриньку</target>
+      </trans-unit>
+      <trans-unit id="137">
+        <source>не разрешается указывать &lt;strong&gt;ссылки&lt;/strong&gt;, &lt;strong&gt;эл.адреса&lt;/strong&gt;, &lt;strong&gt;телефоны&lt;/strong&gt; в тексте или заглавии объявления</source>
+        <target>не дозволяється вказувати &lt;strong&gt;сайти&lt;/strong&gt;, &lt;strong&gt;е-мейли&lt;/strong&gt;, &lt;strong&gt;тел.&lt;/strong&gt; в тексті чи заголовку оголошення</target>
+      </trans-unit>
+      <trans-unit id="138">
+        <source>Неверный сайт, не забывайте указывать http://</source>
+        <target>Невірний сайт, не забувайте вказувати http://</target>
+      </trans-unit>
+      <trans-unit id="139">
+        <source>не разрешается указывать &lt;b&gt;ссылки&lt;/b&gt;, &lt;b&gt;е-мейлы&lt;/b&gt;, &lt;b&gt;тел.&lt;/b&gt; на этом поле</source>
+        <target>не дозволяється вказувати &lt;b&gt;сайти&lt;/b&gt;, &lt;b&gt;е-мейли&lt;/b&gt;, &lt;b&gt;тел.&lt;/b&gt; у цьому полі</target>
+      </trans-unit>
+      <trans-unit id="140">
+        <source>Поле содержит запрещенные слова. Для списка нажмите</source>
+        <target>Поле містить заборонені слова. Для списку натисніть</target>
+      </trans-unit>
+      <trans-unit id="141">
+        <source>здесь</source>
+        <target>тут</target>
+      </trans-unit>
+      <trans-unit id="142">
+        <source>Запрещенные слова</source>
+        <target>Заборонені слова</target>
+      </trans-unit>
+      <trans-unit id="143">
+        <source>Первая страница</source>
+        <target>Перша сторінка</target>
+      </trans-unit>
+      <trans-unit id="144">
+        <source>Предыдущая страница</source>
+        <target>Попередня сторінка</target>
+      </trans-unit>
+      <trans-unit id="145">
+        <source>Следующая страница</source>
+        <target>Наступна сторінка</target>
+      </trans-unit>
+      <trans-unit id="146">
+        <source>Последная страница</source>
+        <target>Остання сторінка</target>
+      </trans-unit>
+      <trans-unit id="147">
+        <source>Это поле может содержать только цифры и следующие символы: ( ) + - , ;</source>
+        <target>Це поле може містити тільки цифри і наступні символи: ( ) + - , ;</target>
+      </trans-unit>
+      <trans-unit id="148">
+        <source>Контакт</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="149">
+        <source>Пожалуйста, с помощью этого формуляра Вы можете непосредственно связаться с нами:</source>
+        <target>Будь-ласка, за допомогою цього формуляру Ви можете безпосередньо зв'язатися з нами:</target>
+      </trans-unit>
+      <trans-unit id="150">
+        <source>Новинка! Вы можете загрузить 3 фото</source>
+        <target>Новинка! Ви можете завантажити 3 фото</target>
+      </trans-unit>
+      <trans-unit id="151">
+        <source>Дополнительные фото</source>
+        <target>Додаткові фото</target>
+      </trans-unit>
+      <trans-unit id="152">
+        <source>Главное фото</source>
+        <target>Головне фото</target>
+      </trans-unit>
+      <trans-unit id="153">
+        <source>Вы не можете загрузить более 3-х изображений</source>
+        <target>Ви не можете завантажити більше 3-х зображень</target>
+      </trans-unit>
+      <trans-unit id="154">
+        <source>Главное фото отсутствует. Загрузите главное фото или удалите дополнительные.</source>
+        <target>Головне фото відсутнє. Завантажте головне фото або видаліть додадкові.</target>
+      </trans-unit>
+      <trans-unit id="155">
+        <source>Доска бесплатных объявлений</source>
+        <target>Дошка безкоштовних оголошень</target>
+      </trans-unit>
+      <trans-unit id="156">
+        <source>Продлить</source>
+        <target>Продовжити</target>
+      </trans-unit>
+      <trans-unit id="157">
+        <source>Срок объявления продлен до </source>
+        <target>Термін оголошення продовжено до </target>
+      </trans-unit>
+      <trans-unit id="158">
+        <source>Отображать по</source>
+        <target>Відображати по</target>
+      </trans-unit>
+      <trans-unit id="159">
+        <source>Количество изображений ограниченно, максимальнoe количество</source>
+        <target>Кількість зображень обмежена, максимальна кількість</target>
+      </trans-unit>
+      <trans-unit id="160">
+        <source>изображений</source>
+        <target>зображення</target>
+      </trans-unit>
+      <trans-unit id="161">
+        <source>Результатов</source>
+        <target>Результатів</target>
+      </trans-unit>
+      <trans-unit id="162">
+        <source>Изображение</source>
+        <target>Зображення</target>
+      </trans-unit>
+      <trans-unit id="163">
+        <source>Текст объявления</source>
+        <target>Текст оголошення</target>
+      </trans-unit>
+      <trans-unit id="164">
+        <source>Категория</source>
+        <target>Категорія</target>
+      </trans-unit>
+      <trans-unit id="165">
+        <source>Место</source>
+        <target>Місце</target>
+      </trans-unit>
+      <trans-unit id="166">
+        <source>Вы можете загрузить</source>
+        <target>Ви можете завантажити</target>
+      </trans-unit>
+      <trans-unit id="167">
+        <source>изображения</source>
+        <target>зображення</target>
+      </trans-unit>
+      <trans-unit id="168">
+        <source>Контактные данные</source>
+        <target>Контактні дані</target>
+      </trans-unit>
+      <trans-unit id="169">
+        <source>Объявление</source>
+        <target>Оголошення</target>
+      </trans-unit>
+      <trans-unit id="170">
+        <source>Тип сделки</source>
+        <target>Тип операції</target>
+      </trans-unit>
+      <trans-unit id="171">
+        <source>Прикрепить изображение</source>
+        <target>Прикріпити зображення</target>
+      </trans-unit>
+      <trans-unit id="172">
+        <source>Обзор</source>
+        <target>Огляд</target>
+      </trans-unit>
+      <trans-unit id="173">
+        <source>Расположение</source>
+        <target>Розташування</target>
+      </trans-unit>
+      <trans-unit id="174">
+        <source>Город</source>
+        <target>Місто</target>
+      </trans-unit>
+      <trans-unit id="175">
+        <source>Дополнительная информация</source>
+        <target>Додаткова інформація</target>
+      </trans-unit>
+      <trans-unit id="176">
+        <source>Проверка объявления</source>
+        <target>Перевірка оголошення</target>
+      </trans-unit>
+      <trans-unit id="177">
+        <source>Прикрепленные изображения</source>
+        <target>Прикріплені зображення</target>
+      </trans-unit>
+      <trans-unit id="178">
+        <source>(пароль необходим для внесения изменений в объявление)</source>
+        <target>(пароль необхідний для внесення змін до оголошення)</target>
+      </trans-unit>
+      <trans-unit id="179">
+        <source>Повторите</source>
+        <target>Повторіть</target>
+      </trans-unit>
+      <trans-unit id="180">
+        <source>Размещая объявление, Я соглашаюсь с</source>
+        <target>Розміщуючи оголошення, Я погоджуюся з</target>
+      </trans-unit>
+      <trans-unit id="181">
+        <source>правилами и условиями</source>
+        <target>правилами та умовами</target>
+      </trans-unit>
+      <trans-unit id="182">
+        <source>портала Internetbazar, а также передаю все права на содержание этого объявления</source>
+        <target>порталу Internetbazar, а також передаю всі права на зміст цього оголошення</target>
+      </trans-unit>
+      <trans-unit id="183">
+        <source>Главная</source>
+        <target>Головна</target>
+      </trans-unit>
+      <trans-unit id="185">
+        <source>Доска бесплатных объявлений!</source>
+        <target>Дошка безкоштовних оголошень!</target>
+      </trans-unit>
+      <trans-unit id="186">
+        <source>Опубликовано</source>
+        <target>Опубліковано</target>
+      </trans-unit>
+      <trans-unit id="188">
+        <source>Год выпуска</source>
+        <target>Рік випуску</target>
+      </trans-unit>
+      <trans-unit id="189">
+        <source>Пробег</source>
+        <target>Пробіг</target>
+      </trans-unit>
+      <trans-unit id="190">
+        <source>Изменить, удалить или продлить ваше объявление</source>
+        <target>Змінити, видалити або продовжити ваше оголошення</target>
+      </trans-unit>
+      <trans-unit id="191">
+        <source>Ваш электронный адрес</source>
+        <target>Ваша електронна адреса</target>
+      </trans-unit>
+      <trans-unit id="193">
+        <source>Посоветовать другу</source>
+        <target>Порадити другу</target>
+      </trans-unit>
+      <trans-unit id="194">
+        <source>Отправить пароль</source>
+        <target>Відправити пароль</target> 
+      </trans-unit>
+      <trans-unit id="196">
+        <source>Заголовок</source>
+        <target>Тема</target>
+      </trans-unit>
+      <trans-unit id="197">
+        <source>Категория</source>
+        <target>Категорія</target>
+      </trans-unit>
+      <trans-unit id="198">
+        <source>Ваш контактный телефон</source>
+        <target>Ваш контактний телефон</target>
+      </trans-unit>
+      <trans-unit id="199">
+        <source>Вы действительно хотите удалить объявление</source>
+        <target>Ви дійсно хочете видалити оголошення</target>
+      </trans-unit>
+      <trans-unit id="200">
+        <source>Назад</source>
+        <target>Повернутися</target>
+      </trans-unit>
+      <trans-unit id="201">
+        <source>Удалить объявление</source>
+        <target>Видалити оголошення</target>
+      </trans-unit>
+      <trans-unit id="202">
+        <source>С помощью этой формы вы можете связаться непосредственно с нами и мы постараемся ответить вам в кратчайшие сроки</source>
+        <target>За допомогою цієї форми ви можете зв'язатися безпосередньо з нами і ми постараємося відповісти вам в найкоротші терміни</target>
+      </trans-unit>
+      <trans-unit id="203">
+        <source>Ваш эл. адрес</source>
+        <target>Ваш ел. адреса</target>
+      </trans-unit>
+      <trans-unit id="204">
+        <source>адрес используется для обратной связи с вами</source>
+        <target>адреса використовується для зворотного зв'язку з вами</target>
+      </trans-unit>
+      <trans-unit id="206">
+        <source>Текст сообщения</source>
+        <target>Текст повідомлення</target>
+      </trans-unit>
+      <trans-unit id="207">
+        <source>Отправить сообщение</source>
+        <target>Надіслати повідомлення</target>
+      </trans-unit>
+      <trans-unit id="209">
+        <source>Продлить объявление</source>
+        <target>Продовжити оголошення</target>
+      </trans-unit>
+      <trans-unit id="210">
+        <source>Срок объявления был продлен до</source>
+        <target>Термін оголошення був продовжений до</target>
+      </trans-unit>
+      <trans-unit id="211">
+        <source>Подкатегория</source>
+        <target>Підкатегорія</target>
+      </trans-unit>
+      <trans-unit id="212">
+        <source>Прикрепить картинку</source>
+        <target>Прикріпити картинку</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

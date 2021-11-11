@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>registration</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">registration</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/frontend_dev.php/ru/item/create</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>item_customertype_id</td>
+	<td>label=Объявлениe фирм</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>item_customertype_id</td>
+	<td>label=Частнoе объявлениe</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='theform']/div[3]/label[1]/span[3]/ul/li</td>
+	<td>Это поле обязательно для заполнения</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='theform']/div[3]/label[3]/span/ul/li</td>
+	<td>Это поле обязательно для заполнения</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='theform']/div[4]/label[2]/span[2]/ul/li</td>
+	<td>Это поле обязательно для заполнения</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='theform']/div[4]/label[4]/span/ul/li</td>
+	<td>Это поле обязательно для заполнения</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='theform']/div[5]/span/ul/li</td>
+	<td>Это поле обязательно для заполнения</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_name</td>
+	<td>test user</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_email</td>
+	<td>johan swe.se</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='theform']/div[3]/label[3]/span/ul/li</td>
+	<td>Неверный е-мейл</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_phone</td>
+	<td>ddd</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_phone</td>
+	<td>2343234</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_title</td>
+	<td>куплю sdfsdfsd</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_title</td>
+	<td>sdfdssdf sdfsdfsd</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='theform']/div[4]/label[4]/span/ul/li</td>
+	<td>Поле содержит запрещенные слова. Для списка нажмите здесь</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_body</td>
+	<td>This is the main text area .</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_price</td>
+	<td>ddd</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='theform']/div[4]/label[6]/span/ul/li</td>
+	<td>\'ddd' не является числом, используйте только цифры</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_price</td>
+	<td>1200</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_location_id</td>
+	<td>11</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td>2000</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>item_sublocation_id</td>
+	<td>label=Славутич</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_email</td>
+	<td>johan@swe.se</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='theform']/div[4]/label[2]/span[2]/ul/li</td>
+	<td>Это поле обязательно для заполнения</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_category_id</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>item_milage_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>item_gearbox_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>item_yearmodel_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>item_fuel_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>item_milage_id</td>
+	<td>label=5000-9999</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>item_gearbox_id</td>
+	<td>label=механическое</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>item_fuel_id</td>
+	<td>label=газ</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>item_yearmodel_id</td>
+	<td>label=1982</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[@id='file-surround']/label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_file</td>
+	<td>/home/joe/Desktop/banner_728.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>file-inp-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='thesidebar']/ul/li/p</td>
+	<td>Главное фото:</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_file</td>
+	<td>/home/joe/Desktop/banner_728.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>file-inp-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='thesidebar']/ul[2]/li/p</td>
+	<td>Дополнительные фото:</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_file</td>
+	<td>/home/joe/Desktop/banner_728.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>file-inp-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>check_ad</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Ваше имя:</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='product']/div[2]/ul[1]/li/p</td>
+	<td>Главное фото:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='product']/div[2]/ul[2]/li/p</td>
+	<td>Дополнительные фото:</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Изменить объявление']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>item_category_id</td>
+	<td>label=квартиры</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>item_room_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>item_area</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>item_rent</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>item_street</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>item_postalcode</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>item_room_id</td>
+	<td>label=2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_area</td>
+	<td>55</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_rent</td>
+	<td>1299</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_street</td>
+	<td>streeet 345</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_postalcode</td>
+	<td>23423</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_body</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>check_ad</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='theform']/div[4]/label[5]/span/ul/li</td>
+	<td>Это поле обязательно для заполнения</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>item_room_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>item_area</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>item_rent</td>
+	<td>1299</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>item_street</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_body</td>
+	<td>gaatn 324324</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>item_room_id</td>
+	<td>label=5</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>check_ad</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_password</td>
+	<td>kollare</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_password_again</td>
+	<td>kollare</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Благодарим за сотрудничество!</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

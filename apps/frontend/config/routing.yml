@@ -1,0 +1,97 @@
+# default rules
+homepage:
+  url:   /
+  param: { module: start, action: index }
+
+change_language:
+  url:   /change_language
+  param: { module: language, action: changeLanguage }
+
+default_symfony:
+  url:   /:sf_culture/symfony/:action/*
+  param: { module: default }
+  requirements:
+    sf_culture: (?:ru|uk)
+
+item_show:
+  url:     /:sf_culture/item/bazar/:slug
+  class:   sfPropelRoute
+  options: { model: Item, type: object }
+  param:   { module: item, action: showBySlug }
+  requirements:
+    sf_culture: (?:ru|uk)
+
+item_login:
+  url:     /:sf_culture/item/login/:slug
+  class:   sfPropelRoute
+  options: { model: Item, type: object }
+  param:   { module: item, action: loginBySlug }
+  requirements:
+    sf_culture: (?:ru|uk)
+
+# exp
+item_prechange:
+  url:     /:sf_culture/item/prechange/:slug
+  class:   sfPropelRoute
+  options: { model: Item, type: object }
+  param:   { module: item, action: prechange }
+  requirements:
+    sf_method: [GET,POST]
+    sf_culture: (?:ru|uk)
+
+# exp
+item_change:
+  url:     /:sf_culture/item/change/:slug
+  class:   sfPropelRoute
+  options: { model: Item, type: object }
+  param:   { module: item, action: change }
+  requirements:
+    sf_method: [GET,POST]
+    sf_culture: (?:ru|uk)
+
+# exp
+item_change_post:
+  url:     /:sf_culture/item/change_post/:slug
+  class:   sfPropelRoute
+  options: { model: Item, type: object }
+  param:   { module: item, action: changePost }
+  requirements:
+    sf_method: [POST]
+    sf_culture: (?:ru|uk)
+
+#
+item_change_preview:
+  url:     /:sf_culture/item/change_preview/:slug
+  class:   sfPropelRoute
+  options: { model: Item, type: object }
+  param:   { module: item, action: changepreview }
+  requirements:
+    sf_method: [POST,GET]
+    sf_culture: (?:ru|uk)
+
+localized_homepage:
+  url:   /:sf_culture/
+  param: { module: start, action: index }
+  requirements:
+    sf_culture: (?:ru|uk)
+
+
+default_index:
+  url:   /:sf_culture/:module
+  param: { action: index }
+  requirements:
+    sf_culture: (?:ru|uk)
+
+default:
+  url:   /:sf_culture/:module/:action/*
+  requirements:
+    sf_culture: (?:ru|uk)
+
+# test
+item:
+  url:   /:sf_culture/item
+  param: { action: index }
+  requirements:
+    sf_culture: (?:ru|uk)
+
+  

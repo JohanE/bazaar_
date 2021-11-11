@@ -1,0 +1,561 @@
+body
+{
+  font: 1em "Lucida Grande", Lucida, Verdana, sans-serif;
+  background-color: #fdf0dc;
+}
+
+a
+{
+    outline: none;
+    color: #176F94;
+    font-weight: bold;  
+}
+
+a:visited
+{
+    outline: none;
+    color: #943162;
+    font-weight: bold;  
+}
+
+a.toplink:visited
+{
+    outline: none;
+    color: #176F94;
+    font-weight: bold;  
+}
+
+td { vertical-align: top }
+
+img
+{  border-style: none;
+}
+
+select
+{
+    font-size: 1em;
+}
+
+div#topheader
+{
+  float: left;
+  width: 650px;
+}
+
+table#searchtable
+{
+ width: 1050px;
+ background-color: #DCDCC3;
+ margin-bottom: 3px;
+
+}
+
+div#topheader h3
+{
+  font-weight: normal;
+}
+
+div#header h2
+{
+  font-size: 160%;
+  font-style: italic;
+}
+
+div#textcontent {
+    width: 620px;
+}
+
+div.subheader {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 700px;
+}
+
+.addformth {
+    padding:2px;
+    text-align:right;
+    vertical-align: top;
+    width:140px;
+}
+
+ul.error_list{ color: red; } 
+
+div.image {
+  margin: 2px;
+  float: left;
+  width: 80px;
+  cursor: pointer;
+}
+
+div#preview {
+  margin: 2px;
+  float: left;
+}
+
+table#listContent {
+    border-spacing: 3px;
+    font-size: 80%;
+}
+
+div.main_search {
+  float: left;
+  width: 728px;
+}
+
+
+div#pricesearch
+{
+    float: left;
+    width: 750px;
+}
+
+div#caryearmodel, 
+div#carmilage, 
+div#cargearbox, 
+div#apartmentrooms,
+div#apartmentarea
+{
+  float:left;  
+}
+
+div#additional_search {
+  float:left;
+  padding:6px 0 0 0;
+}
+
+div#contactform {
+    margin-top: 1.2em;
+}
+
+div#price_search_inner {
+  display:block;
+  padding:0 5px 0 0;
+
+}
+
+div.listContentFrame {
+    width: 1200px;
+    float: left;
+}
+
+div.listContent, 
+div.searchContent,
+div.underlineDiv,
+div#prefDiv
+{
+    width: 1050px;
+    float: left;
+}
+
+div#mainContent {
+    width: 750px;
+    padding: 10px;
+    float: left;
+}
+
+div#mainContentShow {
+    width: 950px;
+    padding: 10px;
+    float: left;
+}
+
+div#mainpage {
+    width: 600px;
+    float: left;
+}
+
+div#rightspace {
+    margin-top: 0.4em;
+    float: right;
+}
+
+div#imageFrame {
+    float: left;
+    width: 780px;
+}
+
+div#mainImage {
+    float: left;
+    width: 650px;
+}
+
+div.extraImgFrame {
+    float: left;
+    width: 100px;
+}
+
+div.extraImage {
+    float: left;
+    width: 90px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    margin-left: 1px;
+    border: 3px coral solid;
+    cursor: pointer;
+}
+
+div.mainFrame {    
+    width: 1000px;
+}
+
+div.rightBannerList {    
+    width: 120px;
+    float: right;
+    padding-top: 20px;
+}
+
+div#mainContentIndex {
+    float: left;
+    width: 1200px;
+    padding: 10px;
+}
+
+td.upper_hd {
+    vertical-align: bottom;
+}
+
+td.foto_td {
+    background-color: #fbfd76;
+    border:1px solid black;
+}
+
+div.response_area {
+    background-color: #fbfd76;
+    border:1px solid black;
+}
+
+div#mailfriend {
+    float: left;
+    width: 650px;
+    margin-top: 10px;
+}
+
+span.mailer_left {
+    float: left;
+    margin-left: 5px;
+    margin-left: 5px;
+}
+span.mailer_right {
+    float: right;
+    margin-right: 5px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+div#contact {
+    float: left;
+    width: 400px;
+}
+
+div#mailerDiv {
+    float: left;
+    background-color: #f1d5a9;
+}
+
+div#mailerform {
+    float: left;
+}
+
+div#iconholder {
+    float: left;
+    width: 390px;
+}
+div.icondiv {
+    float: left;
+    width: 370px;
+}
+
+div#mainContent .subsection{
+    margin-right: 10px;
+
+}
+
+table#listContent td {
+    /* padding:4px 5px 4px 0 */
+}
+
+.contact_img {
+    width: 22px;
+    height: 22px;
+}
+
+.adinfo {
+    font-size: 70%;
+    color: red;
+}
+
+.big_adinfo {
+    font-size: 100%;
+    color: red;
+}
+
+.infobox {
+    font-size: 70%;
+    width: 400px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+div#extendedsearch
+{
+    float: left;
+    margin-right: 2px;
+    margin-top: 1px;
+    width: 200 px;    
+}
+
+div#extendedsearch select
+{
+    font-size: 80%;
+}
+
+div#start_flags
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+div.narrow_search
+{
+    width: 720px; 
+    float: left;
+}
+
+div.listview
+{
+    float: left;
+    margin-left: 4px;
+}
+
+div#topdiv
+{
+    width: 900px;
+    margin-left: 10px;
+    float: left;
+}
+
+div#banner
+{
+    width: 728px; 
+    float: left;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+div.startbanner
+{
+    width: 718px; 
+    float: left;
+    margin-left: 22px;
+    margin-top: 6px;
+}
+
+div.banner
+{
+    width: 728px; 
+    float: left;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+div.topdivsub
+{
+    width: 750px;
+    float: left;
+}
+
+#topdiv span
+{
+    float: left;
+}
+
+
+#prefdiv span
+{
+    float: left;
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+}
+
+.underlineDiv {
+    border-bottom:1px solid;
+
+}
+
+.footer {
+    float: left;
+    width: 800px;
+    font-size: 70%;
+    margin: 10px;
+
+}
+
+#infodiv {
+  margin: 2px; 
+  color: blue;
+}
+
+#errordiv {
+  margin: 2px; 
+  color: yellow;
+  background-color: red;
+}
+
+#infodiv1 {
+  margin: 2px; 
+  font-size: 0.8em;
+}
+
+#searchtd {
+/* white-space:nowrap; */
+}
+
+/* pagination */
+#pagination_start
+{
+    width: 600px;
+    float: left;
+    margin-left: 160px;
+}
+
+
+.pagination_desc
+{
+  margin-left: 15px;
+  margin-top: 10px;
+  font-style: italic;
+  color: #828f95;
+  float: left;
+}
+
+.pagination_desc strong
+{
+  color: #176f94;
+}
+
+.pagination
+{
+  margin-top: 10px;
+  float: left;
+  margin-right: 30px;
+  color: #176f94;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.pagination a
+{
+  margin: 0 1px;
+  text-decoration: none;
+  color: #828f95;
+  font-size: 75%;
+  vertical-align: 1px;
+  font-weight: normal;
+}
+
+.pagination a:hover
+{
+  text-decoration: underline;
+}
+
+.pagination img
+{
+  vertical-align: -2px;
+}
+
+div#passwordforget {
+    margin-top: 35px;
+    margin-bottom: 5px;
+    width: 500px;
+}
+
+div.infotext {    
+    width: 480px;
+}
+
+div.smallinfotext {    
+    width: 300px;
+}
+
+span.custom_banner {
+    margin-left: 3px;
+}
+
+div#images {
+    width: 500px;
+}
+
+div.images_headline {
+    width: 496px;
+    float: left;
+}
+
+div.extraimage {
+    float: left;
+    padding: 3px;
+    width: 84px;
+}
+
+div.actual_image {
+    float: left;
+    width: 82px;
+}
+
+span.linkspan {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #176F94;
+    font-weight: bold;  
+}
+
+ul.imgprev,li.imgprev{
+	margin:0;
+	padding:0;
+}
+li.imgprev{
+	list-style:none;
+	float:left;
+	display:inline;
+	margin-right:10px;
+}
+
+div#topwrap {
+    float: left;
+    width: 730px;
+}
+
+div#pagewrapper
+{
+  float: left;
+  width: 1100px;
+}
+
+div.small_banner_show
+{
+    width: 728px; 
+    float: left; 
+    margin-top: 20px;
+}
+
+div.social, div.social_right
+{
+    float: left;    
+}
+div.social_right
+{
+    margin-left: 10px;
+}
+
+div#imageshow,
+div#imageshide,
+div.price
+{
+    margin-right: 1.5em;
+    float: left;
+}
+
+div#set_results 
+{
+    float: right;
+}

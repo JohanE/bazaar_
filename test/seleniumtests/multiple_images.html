@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/" />
+<title>multiple_images</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">multiple_images</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/frontend_dev.php/uk/item/create</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_name</td>
+	<td>Jojje Test</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_email</td>
+	<td>norrlandshubben@yahoo.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_phone</td>
+	<td>344434343</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_title</td>
+	<td>images test</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_body</td>
+	<td>sldkjf sld fkjsldf jsld fjsdlf j</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_location_id</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>waitForTextPresent</td>
+	<td>Горохів</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>item_sublocation_id</td>
+	<td>label=Луцьк</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>item_category_id</td>
+	<td>label=дачі</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_file</td>
+	<td>/home/joe/Desktop/banner_728.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>file-inp-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Головне фото</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_file</td>
+	<td>/home/joe/Desktop/banner_728.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>file-inp-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[@id='thesidebar']//ul[2]/li</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_file</td>
+	<td>/home/joe/Desktop/banner_728.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>file-inp-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[@id='thesidebar']//ul[3]/li</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_file</td>
+	<td>/home/joe/Desktop/banner_728.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>file-inp-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[@id='thesidebar']//ul[3]/li</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_file</td>
+	<td>/home/joe/Desktop/banner_728.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>file-inp-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[@id='thesidebar']//ul[3]/li</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_file</td>
+	<td>/home/joe/Desktop/banner_728.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>file-inp-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Кількість зображень обмежена, максимальна кількість 5 зображення</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>check_ad</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Головне фото</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Додаткові фото</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[@class='sidebar add checking']//ul[3]/li</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Змінити оголошення']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='img4']/a[@class='delete']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeVisible</td>
+	<td>//div[@id='img4']</td>
+	<td>false</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='img3']/a[@class='delete']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeVisible</td>
+	<td>//div[@id='img3']</td>
+	<td>false</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='img2']/a[@class='delete']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeVisible</td>
+	<td>//div[@id='img2']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='img1']/a[@class='delete']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeVisible</td>
+	<td>//div[@id='img1']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='img0']/a[@class='delete']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeVisible</td>
+	<td>//div[@id='img0']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>check_ad</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//ul/li[@class='imgprev']/a</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/frontend_dev.php/uk/item/show/id/2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Змінити, видалити або продовжити ваше оголошення</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_password_login</td>
+	<td>generated</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='OK']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Контактні дані:</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_file</td>
+	<td>/home/joe/Desktop/banner_728.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>file-inp-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Головне фото</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_file</td>
+	<td>/home/joe/Desktop/banner_728.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>file-inp-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[@class='sidebar add']//ul[3]/li</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_file</td>
+	<td>/home/joe/Desktop/banner_728.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>file-inp-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[@class='sidebar add']//ul[3]/li</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_file</td>
+	<td>/home/joe/Desktop/banner_728.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>file-inp-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[@class='sidebar add']//ul[3]/li</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_file</td>
+	<td>/home/joe/Desktop/banner_728.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>file-inp-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[@class='sidebar add']//ul[3]/li</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_file</td>
+	<td>/home/joe/Desktop/banner_728.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>file-inp-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Кількість зображень обмежена, максимальна кількість 5 зображення</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[@class='sidebar add checking']//ul[3]/li</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Змінити оголошення']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='img4']/a[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='img3']/a[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='img2']/a[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='img1']/a[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='img0']/a[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[@class='sidebar add checking']//ul[3]/li</td>
+	<td>0</td>
+</tr>
+</tbody></table>
+</body>
+</html>

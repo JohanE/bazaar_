@@ -1,0 +1,2692 @@
+  
+Location:
+  l1: { connected_to: 2;3;4;5;6 }
+  l2: { connected_to: 2;3 }
+  l3: { connected_to: 1;2;4;8;9}
+  l4: { connected_to: 1;2;3;6;7;8 }
+  l5: { connected_to: 1;6 }
+
+  l6: { connected_to: 1;4;5;7 }
+  l7: { connected_to: 6;4;8;10 }
+  l8: { connected_to: 3;4;7;9;10}
+  l9: { connected_to: 3;8;10;11}
+  l10: { connected_to: 7;8;9;11;12;16;17}
+
+  l11: { connected_to: 9;10;12;13 }
+  l12: { connected_to: 10;11;15;16 }
+  l13: { connected_to: 11;14;15}
+  l14: { connected_to: 13;15;21}
+  l15: { connected_to: 11;12;13;14;16;20;21}
+
+  l16: { connected_to: 10;12;15;20;17;18}
+  l17: { connected_to: 10;16;18 }
+  l18: { connected_to: 17;16;20;19}
+  l19: { connected_to: 18;20;24;25}
+  l20: { connected_to: 18;19;24;23;16;15;21}
+
+  l21: { connected_to: 14;15;20;22;23}
+  l22: { connected_to: 21;22}
+  l23: { connected_to: 20;21;22;24}
+  l24: { connected_to: 19;20;23}
+  l25: { connected_to: 19}
+
+LocationI18n:
+  l1_ru: { id: l1, culture: ru ,name: Львовская область }
+  l1_uk: { id: l1, culture: uk, name: Львівська область}
+  l2_ru: { id: l2, culture: ru ,name: Волынская область }
+  l2_uk: { id: l2, culture: uk, name: Волинська область}
+  l3_ru: { id: l3, culture: ru ,name: Ровенская область}
+  l3_uk: { id: l3, culture: uk, name: Рівненська область}
+  l4_ru: { id: l4, culture: ru, name: Тернопольская область}
+  l4_uk: { id: l4, culture: uk, name: Тернопільська область}
+  l5_ru: { id: l5, culture: ru, name: Закарпатская область }
+  l5_uk: { id: l5, culture: uk, name: Закарпатська область}
+
+  l6_uk: { id: l6, culture: uk, name: Івано-Франківська область}
+  l6_ru: { id: l6, culture: ru, name: Ивано-Франковская область}
+  l7_uk: { id: l7, culture: uk, name: Чернівецька область}
+  l7_ru: { id: l7, culture: ru, name: Черновицкая область }
+  l8_uk: { id: l8, culture: uk, name: Хмельницька область}
+  l8_ru: { id: l8, culture: ru, name: Хмельницкая область}
+  l9_ru: { id: l9, culture: ru, name: Житомирская область}
+  l9_uk: { id: l9, culture: uk, name: Житомирська область}
+  l10_ru: { id: l10, culture: ru, name: Винницкая область}
+  l10_uk: { id: l10, culture: uk, name: Вінницька область}
+
+  l11_ru: { id: l11, culture: ru ,name: Киевская область}
+  l11_uk: { id: l11, culture: uk, name: Київська область}
+  l12_ru: { id: l12, culture: ru ,name: Черкасская область}
+  l12_uk: { id: l12, culture: uk, name: Черкаська область}
+  l13_ru: { id: l13, culture: ru ,name: Черниговская область}
+  l13_uk: { id: l13, culture: uk, name: Чернігівська область}
+  l14_ru: { id: l14, culture: ru, name: Сумская область}
+  l14_uk: { id: l14, culture: uk, name: Сумська область}
+  l15_ru: { id: l15, culture: ru, name: Полтавская область}
+  l15_uk: { id: l15, culture: uk, name: Полтавська область}
+
+  l16_ru: { id: l16, culture: ru ,name: Кировоградская область}
+  l16_uk: { id: l16, culture: uk, name: Кіровоградська область}
+  l17_ru: { id: l17, culture: ru ,name: Одесская область}
+  l17_uk: { id: l17, culture: uk, name: Одеська область }
+  l18_ru: { id: l18, culture: ru ,name: Николаевская область}
+  l18_uk: { id: l18, culture: uk, name: Миколаївська область}
+  l19_ru: { id: l19, culture: ru, name: Херсонская область}
+  l19_uk: { id: l19, culture: uk, name: Херсонська область}
+  l20_ru: { id: l20, culture: ru, name: Днепропетровская область}
+  l20_uk: { id: l20, culture: uk, name: Дніпропетровська область}
+
+  l21_ru: { id: l21, culture: ru ,name: Харьковская область}
+  l21_uk: { id: l21, culture: uk, name: Харківська область}
+  l22_ru: { id: l22, culture: ru ,name: Луганская область}
+  l22_uk: { id: l22, culture: uk, name: Луганська область}
+  l23_ru: { id: l23, culture: ru ,name: Донецкая область}
+  l23_uk: { id: l23, culture: uk, name: Донецька область}
+  l24_ru: { id: l24, culture: ru, name: Запорожская область}
+  l24_uk: { id: l24, culture: uk, name: Запорізька область}
+  l25_ru: { id: l25, culture: ru, name: Крым}
+  l25_uk: { id: l25, culture: uk, name: Крим}
+
+SubLocation:
+  sl1: { location_id: l1 }
+  sl2: { location_id: l1 }
+  sl3: { location_id: l1 }
+  sl4: { location_id: l1 }
+  sl5: { location_id: l1 }
+  sl6: { location_id: l1 }
+  sl7: { location_id: l1 }
+  sl8: { location_id: l1 }
+  sl9: { location_id: l1 }
+  sl10: { location_id: l1 }
+  sl11: { location_id: l1 }
+  sl12: { location_id: l1 }
+  sl13: { location_id: l1 }
+  sl14: { location_id: l1 }
+  sl15: { location_id: l1 }
+  sl16: { location_id: l1 }
+  sl17: { location_id: l1 }
+  sl18: { location_id: l1 }
+  sl19: { location_id: l1 }
+  sl20: { location_id: l1 }
+  sl21: { location_id: l1 }
+  sl22: { location_id: l1 }
+  sl23: { location_id: l1 }
+  sl24: { location_id: l1 }
+  sl25: { location_id: l1 }
+  sl26: { location_id: l1 }
+  sl27: { location_id: l1 }
+  sl28: { location_id: l1 }
+  sl29: { location_id: l1 }
+  sl30: { location_id: l1 }
+  sl31: { location_id: l1 }
+  sl32: { location_id: l1 }
+  sl33: { location_id: l1 }
+  sl34: { location_id: l1 }
+  sl35: { location_id: l1 }
+  sl36: { location_id: l1 }
+  sl37: { location_id: l1 }
+  sl38: { location_id: l1 }
+  sl39: { location_id: l1 }
+  sl40: { location_id: l1 }
+  sl41: { location_id: l1 }
+  sl42: { location_id: l1 }
+  sl43: { location_id: l1 }
+
+  sl44: { location_id: l2 }
+  sl45: { location_id: l2 }
+  sl46: { location_id: l2 }
+  sl47: { location_id: l2 }
+  sl48: { location_id: l2 }
+  sl49: { location_id: l2 }
+  sl50: { location_id: l2 }
+  sl51: { location_id: l2 }
+  sl52: { location_id: l2 }
+  sl53: { location_id: l2 }
+  sl54: { location_id: l2 }
+  sl55: { location_id: l2 }
+  sl56: { location_id: l2 }
+
+  sl57: { location_id: l3 }
+  sl58: { location_id: l3 }
+  sl59: { location_id: l3 }
+  sl60: { location_id: l3 }
+  sl61: { location_id: l3 }
+  sl62: { location_id: l3 }
+  sl63: { location_id: l3 }
+  sl64: { location_id: l3 }
+  sl65: { location_id: l3 }
+  sl66: { location_id: l3 }
+  sl67: { location_id: l3 }
+  sl68: { location_id: l3 }
+  sl69: { location_id: l3 }
+
+  sl70: { location_id: l4 }
+  sl71: { location_id: l4 }
+  sl72: { location_id: l4 }
+  sl73: { location_id: l4 }
+  sl74: { location_id: l4 }
+  sl75: { location_id: l4 }
+  sl76: { location_id: l4 }
+  sl77: { location_id: l4 }
+  sl78: { location_id: l4 }
+  sl79: { location_id: l4 }
+  sl80: { location_id: l4 }
+  sl81: { location_id: l4 }
+  sl82: { location_id: l4 }
+  sl83: { location_id: l4 }
+  sl84: { location_id: l4 }
+  sl85: { location_id: l4 }
+  sl86: { location_id: l4 }
+  sl87: { location_id: l4 }
+
+  sl88: { location_id: l5 }
+  sl89: { location_id: l5 }
+  sl90: { location_id: l5 }
+  sl91: { location_id: l5 }
+  sl92: { location_id: l5 }
+  sl93: { location_id: l5 }
+  sl94: { location_id: l5 }
+  sl95: { location_id: l5 }
+  sl96: { location_id: l5 }
+  sl97: { location_id: l5 }
+  sl98: { location_id: l5 }
+
+  sl99: { location_id: l6 }
+  sl100: { location_id: l6 }
+  sl101: { location_id: l6 }
+  sl102: { location_id: l6 }
+  sl103: { location_id: l6 }
+  sl104: { location_id: l6 }
+  sl105: { location_id: l6 }
+  sl106: { location_id: l6 }
+  sl107: { location_id: l6 }
+  sl108: { location_id: l6 }
+  sl109: { location_id: l6 }
+  sl110: { location_id: l6 }
+  sl111: { location_id: l6 }
+  sl112: { location_id: l6 }
+  sl113: { location_id: l6 }
+  sl114: { location_id: l6 }
+  sl115: { location_id: l7 }
+  sl116: { location_id: l7 }
+  sl117: { location_id: l7 }
+  sl118: { location_id: l7 }
+  sl119: { location_id: l7 }
+  sl120: { location_id: l7 }
+  sl121: { location_id: l7 }
+  sl122: { location_id: l7 }
+  sl123: { location_id: l7 }
+  sl124: { location_id: l7 }
+  sl125: { location_id: l7 }
+  sl126: { location_id: l7 }
+  sl127: { location_id: l8 }
+  sl128: { location_id: l8 }
+  sl129: { location_id: l8 }
+  sl130: { location_id: l8 }
+  sl131: { location_id: l8 }
+  sl132: { location_id: l8 }
+  sl133: { location_id: l8 }
+  sl134: { location_id: l8 }
+  sl135: { location_id: l8 }
+  sl136: { location_id: l8 }
+  sl137: { location_id: l8 }
+  sl138: { location_id: l8 }
+  sl139: { location_id: l8 }
+  sl140: { location_id: l8 }
+
+  sl141: { location_id: l9 }
+  sl142: { location_id: l9 }
+  sl143: { location_id: l9 }
+  sl144: { location_id: l9 }
+  sl145: { location_id: l9 }
+  sl146: { location_id: l9 }
+  sl147: { location_id: l9 }
+  sl148: { location_id: l9 }
+  sl149: { location_id: l9 }
+  sl150: { location_id: l9 }
+
+  sl151: { location_id: l10 }
+  sl152: { location_id: l10 }
+  sl153: { location_id: l10 }
+  sl154: { location_id: l10 }
+  sl155: { location_id: l10 }
+  sl156: { location_id: l10 }
+  sl157: { location_id: l10 }
+  sl158: { location_id: l10 }
+  sl159: { location_id: l10 }
+  sl160: { location_id: l10 }
+  sl161: { location_id: l10 }
+  sl162: { location_id: l10 }
+  sl163: { location_id: l10 }
+  sl164: { location_id: l10 }
+  sl165: { location_id: l10 }
+  sl166: { location_id: l10 }
+  sl167: { location_id: l10 }
+  sl168: { location_id: l10 }
+  sl169: { location_id: l11 }
+  sl170: { location_id: l11 }
+  sl171: { location_id: l11 }
+  sl172: { location_id: l11 }
+  sl173: { location_id: l11 }
+  sl174: { location_id: l11 }
+  sl175: { location_id: l11 }
+  sl176: { location_id: l11 }
+  sl177: { location_id: l11 }
+  sl178: { location_id: l11 }
+  sl179: { location_id: l11 }
+  sl180: { location_id: l11 }
+  sl181: { location_id: l11 }
+  sl182: { location_id: l11 }
+  sl183: { location_id: l11 }
+  sl184: { location_id: l11 }
+  sl185: { location_id: l11 }
+  sl186: { location_id: l11 }
+  sl187: { location_id: l11 }
+  sl188: { location_id: l11 }
+  sl189: { location_id: l11 }
+  sl190: { location_id: l11 }
+  sl191: { location_id: l11 }
+  sl192: { location_id: l11 }
+  sl193: { location_id: l11 }
+  sl194: { location_id: l11 }
+  sl195: { location_id: l11 }
+  sl196: { location_id: l12 }
+  sl197: { location_id: l12 }
+  sl198: { location_id: l12 }
+  sl199: { location_id: l12 }
+  sl200: { location_id: l12 }
+  sl201: { location_id: l12 }
+  sl202: { location_id: l12 }
+  sl203: { location_id: l12 }
+  sl204: { location_id: l12 }
+  sl205: { location_id: l12 }
+  sl206: { location_id: l12 }
+  sl207: { location_id: l12 }
+  sl208: { location_id: l12 }
+  sl209: { location_id: l12 }
+  sl210: { location_id: l12 }
+  sl211: { location_id: l12 }
+  sl212: { location_id: l12 }
+
+  sl213: { location_id: l13 }
+  sl214: { location_id: l13 }
+  sl215: { location_id: l13 }
+  sl216: { location_id: l13 }
+  sl217: { location_id: l13 }
+  sl218: { location_id: l13 }
+  sl219: { location_id: l13 }
+  sl220: { location_id: l13 }
+  sl221: { location_id: l13 }
+  sl222: { location_id: l13 }
+  sl223: { location_id: l13 }
+  sl224: { location_id: l13 }
+  sl225: { location_id: l13 }
+  sl226: { location_id: l13 }
+  sl227: { location_id: l13 }
+  sl228: { location_id: l13 }
+
+  sl229: { location_id: l14 }
+  sl230: { location_id: l14 }
+  sl231: { location_id: l14 }
+  sl232: { location_id: l14 }
+  sl233: { location_id: l14 }
+  sl234: { location_id: l14 }
+  sl235: { location_id: l14 }
+  sl236: { location_id: l14 }
+  sl237: { location_id: l14 }
+  sl238: { location_id: l14 }
+  sl239: { location_id: l14 }
+  sl240: { location_id: l14 }
+  sl241: { location_id: l14 }
+  sl242: { location_id: l14 }
+  sl243: { location_id: l14 }
+  sl244: { location_id: l14 }
+
+  sl245: { location_id: l15 }
+  sl246: { location_id: l15 }
+  sl247: { location_id: l15 }
+  sl248: { location_id: l15 }
+  sl249: { location_id: l15 }
+  sl250: { location_id: l15 }
+  sl251: { location_id: l15 }
+  sl252: { location_id: l15 }
+  sl253: { location_id: l15 }
+  sl254: { location_id: l15 }
+  sl255: { location_id: l15 }
+  sl256: { location_id: l15 }
+  sl257: { location_id: l15 }
+  sl258: { location_id: l15 }
+  sl259: { location_id: l15 }
+  sl260: { location_id: l15 }
+
+  sl261: { location_id: l16 }
+  sl262: { location_id: l16 }
+  sl263: { location_id: l16 }
+  sl264: { location_id: l16 }
+  sl265: { location_id: l16 }
+  sl266: { location_id: l16 }
+  sl267: { location_id: l16 }
+  sl268: { location_id: l16 }
+  sl269: { location_id: l16 }
+  sl270: { location_id: l16 }
+  sl271: { location_id: l16 }
+  sl272: { location_id: l16 }
+  sl273: { location_id: l16 }
+
+  sl274: { location_id: l17 }
+  sl275: { location_id: l17 }
+  sl276: { location_id: l17 }
+  sl277: { location_id: l17 }
+  sl278: { location_id: l17 }
+  sl279: { location_id: l17 }
+  sl280: { location_id: l17 }
+  sl281: { location_id: l17 }
+  sl282: { location_id: l17 }
+  sl283: { location_id: l17 }
+  sl284: { location_id: l17 }
+  sl285: { location_id: l17 }
+  sl286: { location_id: l17 }
+  sl287: { location_id: l17 }
+  sl288: { location_id: l17 }
+  sl289: { location_id: l17 }
+  sl290: { location_id: l17 }
+  sl291: { location_id: l17 }
+  sl292: { location_id: l17 }
+  sl293: { location_id: l17 }
+
+  sl294: { location_id: l18 }
+  sl295: { location_id: l18 }
+  sl296: { location_id: l18 }
+  sl297: { location_id: l18 }
+  sl298: { location_id: l18 }
+  sl299: { location_id: l18 }
+  sl300: { location_id: l18 }
+  sl301: { location_id: l18 }
+  sl302: { location_id: l18 }
+  sl303: { location_id: l18 }
+
+  sl304: { location_id: l19 }
+  sl305: { location_id: l19 }
+  sl306: { location_id: l19 }
+  sl307: { location_id: l19 }
+  sl308: { location_id: l19 }
+  sl309: { location_id: l19 }
+  sl310: { location_id: l19 }
+  sl311: { location_id: l19 }
+  sl312: { location_id: l19 }
+  sl313: { location_id: l19 }
+
+  sl314: { location_id: l20 }
+  sl315: { location_id: l20 }
+  sl316: { location_id: l20 }
+  sl317: { location_id: l20 }
+  sl318: { location_id: l20 }
+  sl319: { location_id: l20 }
+  sl320: { location_id: l20 }
+  sl321: { location_id: l20 }
+  sl322: { location_id: l20 }
+  sl323: { location_id: l20 }
+  sl324: { location_id: l20 }
+  sl325: { location_id: l20 }
+  sl326: { location_id: l20 }
+  sl327: { location_id: l20 }
+  sl328: { location_id: l20 }
+  sl329: { location_id: l20 }
+  sl330: { location_id: l20 }
+  sl331: { location_id: l20 }
+  sl332: { location_id: l20 }
+  sl333: { location_id: l20 }
+  sl334: { location_id: l20 }
+  sl335: { location_id: l20 }
+
+  sl336: { location_id: l21 }
+  sl337: { location_id: l21 }
+  sl338: { location_id: l21 }
+  sl339: { location_id: l21 }
+  sl340: { location_id: l21 }
+  sl341: { location_id: l21 }
+  sl342: { location_id: l21 }
+  sl343: { location_id: l21 }
+  sl344: { location_id: l21 }
+  sl345: { location_id: l21 }
+  sl346: { location_id: l21 }
+  sl347: { location_id: l21 }
+  sl348: { location_id: l21 }
+  sl349: { location_id: l21 }
+  sl350: { location_id: l21 }
+  sl351: { location_id: l21 }
+  sl352: { location_id: l21 }
+  sl353: { location_id: l21 }
+
+  sl354: { location_id: l22 }
+  sl355: { location_id: l22 }
+  sl356: { location_id: l22 }
+  sl357: { location_id: l22 }
+  sl358: { location_id: l22 }
+  sl359: { location_id: l22 }
+  sl360: { location_id: l22 }
+  sl361: { location_id: l22 }
+  sl362: { location_id: l22 }
+  sl363: { location_id: l22 }
+  sl364: { location_id: l22 }
+  sl365: { location_id: l22 }
+  sl366: { location_id: l22 }
+  sl367: { location_id: l22 }
+  sl368: { location_id: l22 }
+  sl369: { location_id: l22 }
+  sl370: { location_id: l22 }
+  sl371: { location_id: l22 }
+  sl372: { location_id: l22 }
+  sl373: { location_id: l22 }
+  sl374: { location_id: l22 }
+  sl375: { location_id: l22 }
+  sl376: { location_id: l22 }
+  sl377: { location_id: l22 }
+  sl378: { location_id: l22 }
+  sl379: { location_id: l22 }
+  sl380: { location_id: l22 }
+  sl381: { location_id: l22 }
+  sl382: { location_id: l22 }
+  sl383: { location_id: l22 }
+  sl384: { location_id: l22 }
+  sl385: { location_id: l22 }
+  sl386: { location_id: l22 }
+  sl387: { location_id: l22 }
+  sl388: { location_id: l22 }
+  sl389: { location_id: l22 }
+  sl390: { location_id: l22 }
+  sl391: { location_id: l22 }
+
+  sl392: { location_id: l23 }
+  sl393: { location_id: l23 }
+  sl394: { location_id: l23 }
+  sl395: { location_id: l23 }
+  sl396: { location_id: l23 }
+  sl397: { location_id: l23 }
+  sl398: { location_id: l23 }
+  sl399: { location_id: l23 }
+  sl400: { location_id: l23 }
+  sl401: { location_id: l23 }
+  sl402: { location_id: l23 }
+  sl403: { location_id: l23 }
+  sl404: { location_id: l23 }
+  sl405: { location_id: l23 }
+  sl406: { location_id: l23 }
+  sl407: { location_id: l23 }
+  sl408: { location_id: l23 }
+  sl409: { location_id: l23 }
+  sl410: { location_id: l23 }
+  sl411: { location_id: l23 }
+  sl412: { location_id: l23 }
+  sl413: { location_id: l23 }
+  sl414: { location_id: l23 }
+  sl415: { location_id: l23 }
+  sl416: { location_id: l23 }
+  sl417: { location_id: l23 }
+  sl418: { location_id: l23 }
+  sl419: { location_id: l23 }
+  sl420: { location_id: l23 }
+  sl421: { location_id: l23 }
+  sl422: { location_id: l23 }
+  sl423: { location_id: l23 }
+  sl424: { location_id: l23 }
+  sl425: { location_id: l23 }
+  sl426: { location_id: l23 }
+  sl427: { location_id: l23 }
+  sl428: { location_id: l23 }
+  sl429: { location_id: l23 }
+  sl430: { location_id: l23 }
+  sl431: { location_id: l23 }
+  sl432: { location_id: l23 }
+  sl433: { location_id: l23 }
+  sl434: { location_id: l23 }
+  sl435: { location_id: l23 }
+  sl436: { location_id: l23 }
+  sl437: { location_id: l23 }
+  sl438: { location_id: l23 }
+  sl439: { location_id: l23 }
+  sl440: { location_id: l23 }
+  sl441: { location_id: l23 }
+  sl442: { location_id: l23 }
+  sl443: { location_id: l23 }
+  
+  sl444: { location_id: l24 }
+  sl445: { location_id: l24 }
+  sl446: { location_id: l24 }
+  sl447: { location_id: l24 }
+  sl448: { location_id: l24 }
+  sl449: { location_id: l24 }
+  sl450: { location_id: l24 }
+  sl451: { location_id: l24 }
+  sl452: { location_id: l24 }
+  sl453: { location_id: l24 }
+  sl454: { location_id: l24 }
+  sl455: { location_id: l24 }
+  sl456: { location_id: l24 }
+  sl457: { location_id: l24 }
+  sl458: { location_id: l24 }
+
+  sl459: { location_id: l25 }
+  sl460: { location_id: l25 }
+  sl461: { location_id: l25 }
+  sl462: { location_id: l25 }
+  sl463: { location_id: l25 }
+  sl464: { location_id: l25 }
+  sl465: { location_id: l25 }
+  sl466: { location_id: l25 }
+  sl467: { location_id: l25 }
+  sl468: { location_id: l25 }
+  sl469: { location_id: l25 }
+  sl470: { location_id: l25 }
+  sl471: { location_id: l25 }
+  sl472: { location_id: l25 }
+  sl473: { location_id: l25 }
+  sl474: { location_id: l25 }
+  sl475: { location_id: l25 }
+
+SubLocationI18n:
+  sl1_ru: { id: sl1, culture: ru ,name: Белз}
+  sl1_uk: { id: sl1, culture: uk, name: Белз}
+  sl2_ru: { id: sl2, culture: ru ,name: Бобрка}
+  sl2_uk: { id: sl2, culture: uk, name: Бібрка}
+  sl3_ru: { id: sl3, culture: ru ,name: Борислав}
+  sl3_uk: { id: sl3, culture: uk, name: Борислав}
+  sl4_ru: { id: sl4, culture: ru ,name: Броды}
+  sl4_uk: { id: sl4, culture: uk, name: Броди}
+  sl5_ru: { id: sl5, culture: ru ,name: Буск}
+  sl5_uk: { id: sl5, culture: uk, name: Буськ}
+  sl6_ru: { id: sl6, culture: ru ,name: Великие Мосты}
+  sl6_uk: { id: sl6, culture: uk, name: Великі Мости}
+  sl7_ru: { id: sl7, culture: ru ,name: Винники}
+  sl7_uk: { id: sl7, culture: uk, name: Винники}
+  sl8_ru: { id: sl8, culture: ru ,name: Глиняны}
+  sl8_uk: { id: sl8, culture: uk, name: Глиняни}
+  sl9_ru: { id: sl9, culture: ru ,name: Городок}
+  sl9_uk: { id: sl9, culture: uk, name: Городок}
+  sl10_ru: { id: sl10, culture: ru ,name: Добромиль}
+  sl10_uk: { id: sl10, culture: uk, name: Добромиль}
+  sl11_ru: { id: sl11, culture: ru ,name: Дрогобыч}
+  sl11_uk: { id: sl11, culture: uk, name: Дрогобич}
+  sl12_ru: { id: sl12, culture: ru ,name: Дубляны}
+  sl12_uk: { id: sl12, culture: uk, name: Дубляни}
+  sl13_ru: { id: sl13, culture: ru ,name: Жидачев}
+  sl13_uk: { id: sl13, culture: uk, name: Жидачів}
+  sl14_ru: { id: sl14, culture: ru ,name: Золочев}
+  sl14_uk: { id: sl14, culture: uk, name: Золочів}
+  sl15_ru: { id: sl15, culture: ru ,name: Каменка-Бугская}
+  sl15_uk: { id: sl15, culture: uk, name: Кам'янка-Бузька}
+  sl16_ru: { id: sl16, culture: ru ,name: Комарно}
+  sl16_uk: { id: sl16, culture: uk, name: Комарно}
+  sl17_ru: { id: sl17, culture: ru ,name: Львов}
+  sl17_uk: { id: sl17, culture: uk, name: Львів}
+  sl18_ru: { id: sl18, culture: ru ,name: Николаев}
+  sl18_uk: { id: sl18, culture: uk, name: Миколаїв}
+  sl19_ru: { id: sl19, culture: ru ,name: Моршин}
+  sl19_uk: { id: sl19, culture: uk, name: Моршин}
+  sl20_ru: { id: sl20, culture: ru ,name: Мостиска}
+  sl20_uk: { id: sl20, culture: uk, name: Мостиська}
+  sl21_ru: { id: sl21, culture: ru ,name: Новый Роздол}
+  sl21_uk: { id: sl21, culture: uk, name: Новий Розділ}
+  sl22_ru: { id: sl22, culture: ru ,name: Новояворовск}
+  sl22_uk: { id: sl22, culture: uk, name: Новояворівське}
+  sl23_ru: { id: sl23, culture: ru ,name: Перемышляны}
+  sl23_uk: { id: sl23, culture: uk, name: Перемишляни}
+  sl24_ru: { id: sl24, culture: ru ,name: Пустомыты}
+  sl24_uk: { id: sl24, culture: uk, name: Пустомити}
+  sl25_ru: { id: sl25, culture: ru ,name: Рава-Русская}
+  sl25_uk: { id: sl25, culture: uk, name: Рава-Руська}
+  sl26_ru: { id: sl26, culture: ru ,name: Радехов}
+  sl26_uk: { id: sl26, culture: uk, name: Радехів}
+  sl27_ru: { id: sl27, culture: ru ,name: Рудки}
+  sl27_uk: { id: sl27, culture: uk, name: Рудки}
+  sl28_ru: { id: sl28, culture: ru ,name: Самбор}
+  sl28_uk: { id: sl28, culture: uk, name: Самбір}
+  sl29_ru: { id: sl29, culture: ru ,name: Сколе}
+  sl29_uk: { id: sl29, culture: uk, name: Сколе}
+  sl30_ru: { id: sl30, culture: ru ,name: Сокаль}
+  sl30_uk: { id: sl30, culture: uk, name: Сокаль}
+  sl31_ru: { id: sl31, culture: ru ,name: Сосновка}
+  sl31_uk: { id: sl31, culture: uk, name: Соснівка}
+  sl32_ru: { id: sl32, culture: ru ,name: Старый Самбор}
+  sl32_uk: { id: sl32, culture: uk, name: Старий Самбір}
+  sl33_ru: { id: sl33, culture: ru ,name: Стебник}
+  sl33_uk: { id: sl33, culture: uk, name: Стебник}
+  sl34_ru: { id: sl34, culture: ru ,name: Стрый}
+  sl34_uk: { id: sl34, culture: uk, name: Стрий}
+  sl35_ru: { id: sl35, culture: ru ,name: Судовая вишня}
+  sl35_uk: { id: sl35, culture: uk, name: Судова Вишня}
+  sl36_ru: { id: sl36, culture: ru ,name: Трускавец}
+  sl36_uk: { id: sl36, culture: uk, name: Трускавець}
+  sl37_ru: { id: sl37, culture: ru ,name: Турка}
+  sl37_uk: { id: sl37, culture: uk, name: Турка}
+  sl38_ru: { id: sl38, culture: ru ,name: Угнев}
+  sl38_uk: { id: sl38, culture: uk, name: Угнів}
+  sl39_ru: { id: sl39, culture: ru ,name: Хирев}
+  sl39_uk: { id: sl39, culture: uk, name: Хирів}
+  sl40_ru: { id: sl40, culture: ru ,name: Ходоров}
+  sl40_uk: { id: sl40, culture: uk, name: Ходорів}
+  sl41_ru: { id: sl41, culture: ru ,name: Червоноград}
+  sl41_uk: { id: sl41, culture: uk, name: Червоноград}
+  sl42_ru: { id: sl42, culture: ru ,name: Яворов}
+  sl42_uk: { id: sl42, culture: uk, name: Яворів}
+  sl43_ru: { id: sl43, culture: ru ,name: Другое}
+  sl43_uk: { id: sl43, culture: uk, name: Інше }
+
+  sl44_ru: { id: sl44, culture: ru ,name: Берестечко}
+  sl44_uk: { id: sl44, culture: uk, name: Берестечко}
+  sl45_ru: { id: sl45, culture: ru ,name: Владимир-Волынский}
+  sl45_uk: { id: sl45, culture: uk, name: Володимир-Волинський}
+  sl46_ru: { id: sl46, culture: ru ,name: Горохов}
+  sl46_uk: { id: sl46, culture: uk, name: Горохів}
+  sl47_ru: { id: sl47, culture: ru ,name: Камень-Каширский}
+  sl47_uk: { id: sl47, culture: uk, name: Камінь-Каширський}
+  sl48_ru: { id: sl48, culture: ru ,name: Киверцы}
+  sl48_uk: { id: sl48, culture: uk, name: Ківерці}
+  sl49_ru: { id: sl49, culture: ru ,name: Ковель}
+  sl49_uk: { id: sl49, culture: uk, name: Ковель}
+  sl50_ru: { id: sl50, culture: ru ,name: Луцк}
+  sl50_uk: { id: sl50, culture: uk, name: Луцьк}
+  sl51_ru: { id: sl51, culture: ru ,name: Любомль}
+  sl51_uk: { id: sl51, culture: uk, name: Любомль}
+  sl52_ru: { id: sl52, culture: ru ,name: Нововолынск}
+  sl52_uk: { id: sl52, culture: uk, name: Нововолинськ}
+  sl53_ru: { id: sl53, culture: ru ,name: Рожище}
+  sl53_uk: { id: sl53, culture: uk, name: Рожище}
+  sl54_ru: { id: sl54, culture: ru ,name: Устилуг}
+  sl54_uk: { id: sl54, culture: uk, name: Устилуг}
+  sl55_ru: { id: sl55, culture: ru ,name: Другое}
+  sl56_uk: { id: sl56, culture: uk, name: Інше }
+
+  sl57_ru: { id: sl57, culture: ru ,name: Березно}
+  sl57_uk: { id: sl57, culture: uk, name: Березне}
+  sl58_ru: { id: sl58, culture: ru ,name: Дубно}
+  sl58_uk: { id: sl58, culture: uk, name: Дубно}
+  sl59_ru: { id: sl59, culture: ru ,name: Дубровица}
+  sl59_uk: { id: sl59, culture: uk, name: Дубровиця}
+  sl60_ru: { id: sl60, culture: ru ,name: Здолбунов}
+  sl60_uk: { id: sl60, culture: uk, name: Здолбунів}
+  sl61_ru: { id: sl61, culture: ru ,name: Корец}
+  sl61_uk: { id: sl61, culture: uk, name: Корець}
+  sl62_ru: { id: sl62, culture: ru ,name: Костополь}
+  sl62_uk: { id: sl62, culture: uk, name: Костопіль}
+  sl63_ru: { id: sl63, culture: ru ,name: Кузнецовск}
+  sl63_uk: { id: sl63, culture: uk, name: Кузнецовськ}
+  sl64_ru: { id: sl64, culture: ru ,name: Острог}
+  sl64_uk: { id: sl64, culture: uk, name: Острог}
+  sl65_ru: { id: sl65, culture: ru ,name: Радывылив}
+  sl65_uk: { id: sl65, culture: uk, name: Радивилів}
+  sl66_ru: { id: sl66, culture: ru ,name: Ровно}
+  sl66_uk: { id: sl66, culture: uk, name: Рівне}
+  sl67_ru: { id: sl67, culture: ru ,name: Сарны}
+  sl67_uk: { id: sl67, culture: uk, name: Сарни}
+  sl68_ru: { id: sl68, culture: ru ,name: Другое}
+  sl68_uk: { id: sl68, culture: uk, name: Інше}
+
+  sl69_ru: { id: sl69, culture: ru ,name: Бережаны}
+  sl69_uk: { id: sl69, culture: uk, name: Бережани}
+  sl70_ru: { id: sl70, culture: ru ,name: Борщев}
+  sl70_uk: { id: sl70, culture: uk, name: Борщів}
+  sl71_ru: { id: sl71, culture: ru ,name: Бучач}
+  sl71_uk: { id: sl71, culture: uk, name: Бучач}
+  sl72_ru: { id: sl72, culture: ru ,name: Залещики}
+  sl72_uk: { id: sl72, culture: uk, name: Заліщики}
+  sl73_ru: { id: sl73, culture: ru ,name: Збараж}
+  sl73_uk: { id: sl73, culture: uk, name: Збараж}
+  sl74_ru: { id: sl74, culture: ru ,name: Зборов}
+  sl74_uk: { id: sl74, culture: uk, name: Зборів}
+  sl75_ru: { id: sl75, culture: ru ,name: Копычинцы}
+  sl75_uk: { id: sl75, culture: uk, name: Копичинці}
+  sl76_ru: { id: sl76, culture: ru ,name: Кременец}
+  sl76_uk: { id: sl76, culture: uk, name: Кременець}
+  sl77_ru: { id: sl77, culture: ru ,name: Лановцы}
+  sl77_uk: { id: sl77, culture: uk, name: Ланівці}
+  sl78_ru: { id: sl78, culture: ru ,name: Монастыриска}
+  sl78_uk: { id: sl78, culture: uk, name: Монастириська}
+  sl79_ru: { id: sl79, culture: ru ,name: Подгайцы}
+  sl79_uk: { id: sl79, culture: uk, name: Підгайці}
+  sl80_ru: { id: sl80, culture: ru ,name: Почаев}
+  sl80_uk: { id: sl80, culture: uk, name: Почаїв}
+  sl81_ru: { id: sl81, culture: ru ,name: Скалат}
+  sl81_uk: { id: sl81, culture: uk, name: Скалат}
+  sl82_ru: { id: sl82, culture: ru ,name: Теребовля}
+  sl82_uk: { id: sl82, culture: uk, name: Теребовля}
+  sl83_ru: { id: sl83, culture: ru ,name: Тернополь}
+  sl83_uk: { id: sl83, culture: uk, name: Тернопіль}
+  sl84_ru: { id: sl84, culture: ru ,name: Хоростков}
+  sl84_uk: { id: sl84, culture: uk, name: Хоростків}
+  sl85_ru: { id: sl85, culture: ru ,name: Чортков}
+  sl85_uk: { id: sl85, culture: uk, name: Чортків}
+  sl86_ru: { id: sl86, culture: ru ,name: Шумск}
+  sl86_uk: { id: sl86, culture: uk, name: Шумськ}
+  sl87_ru: { id: sl87, culture: ru ,name: Другое}
+  sl87_uk: { id: sl87, culture: uk, name: Інше}
+  
+  sl88_ru: { id: sl88, culture: ru ,name: Берегово}
+  sl88_uk: { id: sl88, culture: uk, name: Берегове}
+  sl89_ru: { id: sl89, culture: ru ,name: Виноградов}
+  sl89_uk: { id: sl89, culture: uk, name: Виноградів}
+  sl90_ru: { id: sl90, culture: ru ,name: Иршава}
+  sl90_uk: { id: sl90, culture: uk, name: Іршава}
+  sl91_ru: { id: sl91, culture: ru ,name: Мукачево}
+  sl91_uk: { id: sl91, culture: uk, name: Мукачеве}
+  sl92_ru: { id: sl92, culture: ru ,name: Рахов}
+  sl92_uk: { id: sl92, culture: uk, name: Рахів}
+  sl93_ru: { id: sl93, culture: ru ,name: Свалява}
+  sl93_uk: { id: sl93, culture: uk, name: Свалява}
+  sl94_ru: { id: sl94, culture: ru ,name: Тячев}
+  sl94_uk: { id: sl94, culture: uk, name: Тячів}
+  sl95_ru: { id: sl95, culture: ru ,name: Ужгород}
+  sl95_uk: { id: sl95, culture: uk, name: Ужгород}
+  sl96_ru: { id: sl96, culture: ru ,name: Хуст}
+  sl96_uk: { id: sl96, culture: uk, name: Хуст}
+  sl97_ru: { id: sl97, culture: ru ,name: Чоп}
+  sl97_uk: { id: sl97, culture: uk, name: Чоп}
+  sl98_ru: { id: sl98, culture: ru ,name: Другое}
+  sl98_uk: { id: sl98, culture: uk, name: Інше}
+
+  sl99_ru: { id: sl99, culture: ru ,name: Болехов}
+  sl99_uk: { id: sl99, culture: uk, name: Болехів}
+  sl100_ru: { id: sl100, culture: ru ,name: Бурштын}
+  sl100_uk: { id: sl100, culture: uk, name: Бурштин}
+  sl101_ru: { id: sl101, culture: ru ,name: Галич}
+  sl101_uk: { id: sl101, culture: uk, name: Галич}
+  sl102_ru: { id: sl102, culture: ru ,name: Городенка}
+  sl102_uk: { id: sl102, culture: uk, name: Городенка}
+  sl103_ru: { id: sl103, culture: ru ,name: Долина}
+  sl103_uk: { id: sl103, culture: uk, name: Долина}
+  sl104_ru: { id: sl104, culture: ru ,name: Ивано-Франковск}
+  sl104_uk: { id: sl104, culture: uk, name: Івано-Франківськ}
+  sl105_ru: { id: sl105, culture: ru ,name: Калуш}
+  sl105_uk: { id: sl105, culture: uk, name: Калуш}
+  sl106_ru: { id: sl106, culture: ru ,name: Коломыя}
+  sl106_uk: { id: sl106, culture: uk, name: Коломия}
+  sl107_ru: { id: sl107, culture: ru ,name: Косов}
+  sl107_uk: { id: sl107, culture: uk, name: Косів}
+  sl108_ru: { id: sl108, culture: ru ,name: Надвирна}
+  sl108_uk: { id: sl108, culture: uk, name: Надвірна}
+  sl109_ru: { id: sl109, culture: ru ,name: Рогатин}
+  sl109_uk: { id: sl109, culture: uk, name: Рогатин}
+  sl110_ru: { id: sl110, culture: ru ,name: Снятин}
+  sl110_uk: { id: sl110, culture: uk, name: Снятин}
+  sl111_ru: { id: sl111, culture: ru ,name: Тысменица}
+  sl111_uk: { id: sl111, culture: uk, name: Тисмениця}
+  sl112_ru: { id: sl112, culture: ru ,name: Тлумач}
+  sl112_uk: { id: sl112, culture: uk, name: Тлумач}
+  sl113_ru: { id: sl113, culture: ru ,name: Яремча}
+  sl113_uk: { id: sl113, culture: uk, name: Яремча}
+  sl114_ru: { id: sl114, culture: ru ,name: Другое}
+  sl114_uk: { id: sl114, culture: uk, name: Інше }
+
+  s1115_ru: { id: sl115, culture: ru ,name: Вашковцы} 
+  sl115_uk: { id: sl115, culture: uk, name: Вашківці}
+  sl116_ru: { id: sl116, culture: ru ,name: Вижница}
+  sl116_uk: { id: sl116, culture: uk, name: Вижниця}
+  sl117_ru: { id: sl117, culture: ru ,name: Герца}
+  sl117_uk: { id: sl117, culture: uk, name: Герца}
+  sl118_ru: { id: sl118, culture: ru ,name: Заставна}
+  sl118_uk: { id: sl118, culture: uk, name: Заставна}
+  sl119_ru: { id: sl119, culture: ru ,name: Кицмань}
+  sl119_uk: { id: sl119, culture: uk, name: Кіцмань}
+  sl120_ru: { id: sl120, culture: ru ,name: Новоднестровск}
+  sl120_uk: { id: sl120, culture: uk, name: Новодністровськ}
+  sl121_ru: { id: sl121, culture: ru ,name: Новоселица}
+  sl121_uk: { id: sl121, culture: uk, name: Новоселиця}
+  sl122_ru: { id: sl122, culture: ru ,name: Сокиряны}
+  sl122_uk: { id: sl122, culture: uk, name: Сокиряни}
+  sl123_ru: { id: sl123, culture: ru ,name: Сторожинец}
+  sl123_uk: { id: sl123, culture: uk, name: Сторожинець}
+  sl124_ru: { id: sl124, culture: ru ,name: Хотин}
+  sl124_uk: { id: sl124, culture: uk, name: Хотин}
+  sl125_ru: { id: sl125, culture: ru ,name: Черновцы}
+  sl125_uk: { id: sl125, culture: uk, name: Чернівці}
+  s1126_ru: { id: sl126, culture: ru ,name: Другое} 
+  sl126_uk: { id: sl126, culture: uk, name: Інше}
+  
+  sl127_ru: { id: sl127, culture: ru ,name: Волочиск}
+  sl127_uk: { id: sl127, culture: uk, name: Волочиськ}
+  sl128_ru: { id: sl128, culture: ru ,name: Городок}
+  sl128_uk: { id: sl128, culture: uk, name: Городок}
+  sl129_ru: { id: sl129, culture: ru ,name: Деражня}
+  sl129_uk: { id: sl129, culture: uk, name: Деражня}
+  sl130_ru: { id: sl130, culture: ru ,name: Дунаевцы}
+  sl130_uk: { id: sl130, culture: uk, name: Дунаївці}
+  sl131_ru: { id: sl131, culture: ru ,name: Изяслав}
+  sl131_uk: { id: sl131, culture: uk, name: Ізяслав}
+  sl132_ru: { id: sl132, culture: ru ,name: "Каменец-Подольский"}
+  sl132_uk: { id: sl132, culture: uk, name: "Кам'янець-Подільський"}
+  sl133_ru: { id: sl133, culture: ru ,name: Красилов}
+  sl133_uk: { id: sl133, culture: uk, name: Красилів}
+  sl134_ru: { id: sl134, culture: ru ,name: Нетишин}
+  sl134_uk: { id: sl134, culture: uk, name: Нетішин}
+  sl135_ru: { id: sl135, culture: ru ,name: Полонне}
+  sl135_uk: { id: sl135, culture: uk, name: Полонне}
+  sl136_ru: { id: sl136, culture: ru ,name: Славута}
+  sl136_uk: { id: sl136, culture: uk, name: Славута}
+  sl137_ru: { id: sl137, culture: ru ,name: Староконстантинов}
+  sl137_uk: { id: sl137, culture: uk, name: Старокостянтинів}
+  sl138_ru: { id: sl138, culture: ru ,name: Хмельницкий}
+  sl138_uk: { id: sl138, culture: uk, name: Хмельницький}
+  sl139_ru: { id: sl139, culture: ru ,name: Шепетовка}
+  sl139_uk: { id: sl139, culture: uk, name: Шепетівка}
+  sl140_ru: { id: sl140, culture: ru ,name: Другое}
+  sl140_uk: { id: sl140, culture: uk, name: Інше}
+
+  sl141_ru: { id: sl141, culture: ru ,name: Барановка}
+  sl141_uk: { id: sl141, culture: uk, name: Баранівка}
+  sl142_ru: { id: sl142, culture: ru ,name: Бердичев}
+  sl142_uk: { id: sl142, culture: uk, name: Бердичів}
+  sl143_ru: { id: sl143, culture: ru ,name: Житомир}
+  sl143_uk: { id: sl143, culture: uk, name: Житомир}
+  sl144_ru: { id: sl144, culture: ru ,name: Коростень}
+  sl144_uk: { id: sl144, culture: uk, name: Коростень}
+  sl145_ru: { id: sl145, culture: ru ,name: Коростышев}
+  sl145_uk: { id: sl145, culture: uk, name: Коростишів}
+  sl146_ru: { id: sl146, culture: ru ,name: Малин}
+  sl146_uk: { id: sl146, culture: uk, name: Малин}
+  sl147_ru: { id: sl147, culture: ru ,name: Новоград-Волынский}
+  sl147_uk: { id: sl147, culture: uk, name: Новоград-Волинський}
+  sl148_ru: { id: sl148, culture: ru ,name: Овруч}
+  sl148_uk: { id: sl148, culture: uk, name: Овруч}
+  sl149_ru: { id: sl149, culture: ru ,name: Радомышль}
+  sl149_uk: { id: sl149, culture: uk, name: Радомишль}
+  sl150_ru: { id: sl150, culture: ru ,name: Другое}
+  sl150_uk: { id: sl150, culture: uk, name: Інше}
+
+  sl151_ru: { id: sl151, culture: ru ,name: Бершадь}
+  sl151_uk: { id: sl151, culture: uk, name: Бершадь}
+  sl152_ru: { id: sl152, culture: ru ,name: Винница}
+  sl152_uk: { id: sl152, culture: uk, name: Вінниця}
+  sl153_ru: { id: sl153, culture: ru ,name: Гайсин}
+  sl153_uk: { id: sl153, culture: uk, name: Гайсин}
+  sl154_ru: { id: sl154, culture: ru ,name: Гнивань}
+  sl154_uk: { id: sl154, culture: uk, name: Гнівань}
+  sl155_ru: { id: sl155, culture: ru ,name: Жмеринка}
+  sl156_uk: { id: sl156, culture: uk, name: Жмеринка}
+  sl156_ru: { id: sl156, culture: ru ,name: Иллинцы}
+  sl156_uk: { id: sl156, culture: uk, name: Іллінці}
+  sl157_ru: { id: sl157, culture: ru ,name: Калиновка}
+  sl157_uk: { id: sl157, culture: uk, name: Калинівка}
+  sl158_ru: { id: sl158, culture: ru ,name: Козятин}
+  sl158_uk: { id: sl158, culture: uk, name: Козятин}
+  sl159_ru: { id: sl159, culture: ru ,name: Ладыжин}
+  sl159_uk: { id: sl159, culture: uk, name: Ладижин}
+  sl160_ru: { id: sl160, culture: ru ,name: Липовец}
+  sl160_uk: { id: sl160, culture: uk, name: Липовець}
+  sl161_ru: { id: sl161, culture: ru ,name: Могилев-Подольский}
+  sl161_uk: { id: sl161, culture: uk, name: Могилів-Подільський}
+  sl162_ru: { id: sl162, culture: ru ,name: Немиров}
+  sl162_uk: { id: sl162, culture: uk, name: Немирів}
+  sl163_ru: { id: sl163, culture: ru ,name: Погребище}
+  sl163_uk: { id: sl163, culture: uk, name: Погребище}
+  sl164_ru: { id: sl164, culture: ru ,name: Тульчин}
+  sl164_uk: { id: sl164, culture: uk, name: Тульчин}
+  sl165_ru: { id: sl165, culture: ru ,name: Хмельник}
+  sl165_uk: { id: sl165, culture: uk, name: Хмільник}
+  sl166_ru: { id: sl166, culture: ru ,name: Шаргород}
+  sl166_uk: { id: sl166, culture: uk, name: Шаргород}
+  sl167_ru: { id: sl167, culture: ru ,name: Ямполь}
+  sl167_uk: { id: sl167, culture: uk, name: Ямпіль}
+  sl168_ru: { id: sl168, culture: ru ,name: Другое}
+  sl168_uk: { id: sl168, culture: uk, name: Інше}
+
+  sl169_ru: { id: sl169, culture: ru ,name: Киев}
+  sl169_uk: { id: sl169, culture: uk, name: Київ}
+  sl170_ru: { id: sl170, culture: ru ,name: Березань}
+  sl170_uk: { id: sl170, culture: uk, name: Березань}
+  sl171_ru: { id: sl171, culture: ru ,name: Белая Церковь}
+  sl171_uk: { id: sl171, culture: uk, name: Біла Церква}
+  sl172_ru: { id: sl172, culture: ru ,name: Богуслав}
+  sl172_uk: { id: sl172, culture: uk, name: Богуслав}
+  sl173_ru: { id: sl173, culture: ru ,name: Борисполь}
+  sl173_uk: { id: sl173, culture: uk, name: Бориспіль}
+  sl174_ru: { id: sl174, culture: ru ,name: Боярка}
+  sl174_uk: { id: sl174, culture: uk, name: Боярка}
+  sl175_ru: { id: sl175, culture: ru ,name: Бровары}
+  sl175_uk: { id: sl175, culture: uk, name: Бровари}
+  sl176_ru: { id: sl176, culture: ru ,name: Васильков}
+  sl176_uk: { id: sl176, culture: uk, name: Васильків}
+  sl177_ru: { id: sl177, culture: ru ,name: Вышгород}
+  sl177_uk: { id: sl177, culture: uk, name: Вишгород}
+  sl178_ru: { id: sl178, culture: ru ,name: Вишневое}
+  sl178_uk: { id: sl178, culture: uk, name: Вишневе}
+  sl179_ru: { id: sl179, culture: ru ,name: Ирпень}
+  sl179_uk: { id: sl179, culture: uk, name: Ірпінь}
+  sl180_ru: { id: sl180, culture: ru ,name: Кагарлык}
+  sl180_uk: { id: sl180, culture: uk, name: Кагарлик}
+  sl181_ru: { id: sl181, culture: ru ,name: Мироновка}
+  sl181_uk: { id: sl181, culture: uk, name: Миронівка}
+  sl182_ru: { id: sl182, culture: ru ,name: Обухов}
+  sl182_uk: { id: sl182, culture: uk, name: Обухів}
+  sl183_ru: { id: sl183, culture: ru ,name: Переяслав-Хмельницкий}
+  sl183_uk: { id: sl183, culture: uk, name: Переяслав-Хмельницький}
+  sl184_ru: { id: sl184, culture: ru ,name: Припять}
+  sl184_uk: { id: sl184, culture: uk, name: Прип'ять}
+  sl185_ru: { id: sl185, culture: ru ,name: Ржищев}
+  sl185_uk: { id: sl185, culture: uk, name: Ржищів}
+  sl186_ru: { id: sl186, culture: ru ,name: Сквира}
+  sl186_uk: { id: sl186, culture: uk, name: Сквира}
+  sl187_ru: { id: sl187, culture: ru ,name: Славутич}
+  sl187_uk: { id: sl187, culture: uk, name: Славутич}
+  sl188_ru: { id: sl188, culture: ru ,name: Тараща}
+  sl188_uk: { id: sl188, culture: uk, name: Тараща}
+  sl189_ru: { id: sl189, culture: ru ,name: Тетиев}
+  sl189_uk: { id: sl189, culture: uk, name: Тетіїв}
+  sl190_ru: { id: sl190, culture: ru ,name: Узин}
+  sl190_uk: { id: sl190, culture: uk, name: Узин}
+  sl191_ru: { id: sl191, culture: ru ,name: Украинка}
+  sl191_uk: { id: sl191, culture: uk, name: Українка}
+  sl192_ru: { id: sl192, culture: ru ,name: Фастов}
+  sl192_uk: { id: sl192, culture: uk, name: Фастів}
+  sl193_ru: { id: sl193, culture: ru ,name: Чернобыль}
+  sl193_uk: { id: sl193, culture: uk, name: Чорнобиль}
+  sl194_ru: { id: sl194, culture: ru ,name: Яготин}
+  sl194_uk: { id: sl194, culture: uk, name: Яготин}
+  sl195_ru: { id: sl195, culture: ru ,name: Другое}
+  sl195_uk: { id: sl195, culture: uk, name: Інше}
+
+  #Черкасская
+  sl196_ru: { id: sl196, culture: ru ,name: Ватутино}
+  sl196_uk: { id: sl196, culture: uk, name: Ватутіне}
+  sl197_ru: { id: sl197, culture: ru ,name: Городище}
+  sl197_uk: { id: sl197, culture: uk, name: Городище}
+  sl198_ru: { id: sl198, culture: ru ,name: Жашков}
+  sl198_uk: { id: sl198, culture: uk, name: Жашків}
+  sl199_ru: { id: sl199, culture: ru ,name: Звенигородка}
+  sl199_uk: { id: sl199, culture: uk, name: Звенигородка}
+  sl200_ru: { id: sl200, culture: ru ,name: Золотоноша}
+  sl200_uk: { id: sl200, culture: uk, name: Золотоноша}
+  sl201_ru: { id: sl201, culture: ru ,name: Каменка}
+  sl201_uk: { id: sl201, culture: uk, name: Кам'янка}
+  sl202_ru: { id: sl202, culture: ru ,name: Канев}
+  sl202_uk: { id: sl202, culture: uk, name: Канів}
+  sl203_ru: { id: sl203, culture: ru ,name: Корсунь-Шевченковский}
+  sl203_uk: { id: sl203, culture: uk, name: Корсунь-Шевченківський}
+  sl204_ru: { id: sl204, culture: ru ,name: Монастырище}
+  sl204_uk: { id: sl204, culture: uk, name: Монастирище}
+  sl205_ru: { id: sl205, culture: ru ,name: Смела}
+  sl205_uk: { id: sl205, culture: uk, name: Сміла}
+  sl206_ru: { id: sl206, culture: ru ,name: Тальное}
+  sl206_uk: { id: sl206, culture: uk, name: Тальне}
+  sl207_ru: { id: sl207, culture: ru ,name: Умань}
+  sl207_uk: { id: sl207, culture: uk, name: Умань}
+  sl208_ru: { id: sl208, culture: ru ,name: Христиновка}
+  sl208_uk: { id: sl208, culture: uk, name: Христинівка}
+  sl209_ru: { id: sl209, culture: ru ,name: Черкассы}
+  sl209_uk: { id: sl209, culture: uk, name: Черкаси}
+  sl210_ru: { id: sl210, culture: ru ,name: Чигирин}
+  sl210_uk: { id: sl210, culture: uk, name: Чигирин}
+  sl211_ru: { id: sl211, culture: ru ,name: Шпола}
+  sl211_uk: { id: sl211, culture: uk, name: Шпола}
+  sl212_ru: { id: sl212, culture: ru ,name: Другое}
+  sl212_uk: { id: sl212, culture: uk, name: Інше}
+
+  #Черниговская
+  sl213_ru: { id: sl213, culture: ru ,name: Бахмач}
+  sl213_uk: { id: sl213, culture: uk, name: Бахмач}
+  sl214_ru: { id: sl214, culture: ru ,name: Бобровица}
+  sl214_uk: { id: sl214, culture: uk, name: Бобровиця}
+  sl215_ru: { id: sl215, culture: ru ,name: Борзна}
+  sl215_uk: { id: sl215, culture: uk, name: Борзна}
+  sl216_ru: { id: sl216, culture: ru ,name: Городня}
+  sl216_uk: { id: sl216, culture: uk, name: Городня}
+  sl217_ru: { id: sl217, culture: ru ,name: Ичня}
+  sl217_uk: { id: sl217, culture: uk, name: Ічня}
+  sl218_ru: { id: sl218, culture: ru ,name: Корюковка}
+  sl218_uk: { id: sl218, culture: uk, name: Корюківка}
+  sl219_ru: { id: sl219, culture: ru ,name: Мена}
+  sl219_uk: { id: sl219, culture: uk, name: Мена}
+  sl220_ru: { id: sl220, culture: ru ,name: Нежин}
+  sl220_uk: { id: sl220, culture: uk, name: Ніжин}
+  sl221_ru: { id: sl221, culture: ru ,name: Новгород-Северский}
+  sl221_uk: { id: sl221, culture: uk, name: Новгород-Сіверський}
+  sl222_ru: { id: sl222, culture: ru ,name: Носовка}
+  sl222_uk: { id: sl222, culture: uk, name: Носівка}
+  sl223_ru: { id: sl223, culture: ru ,name: Остер}
+  sl223_uk: { id: sl223, culture: uk, name: Остер}
+  sl224_ru: { id: sl224, culture: ru ,name: Прилуки}
+  sl224_uk: { id: sl224, culture: uk, name: Прилуки}
+  sl225_ru: { id: sl225, culture: ru ,name: Семеновка}
+  sl225_uk: { id: sl225, culture: uk, name: Семенівка}
+  sl226_ru: { id: sl226, culture: ru ,name: Чернигов}
+  sl226_uk: { id: sl226, culture: uk, name: Чернігів}
+  sl227_ru: { id: sl227, culture: ru ,name: Щорс}
+  sl227_uk: { id: sl227, culture: uk, name: Щорс}
+  sl228_ru: { id: sl228, culture: ru ,name: Другое}
+  sl228_uk: { id: sl228, culture: uk, name: Інше}
+  
+  #Сумская
+  sl229_ru: { id: sl229, culture: ru ,name: Белополье}
+  sl229_uk: { id: sl229, culture: uk, name: Білопілля}
+  sl230_ru: { id: sl230, culture: ru ,name: Бурынь}
+  sl230_uk: { id: sl230, culture: uk, name: Буринь}
+  sl231_ru: { id: sl231, culture: ru ,name: Ворожба}
+  sl231_uk: { id: sl231, culture: uk, name: Ворожба}
+  sl232_ru: { id: sl232, culture: ru ,name: Глухов}
+  sl232_uk: { id: sl232, culture: uk, name: Глухів}
+  sl233_ru: { id: sl233, culture: ru ,name: Дружба}
+  sl233_uk: { id: sl233, culture: uk, name: Дружба}
+  sl234_ru: { id: sl234, culture: ru ,name: Конотоп}
+  sl234_uk: { id: sl234, culture: uk, name: Конотоп}
+  sl235_ru: { id: sl235, culture: ru ,name: Кролевец}
+  sl235_uk: { id: sl235, culture: uk, name: Кролевець}
+  sl236_ru: { id: sl236, culture: ru ,name: Лебедин}
+  sl236_uk: { id: sl236, culture: uk, name: Лебедин}
+  sl237_ru: { id: sl237, culture: ru ,name: Ахтырка}
+  sl237_uk: { id: sl237, culture: uk, name: Охтирка}
+  sl238_ru: { id: sl238, culture: ru ,name: Путивль}
+  sl238_uk: { id: sl238, culture: uk, name: Путивль}
+  sl239_ru: { id: sl239, culture: ru ,name: Ромны}
+  sl239_uk: { id: sl239, culture: uk, name: Ромни}
+  sl240_ru: { id: sl240, culture: ru ,name: Середина-Буда}
+  sl240_uk: { id: sl240, culture: uk, name: Середина-Буда}
+  sl241_ru: { id: sl241, culture: ru ,name: Сумы}
+  sl241_uk: { id: sl241, culture: uk, name: Суми}
+  sl242_ru: { id: sl242, culture: ru ,name: Тростянец}
+  sl242_uk: { id: sl242, culture: uk, name: Тростянець}
+  sl243_ru: { id: sl243, culture: ru ,name: Шостка}
+  sl243_uk: { id: sl243, culture: uk, name: Шостка}
+  sl244_ru: { id: sl244, culture: ru ,name: Другое}
+  sl244_uk: { id: sl244, culture: uk, name: Інше}
+  
+  #Полтавська
+  sl245_ru: { id: sl245, culture: ru ,name: Гадяч}
+  sl245_uk: { id: sl245, culture: uk, name: Гадяч}
+  sl246_ru: { id: sl246, culture: ru ,name: Глобино}
+  sl246_uk: { id: sl246, culture: uk, name: Глобине}
+  sl247_ru: { id: sl247, culture: ru ,name: Гребенка}
+  sl247_uk: { id: sl247, culture: uk, name: Гребінка}
+  sl248_ru: { id: sl248, culture: ru ,name: Зеньков}
+  sl248_uk: { id: sl248, culture: uk, name: Зіньків}
+  sl249_ru: { id: sl249, culture: ru ,name: Карловка}
+  sl249_uk: { id: sl249, culture: uk, name: Карлівка}
+  sl250_ru: { id: sl250, culture: ru ,name: Кобеляки}
+  sl250_uk: { id: sl250, culture: uk, name: Кобеляки}
+  sl251_ru: { id: sl251, culture: ru ,name: Комсомольск}
+  sl251_uk: { id: sl251, culture: uk, name: Комсомольськ}
+  sl252_ru: { id: sl252, culture: ru ,name: Кременчуг}
+  sl252_uk: { id: sl252, culture: uk, name: Кременчук}
+  sl253_ru: { id: sl253, culture: ru ,name: Лохвица}
+  sl253_uk: { id: sl253, culture: uk, name: Лохвиця}
+  sl254_ru: { id: sl254, culture: ru ,name: Лубны}
+  sl254_uk: { id: sl254, culture: uk, name: Лубни}
+  sl255_ru: { id: sl255, culture: ru ,name: Миргород}
+  sl255_uk: { id: sl255, culture: uk, name: Миргород}
+  sl256_ru: { id: sl256, culture: ru ,name: Пирятин}
+  sl256_uk: { id: sl256, culture: uk, name: Пирятин}
+  sl257_ru: { id: sl257, culture: ru ,name: Полтава}
+  sl257_uk: { id: sl257, culture: uk, name: Полтава}
+  sl258_ru: { id: sl258, culture: ru ,name: Хорол}
+  sl258_uk: { id: sl258, culture: uk, name: Хорол}
+  sl259_ru: { id: sl259, culture: ru ,name: Червонозаводское}
+  sl259_uk: { id: sl259, culture: uk, name: Червонозаводське}
+  sl260_ru: { id: sl260, culture: ru ,name: Другое}
+  sl260_uk: { id: sl260, culture: uk, name: Інше}
+  
+  #Кировоградская
+  sl261_ru: { id: sl261, culture: ru ,name: Бобринец}
+  sl261_uk: { id: sl261, culture: uk, name: Бобринець}
+  sl262_ru: { id: sl262, culture: ru ,name: Гайворон}
+  sl262_uk: { id: sl262, culture: uk, name: Гайворон}
+  sl263_ru: { id: sl263, culture: ru ,name: Долинская}
+  sl263_uk: { id: sl263, culture: uk, name: Долинська}
+  sl264_ru: { id: sl264, culture: ru ,name: Знаменка}
+  sl264_uk: { id: sl264, culture: uk, name: Знам'янка}
+  sl265_ru: { id: sl265, culture: ru ,name: Кировоград}
+  sl265_uk: { id: sl265, culture: uk, name: Кіровоград}
+  sl266_ru: { id: sl266, culture: ru ,name: Малая Виска}
+  sl266_uk: { id: sl266, culture: uk, name: Мала Виска}
+  sl267_ru: { id: sl267, culture: ru ,name: Новомиргород}
+  sl267_uk: { id: sl267, culture: uk, name: Новомиргород}
+  sl268_ru: { id: sl268, culture: ru ,name: Новоукраинка}
+  sl268_uk: { id: sl268, culture: uk, name: Новоукраїнка}
+  sl269_ru: { id: sl269, culture: ru ,name: Александрия}
+  sl269_uk: { id: sl269, culture: uk, name: Олександрія}
+  sl270_ru: { id: sl270, culture: ru ,name: Помошная}
+  sl270_uk: { id: sl270, culture: uk, name: Помічна}
+  sl271_ru: { id: sl271, culture: ru ,name: Светловодск}
+  sl271_uk: { id: sl271, culture: uk, name: Світловодськ}
+  sl272_ru: { id: sl272, culture: ru ,name: Ульяновка}
+  sl272_uk: { id: sl272, culture: uk, name: Ульяновка}
+  sl273_ru: { id: sl273, culture: ru ,name: Другое}
+  sl273_uk: { id: sl273, culture: uk, name: Інше}
+  
+  # Одесская
+  sl274_ru: { id: sl274, culture: ru ,name: Ананьев}
+  sl274_uk: { id: sl274, culture: uk, name: Ананьїв}
+  sl275_ru: { id: sl275, culture: ru ,name: Арциз}
+  sl275_uk: { id: sl275, culture: uk, name: Арциз}
+  sl276_ru: { id: sl276, culture: ru ,name: Балта}
+  sl276_uk: { id: sl276, culture: uk, name: Балта}
+  sl277_ru: { id: sl277, culture: ru ,name: Березовка}
+  sl277_uk: { id: sl277, culture: uk, name: Березівка}
+  sl278_ru: { id: sl278, culture: ru ,name: Белгород-Днестровский}
+  sl278_uk: { id: sl278, culture: uk, name: Білгород-Дністровський}
+  sl279_ru: { id: sl279, culture: ru ,name: Беляевка}
+  sl279_uk: { id: sl279, culture: uk, name: Біляївка}
+  sl280_ru: { id: sl280, culture: ru ,name: Болград}
+  sl280_uk: { id: sl280, culture: uk, name: Болград}
+  sl281_ru: { id: sl281, culture: ru ,name: Вилково}
+  sl281_uk: { id: sl281, culture: uk, name: Вилкове}
+  sl282_ru: { id: sl282, culture: ru ,name: Измаил}
+  sl282_uk: { id: sl282, culture: uk, name: Ізмаїл}
+  sl283_ru: { id: sl283, culture: ru ,name: Ильичевск}
+  sl283_uk: { id: sl283, culture: uk, name: Іллічівськ}
+  sl284_ru: { id: sl284, culture: ru ,name: Килия}
+  sl284_uk: { id: sl284, culture: uk, name: Кілія}
+  sl285_ru: { id: sl285, culture: ru ,name: Кодыма}
+  sl285_uk: { id: sl285, culture: uk, name: Кодима}
+  sl286_ru: { id: sl286, culture: ru ,name: Котовск}
+  sl286_uk: { id: sl286, culture: uk, name: Котовськ}
+  sl287_ru: { id: sl287, culture: ru ,name: Одесса}
+  sl287_uk: { id: sl287, culture: uk, name: Одеса}
+  sl288_ru: { id: sl288, culture: ru ,name: Рени}
+  sl288_uk: { id: sl288, culture: uk, name: Рені}
+  sl289_ru: { id: sl289, culture: ru ,name: Раздельная}
+  sl289_uk: { id: sl289, culture: uk, name: Роздільна}
+  sl290_ru: { id: sl290, culture: ru ,name: Татарбунары}
+  sl290_uk: { id: sl290, culture: uk, name: Татарбунари}
+  sl291_ru: { id: sl291, culture: ru ,name: Теплодар}
+  sl291_uk: { id: sl291, culture: uk, name: Теплодар}
+  sl292_ru: { id: sl292, culture: ru ,name: Южный}
+  sl292_uk: { id: sl292, culture: uk, name: Южне}
+  sl293_ru: { id: sl293, culture: ru ,name: Другое}
+  sl293_uk: { id: sl293, culture: uk, name: Інше}
+  
+  #Николаевская
+  sl294_ru: { id: sl294, culture: ru ,name: Баштанка}
+  sl294_uk: { id: sl294, culture: uk, name: Баштанка}
+  sl295_ru: { id: sl295, culture: ru ,name: Вознесенск}
+  sl295_uk: { id: sl295, culture: uk, name: Вознесенськ}
+  sl296_ru: { id: sl296, culture: ru ,name: Николаев}
+  sl296_uk: { id: sl296, culture: uk, name: Миколаїв}
+  sl297_ru: { id: sl297, culture: ru ,name: Новая Одесса}
+  sl297_uk: { id: sl297, culture: uk, name: Нова Одеса}
+  sl298_ru: { id: sl298, culture: ru ,name: Новый Буг}
+  sl298_uk: { id: sl298, culture: uk, name: Новий Буг}
+  sl299_ru: { id: sl299, culture: ru ,name: Очаков}
+  sl299_uk: { id: sl299, culture: uk, name: Очаків}
+  sl300_ru: { id: sl300, culture: ru ,name: Первомайск}
+  sl300_uk: { id: sl300, culture: uk, name: Первомайськ}
+  sl301_ru: { id: sl301, culture: ru ,name: Снигиревка}
+  sl301_uk: { id: sl301, culture: uk, name: Снігурівка}
+  sl302_ru: { id: sl302, culture: ru ,name: Южноукраинск}
+  sl302_uk: { id: sl302, culture: uk, name: Южноукраїнськ}
+  sl303_ru: { id: sl303, culture: ru ,name: Другое}
+  sl303_uk: { id: sl303, culture: uk, name: Інше}
+  
+  #Херсонская
+  sl304_ru: { id: sl304, culture: ru ,name: Берислав}
+  sl304_uk: { id: sl304, culture: uk, name: Берислав}
+  sl305_ru: { id: sl305, culture: ru ,name: Геническ}
+  sl305_uk: { id: sl305, culture: uk, name: Генічеськ}
+  sl306_ru: { id: sl306, culture: ru ,name: Голая Пристань}
+  sl306_uk: { id: sl306, culture: uk, name: Гола Пристань}
+  sl307_ru: { id: sl307, culture: ru ,name: Каховка}
+  sl307_uk: { id: sl307, culture: uk, name: Каховка}
+  sl308_ru: { id: sl308, culture: ru ,name: Новая Каховка}
+  sl308_uk: { id: sl308, culture: uk, name: Нова Каховка}
+  sl309_ru: { id: sl309, culture: ru ,name: Скадовск}
+  sl309_uk: { id: sl309, culture: uk, name: Скадовськ}
+  sl310_ru: { id: sl310, culture: ru ,name: Таврийск}
+  sl310_uk: { id: sl310, culture: uk, name: Таврійськ}
+  sl311_ru: { id: sl311, culture: ru ,name: Херсон}
+  sl311_uk: { id: sl311, culture: uk, name: Херсон}
+  sl312_ru: { id: sl312, culture: ru ,name: Цюрупинск}
+  sl312_uk: { id: sl312, culture: uk, name: Цюрупинськ}
+  sl313_ru: { id: sl313, culture: ru ,name: Другое}
+  sl313_uk: { id: sl313, culture: uk, name: Інше}
+  
+  #Днепропетровская
+  sl314_ru: { id: sl314, culture: ru ,name: Апостолово}
+  sl314_uk: { id: sl314, culture: uk, name: Апостолове}
+  sl315_ru: { id: sl315, culture: ru ,name: Верховцево}
+  sl315_uk: { id: sl315, culture: uk, name: Верхівцеве}
+  sl316_ru: { id: sl316, culture: ru ,name: Верхнеднепровск}
+  sl316_uk: { id: sl316, culture: uk, name: Верхньодніпровськ}
+  sl317_ru: { id: sl317, culture: ru ,name: Вольногорск}
+  sl317_uk: { id: sl317, culture: uk, name: Вільногірськ}
+  sl318_ru: { id: sl318, culture: ru ,name: Днепродзержинск}
+  sl318_uk: { id: sl318, culture: uk, name: Дніпродзержинськ}
+  sl319_ru: { id: sl319, culture: ru ,name: Днепропетровск}
+  sl319_uk: { id: sl319, culture: uk, name: Дніпропетровськ}
+  sl320_ru: { id: sl320, culture: ru ,name: Желтые Воды}
+  sl320_uk: { id: sl320, culture: uk, name: Жовті Води}
+  sl321_ru: { id: sl321, culture: ru ,name: Зеленодольск}
+  sl321_uk: { id: sl321, culture: uk, name: Зеленодольськ}
+  sl322_ru: { id: sl322, culture: ru ,name: Ингулец}
+  sl322_uk: { id: sl322, culture: uk, name: Інгулець}
+  sl323_ru: { id: sl323, culture: ru ,name: Кривой Рог}
+  sl323_uk: { id: sl323, culture: uk, name: Кривий Ріг}
+  sl324_ru: { id: sl324, culture: ru ,name: Марганец}
+  sl324_uk: { id: sl324, culture: uk, name: Марганець}
+  sl325_ru: { id: sl325, culture: ru ,name: Никополь}
+  sl325_uk: { id: sl325, culture: uk, name: Нікополь}
+  sl326_ru: { id: sl326, culture: ru ,name: Новомосковск}
+  sl326_uk: { id: sl326, culture: uk, name: Новомосковськ}
+  sl327_ru: { id: sl327, culture: ru ,name: Орджоникидзе}
+  sl327_uk: { id: sl327, culture: uk, name: Орджонікідзе}
+  sl328_ru: { id: sl328, culture: ru ,name: Пятихатки }
+  sl328_uk: { id: sl328, culture: uk, name: П'ятихатки}
+  sl329_ru: { id: sl329, culture: ru ,name: Павлоград}
+  sl329_uk: { id: sl329, culture: uk, name: Павлоград}
+  sl330_ru: { id: sl330, culture: ru ,name: Перещепино}
+  sl330_uk: { id: sl330, culture: uk, name: Перещепине}
+  sl331_ru: { id: sl331, culture: ru ,name: Першотравенск}
+  sl331_uk: { id: sl331, culture: uk, name: Першотравенськ}
+  sl332_ru: { id: sl332, culture: ru ,name: Подгородное}
+  sl332_uk: { id: sl332, culture: uk, name: Підгородне}
+  sl333_ru: { id: sl333, culture: ru ,name: Синельниково}
+  sl333_uk: { id: sl333, culture: uk, name: Синельникове}
+  sl334_ru: { id: sl334, culture: ru ,name: Терновка}
+  sl334_uk: { id: sl334, culture: uk, name: Тернівка}
+  sl335_ru: { id: sl335, culture: ru ,name: Другое}
+  sl335_uk: { id: sl335, culture: uk, name: Інше}
+
+  # Харьковская
+  sl336_ru: { id: sl336, culture: ru ,name: Балаклея}
+  sl336_uk: { id: sl336, culture: uk, name: Балаклія}
+  sl337_ru: { id: sl337, culture: ru ,name: Барвенково}
+  sl337_uk: { id: sl337, culture: uk, name: Барвінкове}
+  sl338_ru: { id: sl338, culture: ru ,name: Богодухов}
+  sl338_uk: { id: sl338, culture: uk, name: Богодухів}
+  sl339_ru: { id: sl339, culture: ru ,name: Валки}
+  sl339_uk: { id: sl339, culture: uk, name: Валки}
+  sl340_ru: { id: sl340, culture: ru ,name: Волчанск}
+  sl340_uk: { id: sl340, culture: uk, name: Вовчанськ}
+  sl341_ru: { id: sl341, culture: ru ,name: Дергачи}
+  sl341_uk: { id: sl341, culture: uk, name: Дергачі}
+  sl342_ru: { id: sl342, culture: ru ,name: Змиев}
+  sl342_uk: { id: sl342, culture: uk, name: Зміїв}
+  sl343_ru: { id: sl343, culture: ru ,name: Изюм}
+  sl343_uk: { id: sl343, culture: uk, name: Ізюм}
+  sl344_ru: { id: sl344, culture: ru ,name: Красноград}
+  sl344_uk: { id: sl344, culture: uk, name: Красноград}
+  sl345_ru: { id: sl345, culture: ru ,name: Купянск}
+  sl345_uk: { id: sl345, culture: uk, name: Куп'янськ}
+  sl346_ru: { id: sl346, culture: ru ,name: Лозовая}
+  sl346_uk: { id: sl346, culture: uk, name: Лозова}
+  sl347_ru: { id: sl347, culture: ru ,name: Люботин}
+  sl347_uk: { id: sl347, culture: uk, name: Люботин}
+  sl348_ru: { id: sl348, culture: ru ,name: Мерефа}
+  sl348_uk: { id: sl348, culture: uk, name: Мерефа}
+  sl349_ru: { id: sl349, culture: ru ,name: Первомайский}
+  sl349_uk: { id: sl349, culture: uk, name: Первомайський}
+  sl350_ru: { id: sl350, culture: ru ,name: Пивденное}
+  sl350_uk: { id: sl350, culture: uk, name: Південне}
+  sl351_ru: { id: sl351, culture: ru ,name: Харьков}
+  sl351_uk: { id: sl351, culture: uk, name: Харків}
+  sl352_ru: { id: sl352, culture: ru ,name: Чугуев}
+  sl352_uk: { id: sl352, culture: uk, name: Чугуїв}
+  sl353_ru: { id: sl353, culture: ru ,name: Другое}
+  sl353_uk: { id: sl353, culture: uk, name: Інше}
+  
+  #Луганская
+  sl354_ru: { id: sl354, culture: ru ,name: Алмазная}
+  sl354_uk: { id: sl354, culture: uk, name: Алмазна}
+  sl355_ru: { id: sl355, culture: ru ,name: Алчевск}
+  sl355_uk: { id: sl355, culture: uk, name: Алчевськ}
+  sl356_ru: { id: sl356, culture: ru ,name: Антрацит}
+  sl356_uk: { id: sl356, culture: uk, name: Антрацит}
+  sl357_ru: { id: sl357, culture: ru ,name: Артемовск}
+  sl357_uk: { id: sl357, culture: uk, name: Артемівськ}
+  sl358_ru: { id: sl358, culture: ru ,name: Брянка}
+  sl358_uk: { id: sl358, culture: uk, name: Брянка}
+  sl359_ru: { id: sl359, culture: ru ,name: Вахрушево}
+  sl359_uk: { id: sl359, culture: uk, name: Вахрушеве}
+  sl360_ru: { id: sl360, culture: ru ,name: Горское}
+  sl360_uk: { id: sl360, culture: uk, name: Гірське}
+  sl361_ru: { id: sl361, culture: ru ,name: Зимогорье}
+  sl361_uk: { id: sl361, culture: uk, name: Зимогір'я}
+  sl362_ru: { id: sl362, culture: ru ,name: Золотое}
+  sl362_uk: { id: sl362, culture: uk, name: Золоте}
+  sl363_ru: { id: sl363, culture: ru ,name: Зоринск}
+  sl363_uk: { id: sl363, culture: uk, name: Зоринськ}
+  sl364_ru: { id: sl364, culture: ru ,name: Кировск}
+  sl364_uk: { id: sl364, culture: uk, name: Кіровськ}
+  sl365_ru: { id: sl365, culture: ru ,name: Красный Луч}
+  sl365_uk: { id: sl365, culture: uk, name: Красний Луч}
+  sl366_ru: { id: sl366, culture: ru ,name: Краснодон}
+  sl366_uk: { id: sl366, culture: uk, name: Краснодон}
+  sl367_ru: { id: sl367, culture: ru ,name: Кременная}
+  sl367_uk: { id: sl367, culture: uk, name: Кремінна}
+  sl368_ru: { id: sl368, culture: ru ,name: Лисичанск}
+  sl368_uk: { id: sl368, culture: uk, name: Лисичанськ}
+  sl369_ru: { id: sl369, culture: ru ,name: Луганск}
+  sl369_uk: { id: sl369, culture: uk, name: Луганськ}
+  sl370_ru: { id: sl370, culture: ru ,name: Лутугино}
+  sl370_uk: { id: sl370, culture: uk, name: Лутугине}
+  sl371_ru: { id: sl371, culture: ru ,name: Миусинск}
+  sl371_uk: { id: sl371, culture: uk, name: Міусинськ}
+  sl372_ru: { id: sl372, culture: ru ,name: Молодогвардейск}
+  sl372_uk: { id: sl372, culture: uk, name: Молодогвардійськ}
+  sl373_ru: { id: sl373, culture: ru ,name: Новодружеск}
+  sl373_uk: { id: sl373, culture: uk, name: Новодружеськ}
+  sl374_ru: { id: sl374, culture: ru ,name: Александровск}
+  sl374_uk: { id: sl374, culture: uk, name: Олександрівськ}
+  sl375_ru: { id: sl375, culture: ru ,name: Первомайск}
+  sl375_uk: { id: sl375, culture: uk, name: Первомайськ}
+  sl376_ru: { id: sl376, culture: ru ,name: Перевальск}
+  sl376_uk: { id: sl376, culture: uk, name: Перевальськ}
+  sl377_ru: { id: sl377, culture: ru ,name: Петровское}
+  sl377_uk: { id: sl377, culture: uk, name: Петровське}
+  sl378_ru: { id: sl378, culture: ru ,name: Попасная}
+  sl378_uk: { id: sl378, culture: uk, name: Попасна}
+  sl379_ru: { id: sl379, culture: ru ,name: Приволье}
+  sl379_uk: { id: sl379, culture: uk, name: Привілля}
+  sl380_ru: { id: sl380, culture: ru ,name: Ровеньки}
+  sl380_uk: { id: sl380, culture: uk, name: Ровеньки}
+  sl381_ru: { id: sl381, culture: ru ,name: Рубежное}
+  sl381_uk: { id: sl381, culture: uk, name: Рубіжне}
+  sl382_ru: { id: sl382, culture: ru ,name: Сватово}
+  sl382_uk: { id: sl382, culture: uk, name: Сватове}
+  sl383_ru: { id: sl383, culture: ru ,name: Свердловск}
+  sl383_uk: { id: sl383, culture: uk, name: Свердловськ}
+  sl384_ru: { id: sl384, culture: ru ,name: Северодонецк}
+  sl384_uk: { id: sl384, culture: uk, name: Сєверодонецьк}
+  sl385_ru: { id: sl385, culture: ru ,name: Старобельск}
+  sl385_uk: { id: sl385, culture: uk, name: Старобільськ}
+  sl386_ru: { id: sl386, culture: ru ,name: Стаханов}
+  sl386_uk: { id: sl386, culture: uk, name: Стаханов}
+  sl387_ru: { id: sl387, culture: ru ,name: Суходольск}
+  sl387_uk: { id: sl387, culture: uk, name: Суходільськ}
+  sl388_ru: { id: sl388, culture: ru ,name: Теплогорск}
+  sl388_uk: { id: sl388, culture: uk, name: Теплогірськ}
+  sl389_ru: { id: sl389, culture: ru ,name: Червонопартизанск}
+  sl389_uk: { id: sl389, culture: uk, name: Червонопартизанськ}
+  sl390_ru: { id: sl390, culture: ru ,name: Счастье}
+  sl390_uk: { id: sl390, culture: uk, name: Щастя}
+  sl391_ru: { id: sl391, culture: ru ,name: Другое}
+  sl391_uk: { id: sl391, culture: uk, name: Інше}
+
+#donetsk
+  sl392_ru: { id: sl392, culture: ru ,name: Авдеевка}
+  sl392_uk: { id: sl392, culture: uk, name: Авдіївка}
+  sl393_ru: { id: sl393, culture: ru ,name: Амвросиевка}
+  sl393_uk: { id: sl393, culture: uk, name: Амвросіївка}
+  sl394_ru: { id: sl394, culture: ru ,name: Артемовск}
+  sl394_uk: { id: sl394, culture: uk, name: Артемівськ}
+  sl395_ru: { id: sl395, culture: ru ,name: Артемово}
+  sl395_uk: { id: sl395, culture: uk, name: Артемове}
+  sl396_ru: { id: sl396, culture: ru ,name: Белицкое}
+  sl396_uk: { id: sl396, culture: uk, name: Білицьке}
+  sl397_ru: { id: sl397, culture: ru ,name: Белозерское}
+  sl397_uk: { id: sl397, culture: uk, name: Білозерське}
+  sl398_ru: { id: sl398, culture: ru ,name: Волноваха}
+  sl398_uk: { id: sl398, culture: uk, name: Волноваха}
+  sl399_ru: { id: sl399, culture: ru ,name: Углегорск}
+  sl399_uk: { id: sl399, culture: uk, name: Вуглегірськ}
+  sl400_ru: { id: sl400, culture: ru ,name: Угледар}
+  sl400_uk: { id: sl400, culture: uk, name: Вугледар}
+  sl401_ru: { id: sl401, culture: ru ,name: Горняк}
+  sl401_uk: { id: sl401, culture: uk, name: Гірник}
+  sl402_ru: { id: sl402, culture: ru ,name: Горловка}
+  sl402_uk: { id: sl402, culture: uk, name: Горлівка}
+  sl403_ru: { id: sl403, culture: ru ,name: Дебальцево}
+  sl403_uk: { id: sl403, culture: uk, name: Дебальцеве}
+  sl404_ru: { id: sl404, culture: ru ,name: Дзержинск}
+  sl404_uk: { id: sl404, culture: uk, name: Дзержинськ}
+  sl405_ru: { id: sl405, culture: ru ,name: Димитров}
+  sl405_uk: { id: sl405, culture: uk, name: Димитров}
+  sl406_ru: { id: sl406, culture: ru ,name: Доброполье}
+  sl406_uk: { id: sl406, culture: uk, name: Добропілля}
+  sl407_ru: { id: sl407, culture: ru ,name: Докучаевск}
+  sl407_uk: { id: sl407, culture: uk, name: Докучаєвськ}
+  sl408_ru: { id: sl408, culture: ru ,name: Донецк}
+  sl408_uk: { id: sl408, culture: uk, name: Донецьк}
+  sl409_ru: { id: sl409, culture: ru ,name: Дружковка}
+  sl409_uk: { id: sl409, culture: uk, name: Дружківка}
+  sl410_ru: { id: sl410, culture: ru ,name: Енакиево}
+  sl410_uk: { id: sl410, culture: uk, name: Єнакієве}
+  sl411_ru: { id: sl411, culture: ru ,name: Ждановка}
+  sl411_uk: { id: sl411, culture: uk, name: Жданівка}
+  sl412_ru: { id: sl412, culture: ru ,name: Зугрэс}
+  sl412_uk: { id: sl412, culture: uk, name: Зугрес}
+  sl413_ru: { id: sl413, culture: ru ,name: Иловайск}
+  sl413_uk: { id: sl413, culture: uk, name: Іловайськ}
+  sl414_ru: { id: sl414, culture: ru ,name: Кировское}
+  sl414_uk: { id: sl414, culture: uk, name: Кіровське}
+  sl415_ru: { id: sl415, culture: ru ,name: Комсомольское}
+  sl415_uk: { id: sl415, culture: uk, name: Комсомольське}
+  sl416_ru: { id: sl416, culture: ru ,name: Константиновка}
+  sl416_uk: { id: sl416, culture: uk, name: Костянтинівка}
+  sl417_ru: { id: sl417, culture: ru ,name: Краматорск}
+  sl417_uk: { id: sl417, culture: uk, name: Краматорськ}
+  sl418_ru: { id: sl418, culture: ru ,name: Красный Лиман}
+  sl418_uk: { id: sl418, culture: uk, name: Красний Лиман}
+  sl419_ru: { id: sl419, culture: ru ,name: Красноармейск}
+  sl419_uk: { id: sl419, culture: uk, name: Красноармійськ}
+  sl420_ru: { id: sl420, culture: ru ,name: Красногоровка}
+  sl420_uk: { id: sl420, culture: uk, name: Красногорівка}
+  sl421_ru: { id: sl421, culture: ru ,name: Курахово}
+  sl421_uk: { id: sl421, culture: uk, name: Курахове}
+  sl422_ru: { id: sl422, culture: ru ,name: Макеевка}
+  sl422_uk: { id: sl422, culture: uk, name: Макіївка}
+  sl423_ru: { id: sl423, culture: ru ,name: Марьинка}
+  sl423_uk: { id: sl423, culture: uk, name: Мар'їнка}
+  sl424_ru: { id: sl424, culture: ru ,name: Мариуполь}
+  sl424_uk: { id: sl424, culture: uk, name: Маріуполь}
+  sl425_ru: { id: sl425, culture: ru ,name: Моспино}
+  sl425_uk: { id: sl425, culture: uk, name: Моспине}
+  sl426_ru: { id: sl426, culture: ru ,name: Новоазовск}
+  sl426_uk: { id: sl426, culture: uk, name: Новоазовськ}
+  sl427_ru: { id: sl427, culture: ru ,name: Новогродовка}
+  sl427_uk: { id: sl427, culture: uk, name: Новогродівка}
+  sl428_ru: { id: sl428, culture: ru ,name: Родинское}
+  sl428_uk: { id: sl428, culture: uk, name: Родинське}
+  sl429_ru: { id: sl429, culture: ru ,name: Светлодарск}
+  sl429_uk: { id: sl429, culture: uk, name: Світлодарськ}
+  sl430_ru: { id: sl430, culture: ru ,name: Святогорск}
+  sl430_uk: { id: sl430, culture: uk, name: Святогірськ}
+  sl431_ru: { id: sl431, culture: ru ,name: Селидово}
+  sl431_uk: { id: sl431, culture: uk, name: Селидове}
+  sl432_ru: { id: sl432, culture: ru ,name: Северск}
+  sl432_uk: { id: sl432, culture: uk, name: Сіверськ}
+  sl433_ru: { id: sl433, culture: ru ,name: Славянск}
+  sl433_uk: { id: sl433, culture: uk, name: Слов'янськ}
+  sl434_ru: { id: sl434, culture: ru ,name: Снежное}
+  sl434_uk: { id: sl434, culture: uk, name: Сніжне}
+  sl435_ru: { id: sl435, culture: ru ,name: Соледар}
+  sl435_uk: { id: sl435, culture: uk, name: Соледар}
+  sl436_ru: { id: sl436, culture: ru ,name: Торез}
+  sl436_uk: { id: sl436, culture: uk, name: Торез}
+  sl437_ru: { id: sl437, culture: ru ,name: Украинск}
+  sl437_uk: { id: sl437, culture: uk, name: Українськ}
+  sl438_ru: { id: sl438, culture: ru ,name: Харцызск}
+  sl438_uk: { id: sl438, culture: uk, name: Харцизьк}
+  sl439_ru: { id: sl439, culture: ru ,name: Часов Яр}
+  sl439_uk: { id: sl439, culture: uk, name: Часів Яр}
+  sl440_ru: { id: sl440, culture: ru ,name: Шахтерск}
+  sl440_uk: { id: sl440, culture: uk, name: Шахтарськ}
+  sl441_ru: { id: sl441, culture: ru ,name: Юнокоммунаровск}
+  sl441_uk: { id: sl441, culture: uk, name: Юнокомунарівськ}
+  sl442_ru: { id: sl442, culture: ru ,name: Ясиноватая}
+  sl442_uk: { id: sl442, culture: uk, name: Ясинувата}
+  sl443_ru: { id: sl443, culture: ru ,name: Другое}
+  sl443_uk: { id: sl443, culture: uk, name: Інше}
+
+  #zaporozhska
+  sl444_ru: { id: sl444, culture: ru ,name: Бердянск}
+  sl444_uk: { id: sl444, culture: uk, name: Бердянськ}
+  sl445_ru: { id: sl445, culture: ru ,name: Васильевка}
+  sl445_uk: { id: sl445, culture: uk, name: Василівка}
+  sl446_ru: { id: sl446, culture: ru ,name: Вольнянск}
+  sl446_uk: { id: sl446, culture: uk, name: Вільнянськ}
+  sl447_ru: { id: sl447, culture: ru ,name: Гуляйполе}
+  sl447_uk: { id: sl447, culture: uk, name: Гуляйполе}
+  sl448_ru: { id: sl448, culture: ru ,name: Днепрорудное}
+  sl448_uk: { id: sl448, culture: uk, name: Дніпрорудне}
+  sl449_ru: { id: sl449, culture: ru ,name: Энергодар}
+  sl449_uk: { id: sl449, culture: uk, name: Енергодар}
+  sl450_ru: { id: sl450, culture: ru ,name: Запорожье}
+  sl450_uk: { id: sl450, culture: uk, name: Запоріжжя}
+  sl451_ru: { id: sl451, culture: ru ,name: Каменка-Днепровская}
+  sl451_uk: { id: sl451, culture: uk, name: Кам'янка-Дніпровська}
+  sl452_ru: { id: sl452, culture: ru ,name: Мелитополь}
+  sl452_uk: { id: sl452, culture: uk, name: Мелітополь}
+  sl453_ru: { id: sl453, culture: ru ,name: Молочанск}
+  sl453_uk: { id: sl453, culture: uk, name: Молочанськ}
+  sl454_ru: { id: sl454, culture: ru ,name: Орехов}
+  sl454_uk: { id: sl454, culture: uk, name: Оріхів}
+  sl455_ru: { id: sl455, culture: ru ,name: Пологи}
+  sl455_uk: { id: sl455, culture: uk, name: Пологи}
+  sl456_ru: { id: sl456, culture: ru ,name: Приморск}
+  sl456_uk: { id: sl456, culture: uk, name: Приморськ}
+  sl457_ru: { id: sl457, culture: ru ,name: Токмак}
+  sl457_uk: { id: sl457, culture: uk, name: Токмак}
+  sl458_ru: { id: sl458, culture: ru ,name: Другое}
+  sl458_uk: { id: sl458, culture: uk, name: Інше}
+
+  #krim
+  sl459_ru: { id: sl459, culture: ru ,name: Алупка}
+  sl459_uk: { id: sl459, culture: uk, name: Алупка}
+  sl460_ru: { id: sl460, culture: ru ,name: Алушта}
+  sl460_uk: { id: sl460, culture: uk, name: Алушта}
+  sl461_ru: { id: sl461, culture: ru ,name: Армянск}
+  sl461_uk: { id: sl461, culture: uk, name: Армянськ}
+  sl462_ru: { id: sl462, culture: ru ,name: Бахчисарай}
+  sl462_uk: { id: sl462, culture: uk, name: Бахчисарай}
+  sl463_ru: { id: sl463, culture: ru ,name: Белогорск}
+  sl463_uk: { id: sl463, culture: uk, name: Білогірськ}
+  sl464_ru: { id: sl464, culture: ru ,name: Джанкой}
+  sl464_uk: { id: sl464, culture: uk, name: Джанкой}
+  sl465_ru: { id: sl465, culture: ru ,name: Евпатория}
+  sl465_uk: { id: sl465, culture: uk, name: Євпаторія}
+  sl466_ru: { id: sl466, culture: ru ,name: Керчь}
+  sl466_uk: { id: sl466, culture: uk, name: Керч}
+  sl467_ru: { id: sl467, culture: ru ,name: Красноперекопск}
+  sl467_uk: { id: sl467, culture: uk, name: Красноперекопськ}
+  sl468_ru: { id: sl468, culture: ru ,name: Саки}
+  sl468_uk: { id: sl468, culture: uk, name: Саки}
+  sl469_ru: { id: sl469, culture: ru ,name: Симферополь}
+  sl469_uk: { id: sl469, culture: uk, name: Сімферополь}
+  sl470_ru: { id: sl470, culture: ru ,name: Старый Крым}
+  sl470_uk: { id: sl470, culture: uk, name: Старий Крим}
+  sl471_ru: { id: sl471, culture: ru ,name: Судак}
+  sl471_uk: { id: sl471, culture: uk, name: Судак}
+  sl472_ru: { id: sl472, culture: ru ,name: Феодосия}
+  sl472_uk: { id: sl472, culture: uk, name: Феодосія}
+  sl473_ru: { id: sl473, culture: ru ,name: Щелкино}
+  sl473_uk: { id: sl473, culture: uk, name: Щолкіне}
+  sl474_ru: { id: sl474, culture: ru ,name: Ялта}
+  sl474_uk: { id: sl474, culture: uk, name: Ялта}
+  sl475_ru: { id: sl475, culture: ru ,name: Другое}
+  sl475_uk: { id: sl475, culture: uk, name: Інше}
+
+SystemSetting:
+  ssx1: { name: max_duration_for_ad, value: 4 }
+  ssx2: { name: max_images_for_ad, value: 5 }
+
+Status:
+  st1: { description: open }
+  st2: { description: submitted }
+  st3: { description: payed }	
+  st4: { description: approved }
+  st5: { description: rejected }
+  st6: { description: deleted }
+
+Sendstatus:
+  stt1: { description: sent }
+  stt2: { description: not sent }
+
+CustomerType:
+  ct1: { }
+  ct2: { }
+
+CustomerTypeI18n:
+  ct1_ru: { id: ct1, culture: ru , description: Частнoе объявлениe, plural_description: Частные объявления }
+  ct1_uk: { id: ct1, culture: uk, description: Приватнe оголошення, plural_description:Приватні оголошення}
+  ct2_ru: { id: ct2, culture: ru , description: Объявлениe фирм, plural_description: Объявления фирм} 
+  ct2_uk: { id: ct2, culture: uk, description: Оголошення фірм, plural_description: Оголошення фірм}
+
+Mode:
+  mo1: {  }
+  mo2: { }
+  mo3: {  }
+  mo4: {  }
+
+ModeI18n:
+  mo1_ru: { id: mo1, culture: ru ,description: продам}
+  mo1_uk: { id: mo1, culture: uk, description: продам}  
+  mo1_en: { id: mo1, culture: en, description: sell}  
+  mo2_ru: { id: mo2, culture: ru ,description: куплю}
+  mo2_uk: { id: mo2, culture: uk, description: куплю}  
+  mo2_en: { id: mo2, culture: en, description: buy}
+  
+  mo3_ru: { id: mo3, culture: ru ,description: Сдам}
+  mo3_uk: { id: mo3, culture: uk, description: Здам в оренду}  
+  mo3_en: { id: mo3, culture: en, description: to_rent}  
+  mo4_ru: { id: mo4, culture: ru ,description: Сниму}
+  mo4_uk: { id: mo4, culture: uk, description: Візьму в оренду} 
+  mo4_en: { id: mo4, culture: en, description: whish_to_rent} 
+  
+Room:
+  r1: { value: 1 }
+  r2: { value: 2 }
+  r3: { value: 5 }
+  r4: { value: 10 }  
+
+RoomI18n:
+  r1_ru: { id: r1, culture: ru ,name: 1}
+  r1_uk: { id: r1, culture: uk, name: 1}  
+  r2_ru: { id: r2, culture: ru ,name: 2}
+  r2_uk: { id: r2, culture: uk, name: 2}  
+  r3_ru: { id: r3, culture: ru ,name: 5}
+  r3_uk: { id: r3, culture: uk, name: 5}  
+  r4_ru: { id: r4, culture: ru ,name: больше чем 10}
+  r4_uk: { id: r4, culture: uk, name: більше ніж 10}  
+
+ImageType:
+  it1: { description: regular }
+  it2: { description: additional }
+  it3: { description: temporary }
+  it4: { description: temporary_extra }
+
+Fuel:
+  f1: { }
+  f2: { }
+  f3: { }
+  f4: { }
+
+FuelI18n:
+  f1_ru:    { id: f1, culture: ru, name: бензин}
+  f1_uk:    { id: f1, culture: uk, name: бензин}
+  f2_ru:    { id: f2, culture: ru, name: газ}
+  f2_uk:    { id: f2, culture: uk, name: газ}
+  f3_ru:    { id: f3, culture: ru, name: электрические}
+  f3_uk:    { id: f3, culture: uk, name: електричні}
+  f4_ru:    { id: f4, culture: ru, name: гибрид}
+  f4_uk:    { id: f4, culture: uk, name: гібрид}
+
+Gearbox:
+  g1: {  }
+  g2: {  }  
+
+GearboxI18n:
+  g1_ru:    { id: g1, culture: ru, name: механическое }
+  g1_uk:    { id: g1, culture: uk, name: механічне}
+  g2_ru:    { id: g2, culture: ru, name: автоматическое}
+  g2_uk:    { id: g2, culture: uk, name: автоматичне}
+
+SuperCategory:
+  s1:   { sort_field: 1}
+  s2:   { sort_field: 2}
+  s3:   { sort_field: 3}
+  s4:   { sort_field: 4}
+  s5:   { sort_field: 5}
+  s6:   { sort_field: 6}
+  s7:   { sort_field: 7}
+  s8:   { sort_field: 8}
+  s9:   { sort_field: 9}
+  s10:   { sort_field: 10}
+ 
+SuperCategoryI18n:
+  s1_ru:        { id: s1, culture: ru, name: "Авто-,мото-,вело-, с/х техника" }
+  s1_uk:   { id: s1, culture: uk, name: "Авто-,мото-,вело-, с/г техніка"}
+  s2_ru:   { id: s2, culture: ru, name: Недвижимость }
+  s2_uk:   { id: s2, culture: uk, name: Нерухомість }
+  s3_ru:        { id: s3, culture: ru, name: Для дома }
+  s3_uk:   { id: s3, culture: uk, name: Для дому}
+  s5_ru:        { id: s5, culture: ru, name: Электроприборы }
+  s5_uk:   { id: s5, culture: uk, name: Електроприлади}
+  s6_ru:        { id: s6, culture: ru, name: "Досуг, хобби"}
+  s6_uk:   { id: s6, culture: uk, name: "Дозвілля, хоббі"}
+  s7_ru:   { id: s7, culture: ru, name: Личние вещи}
+  s7_uk:   { id: s7, culture: uk, name: Особисті речі}
+  s8_ru:   { id: s8, culture: ru, name: Торговые предприятие}
+  s8_uk:   { id: s8, culture: uk, name: Торгові підприємства}
+  s9_ru:   { id: s9, culture: ru, name: Услуги}
+  s9_uk:   { id: s9, culture: uk, name: Послуги}
+  s10_ru:   { id: s10, culture: ru, name: Другое }
+  s10_uk:   { id: s10, culture: uk, name: Інше }
+
+    
+Category:
+  c1: { supercategory_id: s1, price: 3, sort_field: 1}
+  c2: { supercategory_id: s1, price: 2, sort_field: 2} 
+  c3: { supercategory_id: s1, price: 4, sort_field: 3}    
+  c7: { supercategory_id: s1, price: 4, sort_field: 4}    
+  c4: { supercategory_id: s1, price: 4, sort_field: 5}    
+  c5: { supercategory_id: s1, price: 4, sort_field: 6}    
+  c6: { supercategory_id: s1, price: 4, sort_field: 7}    
+  c8: { supercategory_id: s1, price: 4, sort_field: 8}    
+  c9: { supercategory_id: s1, price: 4, sort_field: 9}    
+  c10: { supercategory_id: s1, price: 3, sort_field: 10}
+  c11: { supercategory_id: s1, price: 2, sort_field: 11} 
+  c12: { supercategory_id: s1, price: 4, sort_field: 12}    
+  c13: { supercategory_id: s1, price: 4, sort_field: 13}    
+  c14: { supercategory_id: s1, price: 4, sort_field: 14}    
+
+  c19: { supercategory_id: s2, price: 3, sort_field: 1}
+  c20: { supercategory_id: s2, price: 2, sort_field: 2} 
+  c21: { supercategory_id: s2, price: 4, sort_field: 3}    
+  c22: { supercategory_id: s2, price: 4, sort_field: 4}    
+  c23: { supercategory_id: s2, price: 4, sort_field: 5}    
+  c24: { supercategory_id: s2, price: 4, sort_field: 6}    
+  c26: { supercategory_id: s3, price: 4, sort_field: 1}    
+  c27: { supercategory_id: s3, price: 4, sort_field: 2}    
+  c28: { supercategory_id: s3, price: 4, sort_field: 3}    
+  c29: { supercategory_id: s3, price: 4, sort_field: 4}    
+
+  c31: { supercategory_id: s5, price: 4, sort_field: 1}    
+  c32: { supercategory_id: s5, price: 4, sort_field: 2}    
+  c33: { supercategory_id: s5, price: 4, sort_field: 3}    
+  c34: { supercategory_id: s5, price: 4, sort_field: 4}    
+  c35: { supercategory_id: s5, price: 4, sort_field: 5}
+  c36: { supercategory_id: s5, price: 4, sort_field: 6}    
+  c37: { supercategory_id: s5, price: 4, sort_field: 7}    
+  c38: { supercategory_id: s5, price: 4, sort_field: 8}    
+  c39: { supercategory_id: s5, price: 4, sort_field: 9}    
+  c40: { supercategory_id: s5, price: 4, sort_field: 10}
+
+  c41: { supercategory_id: s6, price: 4, sort_field: 1}    
+  c42: { supercategory_id: s6, price: 4, sort_field: 2}    
+  c43: { supercategory_id: s6, price: 4, sort_field: 3}
+  c44: { supercategory_id: s6, price: 4, sort_field: 4}    
+  c45: { supercategory_id: s6, price: 4, sort_field: 5}    
+  c46: { supercategory_id: s6, price: 4, sort_field: 6}    
+  c47: { supercategory_id: s6, price: 4, sort_field: 7} 
+  
+  c48: { supercategory_id: s7, price: 4, sort_field: 1}    
+  c49: { supercategory_id: s7, price: 4, sort_field: 2}    
+  c50: { supercategory_id: s7, price: 4, sort_field: 3}    
+
+  c52: { supercategory_id: s8, price: 4, sort_field: 2}    
+  c53: { supercategory_id: s8, price: 4, sort_field: 3}    
+  c54: { supercategory_id: s8, price: 4, sort_field: 4}   
+
+  c55: { supercategory_id: s9, price: 4, sort_field: 1}    
+  c56: { supercategory_id: s9, price: 4, sort_field: 2}    
+  c57: { supercategory_id: s9, price: 4, sort_field: 3}    
+  c58: { supercategory_id: s9, price: 4, sort_field: 4}    
+  c59: { supercategory_id: s9, price: 4, sort_field: 5}
+  c60: { supercategory_id: s9, price: 4, sort_field: 6}    
+  c61: { supercategory_id: s9, price: 4, sort_field: 7}    
+  c62: { supercategory_id: s9, price: 4, sort_field: 8}    
+  c63: { supercategory_id: s9, price: 4, sort_field: 9}    
+  c64: { supercategory_id: s9, price: 4, sort_field: 10}
+
+  c66: { supercategory_id: s10, price: 4, sort_field: 1}
+
+
+CategoryI18n:
+  c1_ru: { id: c1, culture: ru ,name: легковые автомобили}
+  c1_uk: { id: c1, culture: uk, name: легкові автомобілі }
+  c2_ru: { id: c2, culture: ru, name: авто запчасти }
+  c2_uk: { id: c2, culture: uk, name: авто запчастини }
+  c3_ru: { id: c3, culture: ru, name: микроавтобусы }
+  c3_uk: { id: c3, culture: uk, name: мікроавтобуси }
+  c7_ru: { id: c7, culture: ru, name: автобусы }
+  c7_uk: { id: c7, culture: uk, name: автобуси }
+  c4_ru: { id: c4, culture: ru, name: грузовые автомобили}
+  c4_uk: { id: c4, culture: uk, name: вантажні автомобілі}
+  c5_ru: { id: c5, culture: ru, name: трейлеры }
+  c5_uk: { id: c5, culture: uk, name: трейлери}
+  c6_ru: { id: c6, culture: ru, name: мотоциклы}
+  c6_uk: { id: c6, culture: uk, name: мотоцикли }
+  c8_ru: { id: c8, culture: ru, name: мопеды }
+  c8_uk: { id: c8, culture: uk, name: мопеди }
+  c9_ru: { id: c9, culture: ru, name: велосипеды }
+  c9_uk: { id: c9, culture: uk, name: велосипеди }
+  c10_ru: { id: c10, culture: ru, name: "мото-,вело запчасти" }
+  c10_uk: { id: c10, culture: uk, name: "мото-,вело запчастини" }
+  c11_ru: { id: c11, culture: ru, name: "корабли, катера, яхты, лодки"}
+  c11_uk: { id: c11, culture: uk, name: "кораблі, катери, яхти, човни"}
+  c12_ru: { id: c12, culture: ru, name: "запчасти для кораблей, катеров, яхт, лодок" }
+  c12_uk: { id: c12, culture: uk, name: "запчастини для кораблів, катерів, яхт, човнів"}
+  c13_ru: { id: c13, culture: ru, name: "с/х машины, техника"}
+  c13_uk: { id: c13, culture: uk, name: "с/г  машини, техніка" }
+  c14_ru: { id: c14, culture: ru, name: стерео система/ GPS}
+  c14_uk: { id: c14, culture: uk, name: стерео система/ GPS}
+
+  c19_ru: { id: c19, culture: ru, name: квартиры}
+  c19_uk: { id: c19, culture: uk, name: квартири}
+  c20_ru: { id: c20, culture: ru, name: "виллы, особняки"}
+  c20_uk: { id: c20, culture: uk, name: "вілли, особняки"}
+  c21_ru: { id: c21, culture: ru, name: дачи }
+  c21_uk: { id: c21, culture: uk, name: дачі }
+  c22_ru: { id: c22, culture: ru, name: земельные участки}
+  c22_uk: { id: c22, culture: uk, name: земельні ділянки}
+  c23_ru: { id: c23, culture: ru, name: недвижимость за границей}
+  c23_uk: { id: c23, culture: uk, name: нерухомість за кордоном }
+  c24_ru: { id: c24, culture: ru, name: офисные помещения }
+  c24_uk: { id: c24, culture: uk, name: офісні приміщення}
+  
+  c26_ru: { id: c26, culture: ru, name: мебель}
+  c26_uk: { id: c26, culture: uk, name: меблі}
+  c27_ru: { id: c27, culture: ru, name: электроприборы для дома}
+  c27_uk: { id: c27, culture: uk, name: електроприлади для дому}
+  c28_ru: { id: c28, culture: ru, name: "дом, сад, огород" }
+  c28_uk: { id: c28, culture: uk, name: "дім, сад, город"}
+  c29_ru: { id: c29, culture: ru, name: инструменты}
+  c29_uk: { id: c29, culture: uk, name: інструменти}
+
+  c31_ru: { id: c31, culture: ru, name: компьютеры}
+  c31_uk: { id: c31, culture: uk, name: комп´ютери }
+  c32_ru: { id: c32, culture: ru, name: компьютерные резервы}
+  c32_uk: { id: c32, culture: uk, name: комп´ютерні резерви }
+  c33_ru: { id: c33, culture: ru, name: "теле-,компьютерные игры"}
+  c33_uk: { id: c33, culture: uk, name: "теле-,комп'ютерні ігри"}
+  c34_ru: { id: c34, culture: ru, name: телефоны}
+  c34_uk: { id: c34, culture: uk, name: телефони}
+  c35_ru: { id: c35, culture: ru, name: телевизоры}
+  c35_uk: { id: c35, culture: uk, name: телевізори }  
+  c36_ru: { id: c36, culture: ru, name: домашнии кинотеатры}
+  c36_uk: { id: c36, culture: uk, name: домашні кінотеатри}
+  c37_ru: { id: c37, culture: ru, name: "видео, dvd"}
+  c37_uk: { id: c37, culture: uk, name: "відео, dvd"}
+  c38_ru: { id: c38, culture: ru, name: "фото-, видеокамеры"}
+  c38_uk: { id: c38, culture: uk, name: "фото-, відеокамери"}
+  c39_ru: { id: c39, culture: ru, name: "стерео, mp3, радио"}
+  c39_uk: { id: c39, culture: uk, name: "стерео, mp3, радіо"}
+  c40_ru: { id: c40, culture: ru, name: "фильмы, музыка" }
+  c40_uk: { id: c40, culture: uk, name: "фільми, музика" }  
+
+  c41_ru: { id: c41, culture: ru, name: "билеты, путешесвие"}
+  c41_uk: { id: c41, culture: uk, name: "квитки, подорожі"}
+  c42_ru: { id: c42, culture: ru, name: "книги, литература"}
+  c42_uk: { id: c42, culture: uk, name: "книжки, література" }  
+  c43_ru: { id: c43, culture: ru, name: животные}
+  c43_uk: { id: c43, culture: uk, name: тварини}
+  c44_ru: { id: c44, culture: ru, name: хобби}
+  c44_uk: { id: c44, culture: uk, name: хоббі}
+  c45_ru: { id: c45, culture: ru, name: "охота, рыбалка"}
+  c45_uk: { id: c45, culture: uk, name: "полювання, рибалка" }
+  c46_ru: { id: c46, culture: ru, name: музыкальные инструменты}
+  c46_uk: { id: c46, culture: uk, name: музичні інструменти}
+  c47_ru: { id: c47, culture: ru, name: спорт}
+  c47_uk: { id: c47, culture: uk, name: спорт}
+
+  c48_ru: { id: c48, culture: ru, name: "одежда, обувь"}
+  c48_uk: { id: c48, culture: uk, name: "одяг, взуття"}
+  c49_ru: { id: c49, culture: ru, name: "аксессуары,часы"}
+  c49_uk: { id: c49, culture: uk, name: "аксесуари, годинники"}  
+  c50_ru: { id: c50, culture: ru, name: детские аксессуары}
+  c50_uk: { id: c50, culture: uk, name: дитячі аксесуари}
+
+  c52_ru: { id: c52, culture: ru, name: передача предприятий}
+  c52_uk: { id: c52, culture: uk, name: передача підприємств}  
+  c53_ru: { id: c53, culture: ru, name: "инвентарь для магазинов, ресторанов"}
+  c53_uk: { id: c53, culture: uk, name: "інвертар для магазинів, ресторанів"}
+  c54_ru: { id: c54, culture: ru, name: для офису}
+  c54_uk: { id: c54, culture: uk, name: для офісу } 
+
+  c55_ru: { id: c55, culture: ru, name: "помочь при переезде, транспорт"}
+  c55_uk: { id: c55, culture: uk, name: "допомога при переїзді, транспорт"}
+  c56_ru: { id: c56, culture: ru, name: "уборка, химчистка" }
+  c56_uk: { id: c56, culture: uk, name: "прибирання, хімчистка"}  
+  c57_ru: { id: c57, culture: ru, name: "ремонты, строительство"}
+  c57_uk: { id: c57, culture: uk, name: "ремонти, будівництво"}
+  c58_ru: { id: c58, culture: ru, name: ремесло}
+  c58_uk: { id: c58, culture: uk, name: ремесло}
+  c59_ru: { id: c59, culture: ru, name: "банкеты, кейтринг"}
+  c59_uk: { id: c59, culture: uk, name: "банкети, кейтрінг"}
+  c60_ru: { id: c60, culture: ru, name: "музыка, различение"}
+  c60_uk: { id: c60, culture: uk, name: "музика, розваги" }
+  c61_ru: { id: c61, culture: ru, name: "обучение, курсы"}
+  c61_uk: { id: c61, culture: uk, name: "освіта, навчання, курси"}
+  c62_ru: { id: c62, culture: ru, name: "медицина, фармацевтика"}
+  c62_uk: { id: c62, culture: uk, name: "медицина, фармацептика"}
+  c63_ru: { id: c63, culture: ru, name: юридические услуги}
+  c63_uk: { id: c63, culture: uk, name: юридичні послуги}
+  c64_ru: { id: c64, culture: ru, name: присмотр за собаками }
+  c64_uk: { id: c64, culture: uk, name: догляд за собакою}
+
+  c66_ru: { id: c66, culture: ru, name: "Потеряно, найдено"}
+  c66_uk: { id: c66, culture: uk, name: "Загублено, знайдено"}
+
+SubCategory:
+  sc1: { category_id: c11 }
+  sc2: { category_id: c11 }   
+  sc3: { category_id: c11 }   
+  sc4: { category_id: c11 }   
+  sc5: { category_id: c11 }   
+  sc6: { category_id: c11 }   
+  sc7: { category_id: c11 }   
+  sc8: { category_id: c12 }   
+  sc8: { category_id: c12 }   
+  sc9: { category_id: c12 }   
+  sc10: { category_id: c12 }   
+  sc11: { category_id: c12 }  
+  sc12: { category_id: c12 }
+
+  sc13: { category_id: c26 }    
+  sc14: { category_id: c26 }    
+  sc15: { category_id: c26} 
+  sc16: { category_id: c26 }    
+  sc17: { category_id: c26 }    
+  sc18: { category_id: c26} 
+  sc19: { category_id: c26 }    
+  sc20: { category_id: c26 }    
+  sc21: { category_id: c26} 
+  sc22: { category_id: c26 }
+    
+  sc23: { category_id: c27 }    
+  sc24: { category_id: c27} 
+  sc25: { category_id: c27 }    
+  sc26: { category_id: c27 }    
+  sc27: { category_id: c27} 
+  sc28: { category_id: c27 } 
+   
+  sc29: { category_id: c27 }    
+  sc30: { category_id: c27}
+
+  sc31: { category_id: c49 }    
+  sc32: { category_id: c49} 
+  sc33: { category_id: c49 } 
+
+  sc34: { category_id: c50 }    
+  sc35: { category_id: c50} 
+  sc36: { category_id: c50 }
+  sc37: { category_id: c50} 
+  sc38: { category_id: c50 }
+  sc39: { category_id: c50 }
+
+  sc40: { category_id: c31} 
+  sc41: { category_id: c31 }
+  sc42: { category_id: c31 }
+
+  sc43: { category_id: c34} 
+  sc44: { category_id: c34 }
+  sc45: { category_id: c34 } 
+
+  sc46: { category_id: c41} 
+  sc47: { category_id: c41 }
+  sc48: { category_id: c41 } 
+  sc49: { category_id: c41 } 
+
+  sc50: { category_id: c9} 
+  sc51: { category_id: c9 }
+  sc52: { category_id: c9 } 
+  sc53: { category_id: c9 } 
+  sc54: { category_id: c9 }
+  sc55: { category_id: c9 } 
+  sc56: { category_id: c9 } 
+
+  sc57: { category_id: c43} 
+  sc58: { category_id: c43}
+  sc59: { category_id: c43} 
+  sc60: { category_id: c43} 
+  sc61: { category_id: c43}
+  sc62: { category_id: c43} 
+  sc63: { category_id: c43}
+  sc64: { category_id: c43} 
+  sc65: { category_id: c43}
+
+  sc66: { category_id: c44} 
+  sc67: { category_id: c44}
+  sc68: { category_id: c44} 
+  sc69: { category_id: c44} 
+  sc70: { category_id: c44}
+  sc71: { category_id: c44} 
+
+  sc72: { category_id: c46} 
+  sc73: { category_id: c46}
+  sc74: { category_id: c46} 
+  sc75: { category_id: c46} 
+  sc76: { category_id: c46}
+  sc77: { category_id: c46} 
+  sc78: { category_id: c46} 
+
+  sc79: { category_id: c47} 
+  sc80: { category_id: c47}
+  sc81: { category_id: c47} 
+  sc82: { category_id: c47} 
+  sc83: { category_id: c47}
+  sc84: { category_id: c47} 
+  sc85: { category_id: c47}
+  sc86: { category_id: c52} 
+  sc87: { category_id: c52}
+  sc88: { category_id: c52} 
+  sc89: { category_id: c52} 
+  sc90: { category_id: c52}
+ 
+SubCategoryI18n:
+  sc1_ru: { id: sc1, culture: ru, name: "Катери, моторные лодки"}
+  sc1_uk: { id: sc1, culture: uk, name: "Катери, моторні човни" }
+  sc2_ru: { id: sc2, culture: ru, name: Яхты}
+  sc2_uk: { id: sc2, culture: uk, name: Яхти }
+  sc3_ru: { id: sc3, culture: ru, name: Надувние лодки }
+  sc3_uk: { id: sc3, culture: uk, name: Надувні човни }
+  sc4_ru: { id: sc4, culture: ru, name: Лодки}
+  sc4_uk: { id: sc4, culture: uk, name: Лодки}
+  sc5_ru: { id: sc5, culture: ru, name: Каяки}
+  sc5_uk: { id: sc5, culture: uk, name: Каяки}
+  sc6_ru: { id: sc6, culture: ru, name: "Гидроцыкли/скутеры"}
+  sc6_uk: { id: sc6, culture: uk, name: "Гидроцикли/ скутери" }
+  sc7_ru: { id: sc7, culture: ru, name: Другое }
+  sc7_uk: { id: sc7, culture: uk, name: Інше }
+
+  sc8_ru: { id: sc8, culture: ru, name: Мотор / пропеллер }
+  sc8_uk: { id: sc8, culture: uk, name: Двигун/пропелер }
+  sc9_ru: { id: sc9, culture: ru, name: "GPS, навигатор" }
+  sc9_uk: { id: sc9, culture: uk, name:  "GPS, навігатор"}
+  sc10_ru: { id: sc10, culture: ru, name: Трейлеры }
+  sc10_uk: { id: sc10, culture: uk, name: Трейлери}
+  sc11_ru: { id: sc11, culture: ru, name: Стоянка}
+  sc11_uk: { id: sc11, culture: uk, name: Стоянка}
+  sc12_ru: { id: sc12, culture: ru, name: Другое }
+  sc12_uk: { id: sc12, culture: uk, name: Інше }
+
+  sc13_ru: { id: sc13, culture: ru, name: "Спальни, кровати"}
+  sc13_uk: { id: sc13, culture: uk, name: "Спальні, ліжка"}
+  sc14_ru: { id: sc14, culture: ru, name: "Диваны, фотели"}
+  sc14_uk: { id: sc14, culture: uk, name: "Дивани, фотелі"}
+  sc15_ru: { id: sc15, culture: ru, name: "Столы, кресла"}
+  sc15_uk: { id: sc15, culture: uk, name: "Столи, крісла"}
+  sc16_ru: { id: sc16, culture: ru, name: "Полки, шкафы"}
+  sc16_uk: { id: sc16, culture: uk, name: "Полиці, шафи"}
+  sc17_ru: { id: sc17, culture: ru, name: Ковры}
+  sc17_uk: { id: sc17, culture: uk, name: Коври}
+  sc18_ru: { id: sc18, culture: ru, name: Мебель для аппаратуры }
+  sc18_uk: { id: sc18, culture: uk, name: Меблі для апаратури }
+  sc19_ru: { id: sc19, culture: ru, name: Лампы}
+  sc19_uk: { id: sc19, culture: uk, name: Лампи}
+  sc20_ru: { id: sc20, culture: ru, name: Дизайн}
+  sc20_uk: { id: sc20, culture: uk, name: Дизайн}
+  sc21_ru: { id: sc21, culture: ru, name: "Антиквариат, искусство" }
+  sc21_uk: { id: sc21, culture: uk, name: "Антикваріат, мистецтво"}
+  sc22_ru: { id: sc22, culture: ru, name: Другое }
+  sc22_uk: { id: sc22, culture: uk, name: Інше }
+
+  sc23_ru: { id: sc23, culture: ru, name: "Электро-, газоплиты" }
+  sc23_uk: { id: sc23, culture: uk, name: "Електро-, газоплити"}
+  sc24_ru: { id: sc24, culture: ru, name: "Холодильники, морозильникы" }
+  sc24_uk: { id: sc24, culture: uk, name: "Холодильники, морозильники"}
+  sc25_ru: { id: sc25, culture: ru, name: Машины для мытья посуды}
+  sc25_uk: { id: sc25, culture: uk, name: Машини для миття посуду}
+  sc26_ru: { id: sc26, culture: ru, name: "Посуда, кухня"}
+  sc26_uk: { id: sc26, culture: uk, name: "Посуд, кухня"}
+  sc27_ru: { id: sc27, culture: ru, name: Стиральные машины}
+  sc27_uk: { id: sc27, culture: uk, name: Пральні машини}
+  sc28_ru: { id: sc28, culture: ru, name: Другое }
+  sc28_uk: { id: sc28, culture: uk, name: Інше}
+  sc29_ru: { id: sc29, culture: ru, name: духовки }
+  sc29_uk: { id: sc29, culture: uk, name: духовки }
+  sc30_ru: { id: sc30, culture: ru, name: микроволновые печи}
+  sc30_uk: { id: sc30, culture: uk, name: мікрохвильові печі} 
+
+  sc31_ru: { id: sc31, culture: ru, name: Часы}
+  sc31_uk: { id: sc31, culture: uk, name: Годинники}
+  sc32_ru: { id: sc32, culture: ru, name: Украшения}
+  sc32_uk: { id: sc32, culture: uk, name: Прекраси}
+  sc33_ru: { id: sc33, culture: ru, name: Другое }
+  sc33_uk: { id: sc33, culture: uk, name: Інше} 
+
+  sc34_ru: { id: sc34, culture: ru, name: Детская мебель}
+  sc34_uk: { id: sc34, culture: uk, name: Дитячі меблі}
+  sc35_ru: { id: sc35, culture: ru, name: Детские коляски}
+  sc35_uk: { id: sc35, culture: uk, name: Дитячі візки}
+  sc36_ru: { id: sc36, culture: ru, name: Детские автокресла}
+  sc36_uk: { id: sc36, culture: uk, name: Дитячі автокрісла} 
+  sc37_ru: { id: sc37, culture: ru, name: Игрушки}
+  sc37_uk: { id: sc37, culture: uk, name: Іграшки}
+  sc38_ru: { id: sc38, culture: ru, name: "детская одежда, обувь" }
+  sc38_uk: { id: sc38, culture: uk, name: "дитячий одяг, взуття" }
+  sc39_ru: { id: sc39, culture: ru, name: Другое }
+  sc39_uk: { id: sc39, culture: uk, name: Інше} 
+  
+  sc40_ru: { id: sc40, culture: ru, name: Стационарные компьютеры}
+  sc40_uk: { id: sc40, culture: uk, name: Стаціонарні комп'ютери}
+  sc41_ru: { id: sc41, culture: ru, name: Ноутбуки}
+  sc41_uk: { id: sc41, culture: uk, name: Ноутбуки}
+  sc42_ru: { id: sc42, culture: ru, name: Компьютерные программы }
+  sc42_uk: { id: sc42, culture: uk, name: Комп'ютерні програми}
+
+  sc43_ru: { id: sc43, culture: ru, name: Мобильные}
+  sc43_uk: { id: sc43, culture: uk, name: Мобільні }
+  sc44_ru: { id: sc44, culture: ru, name: Радио}
+  sc44_uk: { id: sc44, culture: uk, name: Радіо}
+  sc45_ru: { id: sc45, culture: ru, name: Стационарные}
+  sc45_uk: { id: sc45, culture: uk, name: Стаціонарні}
+
+  sc46_ru: { id: sc46, culture: ru, name: Концерты }
+  sc46_uk: { id: sc46, culture: uk, name: Концерти}
+  sc47_ru: { id: sc47, culture: ru, name: "Театры, шоу"}
+  sc47_uk: { id: sc47, culture: uk, name: "Театри, шоу"}
+  sc48_ru: { id: sc48, culture: ru, name: Спортивные мероприятия }
+  sc48_uk: { id: sc48, culture: uk, name: Спортивні міроприємства}
+  sc49_ru: { id: sc49, culture: ru, name: Другое }
+  sc49_uk: { id: sc49, culture: uk, name: Інше }
+
+  sc50_ru: { id: sc50, culture: ru, name: Женские}
+  sc50_uk: { id: sc50, culture: uk, name: Жіночі}
+  sc51_ru: { id: sc51, culture: ru, name: Мужские}
+  sc51_uk: { id: sc51, culture: uk, name: Чоловічі}
+  sc52_ru: { id: sc52, culture: ru, name: Детские}
+  sc52_uk: { id: sc52, culture: uk, name: Дитячі}
+  sc53_ru: { id: sc53, culture: ru, name: Горные}
+  sc53_uk: { id: sc53, culture: uk, name: Гірські}
+  sc54_ru: { id: sc54, culture: ru, name: Стрит-рейсер}
+  sc54_uk: { id: sc54, culture: uk, name: Стрит-рейсер }
+  sc55_ru: { id: sc55, culture: ru, name: Другие }
+  sc55_uk: { id: sc55, culture: uk, name: Інші }
+  sc56_ru: { id: sc56, culture: ru, name: Запчасти }
+  sc56_uk: { id: sc56, culture: uk, name: Запчастини}
+
+  sc57_ru: { id: sc57, culture: ru, name: Собаки}
+  sc57_uk: { id: sc57, culture: uk, name: Собаки}
+  sc58_ru: { id: sc58, culture: ru, name: Коты}
+  sc58_uk: { id: sc58, culture: uk, name: Коти}
+  sc59_ru: { id: sc59, culture: ru, name: "Аксессуары для собак, кошек" }
+  sc59_uk: { id: sc59, culture: uk, name: "Аксесуари для собак, котів"}
+  sc60_ru: { id: sc60, culture: ru, name: Кроли}
+  sc60_uk: { id: sc60, culture: uk, name: Кролі}
+  sc61_ru: { id: sc61, culture: ru, name: Рептилии}
+  sc61_uk: { id: sc61, culture: uk, name: Плазуни}
+  sc62_ru: { id: sc62, culture: ru, name: Птицы}
+  sc62_uk: { id: sc62, culture: uk, name: Птахи}
+  sc63_ru: { id: sc63, culture: ru, name: Рыбы }
+  sc63_uk: { id: sc63, culture: uk, name: Риби}
+  sc64_ru: { id: sc64, culture: ru, name: Другие}
+  sc64_uk: { id: sc64, culture: uk, name: Інші}
+  sc65_ru: { id: sc65, culture: ru, name: Аксессуары}
+  sc65_uk: { id: sc65, culture: uk, name: Аксесуари}
+
+  sc66_ru: { id: sc66, culture: ru, name: Автомобили ветираны }
+  sc66_uk: { id: sc66, culture: uk, name: Автомобілі ветирани}
+  sc67_ru: { id: sc67, culture: ru, name: "Газеты, журналы"}
+  sc67_uk: { id: sc67, culture: uk, name: "Газети, журнали"}
+  sc68_ru: { id: sc68, culture: ru, name: Исторические предметы}
+  sc68_uk: { id: sc68, culture: uk, name: Історичні предмети}
+  sc69_ru: { id: sc69, culture: ru, name: "Марки, монеты"}
+  sc69_uk: { id: sc69, culture: uk, name: "Марки, монети"}
+  sc70_ru: { id: sc70, culture: ru, name: Швейные машинки}
+  sc70_uk: { id: sc70, culture: uk, name: Швейні машинки}
+  sc71_ru: { id: sc71, culture: ru, name: Другое }
+  sc71_uk: { id: sc71, culture: uk, name: Інше }
+
+  sc72_ru: { id: sc72, culture: ru, name: Акардиони}
+  sc72_uk: { id: sc72, culture: uk, name: Акардіони}
+  sc73_ru: { id: sc73, culture: ru, name: Барабаны}
+  sc73_uk: { id: sc73, culture: uk, name: Барабани}
+  sc74_ru: { id: sc74, culture: ru, name: Духовые инструменты }
+  sc74_uk: { id: sc74, culture: uk, name: Духові інструменти}
+  sc75_ru: { id: sc75, culture: ru, name: "Гитары, басгитары"}
+  sc75_uk: { id: sc75, culture: uk, name: "Гітари, басгітари"}
+  sc76_ru: { id: sc76, culture: ru, name: "Пианино, клавиатуры"}
+  sc76_uk: { id: sc76, culture: uk, name: "Піаніно, клавіатури"}
+  sc77_ru: { id: sc77, culture: ru, name: "Студии, сцены, оборудование" }
+  sc77_uk: { id: sc77, culture: uk, name: "Студії, сцени, обладнання"}
+  sc78_ru: { id: sc78, culture: ru, name: Другое }
+  sc78_uk: { id: sc78, culture: uk, name: Інше }
+
+  sc79_ru: { id: sc79, culture: ru, name: Спорт с мячом}
+  sc79_uk: { id: sc79, culture: uk, name: Спорт з м'ячем}
+  sc80_ru: { id: sc80, culture: ru, name: "Кемпинг, путешесвия"}
+  sc80_uk: { id: sc80, culture: uk, name: "Кемпінг, подорожі"}
+  sc81_ru: { id: sc81, culture: ru, name: Водные виды спорта}
+  sc81_uk: { id: sc81, culture: uk, name: Водні види спорту}
+  sc82_ru: { id: sc82, culture: ru, name: Гольф }
+  sc82_uk: { id: sc82, culture: uk, name: Гольф }
+  sc83_ru: { id: sc83, culture: ru, name: "Фитнес ,здоровье" }
+  sc83_uk: { id: sc83, culture: uk, name: "Фітнес, здоров'я"}
+  sc84_ru: { id: sc84, culture: ru, name: Зимние виды спорта}
+  sc84_uk: { id: sc84, culture: uk, name: Зимові види спорту}
+  sc85_ru: { id: sc85, culture: ru, name: Другое }
+  sc85_uk: { id: sc85, culture: uk, name: Інше }
+
+  sc86_ru: { id: sc86, culture: ru, name: Магазины}
+  sc86_uk: { id: sc86, culture: uk, name: Магазини}
+  sc87_ru: { id: sc87, culture: ru, name: "Домены, хостинг"}
+  sc87_uk: { id: sc87, culture: uk, name: "Домени, хостінг"}
+  sc88_ru: { id: sc88, culture: ru, name: Парикмахерские}
+  sc88_uk: { id: sc88, culture: uk, name: Перукарні}
+  sc89_ru: { id: sc89, culture: ru, name: "Рестораны, кафе, бары" }
+  sc89_uk: { id: sc89, culture: uk, name: "Ресторани, кав'ярні, бари"}
+  sc90_ru: { id: sc90, culture: ru, name: Другое }
+  sc90_uk: { id: sc90, culture: uk, name: Інше }
+
+Yearmodel:
+  y1: { value: 1980 }
+  y2: { value: 1981 }
+  y3: { value: 1982 }
+  y4: { value: 1983 }    
+  y5: { value: 1984 }      
+  y6: { value: 1985 }      
+  y7: { value: 1986 }   
+  y8: { value: 1987 }
+  y9: { value: 1988 }
+  y10: { value: 1989 }
+  y11: { value: 1990 }    
+  y12: { value: 1991 }      
+  y13: { value: 1992 }      
+  y14: { value: 1993 }      
+  y15: { value: 1994 }
+  y16: { value: 1995 }
+  y17: { value: 1996 }
+  y18: { value: 1997 }    
+  y19: { value: 1998 }      
+  y20: { value: 1999 }      
+  y21: { value: 2000 }   
+  y22: { value: 2001 }
+  y23: { value: 2002 }
+  y24: { value: 2003 }
+  y25: { value: 2004 }    
+  y26: { value: 2005 }      
+  y27: { value: 2006 }      
+  y28: { value: 2007 }
+  y29: { value: 2008 }      
+  y30: { value: 2009 }
+      
+YearmodelI18n:
+  y1_ru: { id: y1, culture: ru, name: 1980 и старше}
+  y1_uk: { id: y1, culture: uk, name: 1980 і старше}
+  y2_ru: { id: y2, culture: ru, name: 1981}
+  y2_uk: { id: y2, culture: uk, name: 1981}  
+  y3_ru: { id: y3, culture: ru, name: 1982}
+  y3_uk: { id: y3, culture: uk, name: 1982}  
+  y4_ru: { id: y4, culture: ru, name: 1983}
+  y4_uk: { id: y4, culture: uk, name: 1983}  
+  y5_ru: { id: y5, culture: ru, name: 1984}
+  y5_uk: { id: y5, culture: uk, name: 1984}  
+  y6_ru: { id: y6, culture: ru, name: 1985}
+  y6_uk: { id: y6, culture: uk, name: 1985}
+  y7_ru: { id: y7, culture: ru, name: 1986}
+  y7_uk: { id: y7, culture: uk, name: 1986}  
+  y8_ru: { id: y8, culture: ru, name: 1987}
+  y8_uk: { id: y8, culture: uk, name: 1987}  
+  y9_ru: { id: y9, culture: ru, name: 1988}
+  y9_uk: { id: y9, culture: uk, name: 1988}  
+  y10_ru: { id: y10, culture: ru, name: 1989}
+  y10_uk: { id: y10, culture: uk, name: 1989}  
+  y11_ru: { id: y11, culture: ru, name: 1990}
+  y11_uk: { id: y11, culture: uk, name: 1990}
+  y12_ru: { id: y12, culture: ru, name: 1991}
+  y12_uk: { id: y12, culture: uk, name: 1991}  
+  y13_ru: { id: y13, culture: ru, name: 1992}
+  y13_uk: { id: y13, culture: uk, name: 1992}  
+  y14_ru: { id: y14, culture: ru, name: 1993}
+  y14_uk: { id: y14, culture: uk, name: 1993}  
+  y15_ru: { id: y15, culture: ru, name: 1994}
+  y15_uk: { id: y15, culture: uk, name: 1994}  
+  y16_ru: { id: y16, culture: ru, name: 1995}
+  y16_uk: { id: y16, culture: uk, name: 1995}
+  y17_ru: { id: y17, culture: ru, name: 1996}
+  y17_uk: { id: y17, culture: uk, name: 1996}  
+  y18_ru: { id: y18, culture: ru, name: 1997}
+  y18_uk: { id: y18, culture: uk, name: 1997}  
+  y19_ru: { id: y19, culture: ru, name: 1998}
+  y19_uk: { id: y19, culture: uk, name: 1998}  
+  y20_ru: { id: y20, culture: ru, name: 1999}
+  y20_uk: { id: y20, culture: uk, name: 1999}  
+  y21_ru: { id: y21, culture: ru, name: 2000}
+  y21_uk: { id: y21, culture: uk, name: 2000}  
+
+  y22_ru: { id: y22, culture: ru, name: 2001}
+  y22_uk: { id: y22, culture: uk, name: 2001}  
+  y23_ru: { id: y23, culture: ru, name: 2002}
+  y23_uk: { id: y23, culture: uk, name: 2002}  
+  y24_ru: { id: y24, culture: ru, name: 2003}
+  y24_uk: { id: y24, culture: uk, name: 2003}  
+  y25_ru: { id: y25, culture: ru, name: 2004}
+  y25_uk: { id: y25, culture: uk, name: 2004}
+  y26_ru: { id: y26, culture: ru, name: 2005}
+  y26_uk: { id: y26, culture: uk, name: 2005}  
+  y27_ru: { id: y27, culture: ru, name: 2006}
+  y27_uk: { id: y27, culture: uk, name: 2006}  
+  y28_ru: { id: y28, culture: ru, name: 2007}
+  y28_uk: { id: y28, culture: uk, name: 2007}  
+  y29_ru: { id: y29, culture: ru, name: 2008}
+  y29_uk: { id: y29, culture: uk, name: 2008}  
+  y30_ru: { id: y30, culture: ru, name: 2009}
+  y30_uk: { id: y30, culture: uk, name: 2009}      
+
+Milage:
+  mi1: { value: 4998 }
+  mi2: { value: 9998 }
+  mi3: { value: 14998 }
+  mi4: { value: 19998 }    
+  mi5: { value: 24998 }    
+  mi6: { value: 29998 }    
+  mi7: { value: 34998 }    
+
+MilageI18n:
+  mi1_ru: { id: mi1, culture: ru, name: 0-4999}
+  mi1_uk: { id: mi1, culture: uk, name: 0-4999}
+  mi2_ru: { id: mi2, culture: ru, name: 5000-9999}
+  mi2_uk: { id: mi2, culture: uk, name: 5000-9999}
+  mi3_ru: { id: mi3, culture: ru, name: 10000-14999}
+  mi3_uk: { id: mi3, culture: uk, name: 10000-14999}
+  mi4_ru: { id: mi4, culture: ru, name: 15000-19999}
+  mi4_uk: { id: mi4, culture: uk, name: 15000-19999}
+  mi5_ru: { id: mi5, culture: ru, name: 20000-25000}
+  mi5_uk: { id: mi5, culture: uk, name: 20000-25000}
+  mi6_ru: { id: mi6, culture: ru, name: 25000-29999}
+  mi6_uk: { id: mi6, culture: uk, name: 25000-29999}
+  mi7_ru: { id: mi7, culture: ru, name: больше чем 30000}
+  mi7_uk: { id: mi7, culture: uk, name: більше ніж 30000}
+
+Item:
+  
+<?php for ($i = 100; $i <= 130; $i++): ?>
+  i_<?php echo $i ?>:
+    category_id:  c4
+    
+    name:            Herbert Svenning_<?php echo $i."\n" ?>
+    slug:            slug_<?php echo $i."\n" ?>
+    email:           johan@swe.se
+    phone:           324234423423
+    title:           powertool_<?php echo $i."\n" ?>
+    body:            Den e fin o bra på många sätt
+    price:           28<?php echo $i."\n" ?>
+    location_id:     l2
+    sublocation_id:  sl6
+    status_id:       st4
+    mode_id:         mo1
+    customertype_id: ct1
+    password:        generated
+    valid_until:     2010-11-11
+ 
+<?php endfor; ?>
+
+<?php for ($i = 130; $i <= 140; $i++): ?>
+  i_<?php echo $i ?>:
+    category_id:  c4
+    
+    name:            DuPont enterprises_<?php echo $i."\n" ?>
+    slug:            slug_<?php echo $i."\n" ?>
+    email:           norrlandshubben@yahoo.com
+    phone:           324234423423
+    title:           powertool_<?php echo $i."\n" ?>
+    body:            Den e fin o bra på många sätt
+    price:           28<?php echo $i."\n" ?>
+    location_id:     l2
+    sublocation_id:  sl6
+    status_id:       st4
+    mode_id:         mo1
+    customertype_id: ct2
+    site:            http://www.dupont.com
+    password:        generated
+    valid_until:     2010-08-30
+ 
+<?php endfor; ?>
+
+<?php for ($i = 140; $i <= 150; $i++): ?>
+  i_<?php echo $i ?>:
+    category_id:    c5
+    subcategory_id: sc3
+    
+    name:            Charles du Gaulle_<?php echo $i."\n" ?>
+    slug:            slug_<?php echo $i."\n" ?>
+    email:           norrlandshubben@yahoo.com
+    phone:           324234423423
+    title:           Dell_<?php echo $i."\n" ?>
+    body:            Den e fin o bra på många sätt
+    price:           28<?php echo $i."\n" ?>
+    location_id:     l2
+    sublocation_id:  sl7
+    status_id:       st4
+    mode_id:         mo3
+    customertype_id: ct1
+    password:        generated
+    valid_until:     2009-01-01
+ 
+<?php endfor; ?>
+
+<?php for ($i = 150; $i <= 160; $i++): ?>
+  i_<?php echo $i ?>:
+    category_id:    c6
+    subcategory_id: sc8
+    
+    name:            Power enterprises_<?php echo $i."\n" ?>
+    slug:            slug_<?php echo $i."\n" ?>
+    email:           norrlandshubben@yahoo.com
+    phone:           324234423423
+    title:           honda_<?php echo $i."\n" ?>
+    body:            Den e fin o bra på många sätt
+    price:           28<?php echo $i."\n" ?>
+    location_id:     l2
+    sublocation_id:  sl7
+    status_id:       st4
+    mode_id:         mo4
+    customertype_id: ct2
+    password:        generated
+    site:            http://www.power.com
+    valid_until:     2010-12-12
+ 
+<?php endfor; ?>
+
+<?php for ($i = 160; $i <= 230; $i++): ?>
+  i_<?php echo $i ?>:
+    category_id:    c6
+    subcategory_id: sc8
+    
+    name:            Power enterprises_<?php echo $i."\n" ?>
+    slug:            slug_<?php echo $i."\n" ?>
+    email:           norrlandshubben@yahoo.com
+    phone:           324234423423
+    title:           honda_<?php echo $i."\n" ?>
+    body:            Den e fin o bra på många sätt
+    price:           28<?php echo $i."\n" ?>
+    location_id:     l2
+    sublocation_id:  sl7
+    status_id:       st4
+    mode_id:         mo1
+    customertype_id: ct2
+    password:        generated
+    site:            http://www.power.com
+    valid_until:     2010-12-20
+ 
+<?php endfor; ?>
+
+<?php for ($i = 230; $i <= 245; $i++): ?>
+  i_<?php echo $i ?>:
+    category_id:    c26
+    subcategory_id: sc18
+    
+    name:            Whatever_<?php echo $i."\n" ?>
+    slug:            slug_<?php echo $i."\n" ?>
+    email:           johan@swe2.se
+    phone:           324234423
+    title:           gregory_<?php echo $i."\n" ?>
+    body:            Whatever its worth
+    price:           66<?php echo $i."\n" ?>
+    location_id:     l8
+    sublocation_id:  sl27
+    status_id:       st4
+    mode_id:         mo2
+    customertype_id: ct1
+    password:        generated
+    site:            http://www.power.com
+    valid_until:     2010-02-03
+ 
+<?php endfor; ?>
+
+#add some cars
+<?php for ($i = 245; $i <= 255; $i++): ?>
+  i_<?php echo $i ?>:
+    category_id:    c1
+
+    name:            CAR_<?php echo $i."\n" ?>
+    slug:            slug_<?php echo $i."\n" ?>
+    email:           norrlandshubben@yahoo.com
+    phone:           324234423
+    title:           Car_<?php echo $i."\n" ?>
+    body:            A car ok
+    price:           12<?php echo $i."\n" ?>
+    location_id:     l8
+    sublocation_id:  sl27
+    status_id:       st4
+    mode_id:         mo1
+    customertype_id: ct1
+    fuel_id:         f2
+    milage_id:       mi3
+    gearbox_id:      g1
+    yearmodel_id:    y2
+    password:        generated
+    valid_until:     2010-12-02
+ 
+<?php endfor; ?>
+
+<?php for ($i = 255; $i <= 265; $i++): ?>
+  i_<?php echo $i ?>:
+    category_id:    c1
+
+    name:            CAR_<?php echo $i."\n" ?>
+    slug:            slug_<?php echo $i."\n" ?>
+    email:           norrlandshubben@yahoo.com
+    phone:           324234423
+    title:           Car_<?php echo $i."\n" ?>
+    body:            A car ok
+    price:           14<?php echo $i."\n" ?>
+    location_id:     l9
+    sublocation_id:  sl141
+    status_id:       st4
+    mode_id:         mo2
+    customertype_id: ct1
+    fuel_id:         f1
+    milage_id:       mi2
+    gearbox_id:      g2
+    yearmodel_id:    y5
+    password:        generated
+    valid_until:     2010-03-24
+ 
+<?php endfor; ?>
+
+<?php for ($i = 265; $i <= 275; $i++): ?>
+  i_<?php echo $i ?>:
+    category_id:    c1
+
+    name:            CAR_<?php echo $i."\n" ?>
+    slug:            slug_<?php echo $i."\n" ?>
+    email:           norrlandshubben@yahoo.com
+    phone:           324234423
+    title:           Car_<?php echo $i."\n" ?>
+    body:            A car ok
+    price:           76<?php echo $i."\n" ?>
+    location_id:     l10
+    sublocation_id:  sl152
+    status_id:       st4
+    mode_id:         mo3
+    customertype_id: ct2
+    fuel_id:         f2
+    milage_id:       mi4
+    gearbox_id:      g1
+    yearmodel_id:    y7
+    password:        generated
+    valid_until:     2010-11-02
+ 
+<?php endfor; ?>
+
+<?php for ($i = 275; $i <= 285; $i++): ?>
+  i_<?php echo $i ?>:
+    category_id:    c1
+
+    name:            CAR_<?php echo $i."\n" ?>
+    slug:            slug_<?php echo $i."\n" ?>
+    email:           norrlandshubben@yahoo.com
+    phone:           324234423
+    title:           Car_<?php echo $i."\n" ?>
+    body:            A car ok
+    price:           76<?php echo $i."\n" ?>
+    location_id:     l10
+    sublocation_id:  sl155
+    status_id:       st4
+    mode_id:         mo1
+    customertype_id: ct1
+    fuel_id:         f1
+    milage_id:       mi6
+    gearbox_id:      g2
+    yearmodel_id:    y19
+    password:        generated
+    valid_until:     2010-08-08
+ 
+<?php endfor; ?>
+
+<?php for ($i = 285; $i <= 290; $i++): ?>
+  i_<?php echo $i ?>:
+    category_id:    c11
+    subcategory_id: sc2
+    name:            BOAT_<?php echo $i."\n" ?>
+    slug:            slug_<?php echo $i."\n" ?>
+    email:           norrlandshubben@yahoo.com
+    phone:           324234423
+    title:           BOAT_<?php echo $i."\n" ?>
+    body:            A boat ok
+    price:           76<?php echo $i."\n" ?>
+    location_id:     l10
+    sublocation_id:  sl155
+    status_id:       st4
+    mode_id:         mo1
+    customertype_id: ct1
+    password:        generated
+    valid_until:     2010-07-03
+ 
+<?php endfor; ?>
+
+
+<?php for ($i = 290; $i <= 292; $i++): ?>
+  i_<?php echo $i ?>:
+    category_id:    c19
+    name:            APARTMENT_<?php echo $i."\n" ?>
+    slug:            slug_<?php echo $i."\n" ?>
+    email:           norrlandshubben@yahoo.com
+    phone:           324234423
+    room_id:         r1
+    area:            40
+    title:           APARTMENT_<?php echo $i."\n" ?>
+    body:            An apartment ok
+    price:           76<?php echo $i."\n" ?>
+    location_id:     l10
+    sublocation_id:  sl155
+    status_id:       st4
+    mode_id:         mo1
+    customertype_id: ct1
+    password:        generated
+    valid_until:     2008-02-08
+ 
+<?php endfor; ?>
+
+<?php for ($i = 292; $i <= 294; $i++): ?>
+  i_<?php echo $i ?>:
+    category_id:    c19
+    name:            APARTMENT_<?php echo $i."\n" ?>
+    slug:            slug_<?php echo $i."\n" ?>
+    email:           norrlandshubben@yahoo.com
+    phone:           324234423
+    room_id:         r3
+    area:            65
+    title:           APARTMENT_<?php echo $i."\n" ?>
+    body:            An apartment ok
+    price:           76<?php echo $i."\n" ?>
+    location_id:     l10
+    sublocation_id:  sl155
+    status_id:       st4
+    mode_id:         mo1
+    customertype_id: ct1
+    password:        generated
+    valid_until:     2010-11-29
+ 
+<?php endfor; ?>
+
+# Add some deleted items
+<?php for ($i = 294; $i <= 325; $i++): ?>
+  i_<?php echo $i ?>:
+    category_id:    c19
+    name:            APARTMENT_<?php echo $i."\n" ?>
+    slug:            slug_<?php echo $i."\n" ?>
+    email:           norrlandshubben@yahoo.com
+    phone:           324234423
+    room_id:         r3
+    area:            65
+    title:           APARTMENT_<?php echo $i."\n" ?>
+    body:            An apartment ok
+    price:           76<?php echo $i."\n" ?>
+    location_id:     l10
+    sublocation_id:  sl155
+    status_id:       st6
+    mode_id:         mo1
+    customertype_id: ct1
+    password:        generated
+    created_at:      2009-12-10
+ 
+<?php endfor; ?>
+
+# Add some old applied items
+<?php for ($i = 325; $i <= 335; $i++): ?>
+  i_<?php echo $i ?>:
+    category_id:    c19
+    name:            APARTMENT_<?php echo $i."\n" ?>
+    slug:            slug_<?php echo $i."\n" ?>
+    email:           norrlandshubben@yahoo.com
+    phone:           324234423
+    room_id:         r3
+    area:            65
+    title:           APARTMENT_<?php echo $i."\n" ?>
+    body:            An apartment ok
+    price:           76<?php echo $i."\n" ?>
+    location_id:     l10
+    sublocation_id:  sl155
+    status_id:       st2
+    mode_id:         mo1
+    customertype_id: ct1
+    password:        generated
+    created_at:      2009-01-10
+ 
+<?php endfor; ?>
+
+# Add some old items without status 
+<?php for ($i = 335; $i <= 345; $i++): ?>
+  i_<?php echo $i ?>:
+    category_id:    c19
+    name:            APARTMENT_<?php echo $i."\n" ?>
+    email:           norrlandshubben@yahoo.com
+    phone:           324234423
+    room_id:         r3
+    area:            65
+    title:           APARTMENT_<?php echo $i."\n" ?>
+    body:            An apartment ok
+    price:           76<?php echo $i."\n" ?>
+    location_id:     l10
+    sublocation_id:  sl155
+    mode_id:         mo1
+    customertype_id: ct1
+    password:        generated
+    created_at:      2009-01-10
+ 
+<?php endfor; ?>
+
+# Add some test images for the first item
+Image:
+ img1: { itemid: i_100, path: 02/first.jpg, imagetype_id: it1 }
+ img2: { itemid: i_100, path: 02/second.jpg, imagetype_id: it2 }
+ img3: { itemid: i_100, path: 02/third.jpg, imagetype_id: it2 }

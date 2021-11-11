@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <database name="propel" defaultIdMethod="native" noxsd="true">
+   <table name="internetbazar_item" phpName="Item">
+     <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+     <column name="name" type="varchar" required="true" size="100" />
+     <column name="email" type="varchar" required="true" size="100" />
+     <column name="phone" type="varchar" size="100" />
+     <column name="title" type="varchar" required="true" size="140" />
+     <column name="body" type="varchar" required="true" size="2000"  />
+     <column name="price" required="true"  type="integer" /> 
+     <column name="created_at" type="timestamp" />
+     <column name="updated_at" type="timestamp" />
+     <column name="password" type="varchar" size="10" />
+
+     <column name="status_id" type="integer" /> 
+     <foreign-key foreignTable="internetbazar_status">
+       <reference local="status_id" foreign="id"/>
+     </foreign-key>
+
+     <column name="mode_id" type="integer" /> 
+     <foreign-key foreignTable="internetbazar_mode">
+       <reference local="mode_id" foreign="id"/>
+     </foreign-key>
+
+     <column name="customertype_id" type="integer" /> 
+     <foreign-key foreignTable="internetbazar_customertype">
+       <reference local="customertype_id" foreign="id"/>
+     </foreign-key>
+
+     
+     <column name="location_id" required="true" type="integer" /> 
+     <foreign-key foreignTable="internetbazar_location">
+       <reference local="location_id" foreign="id"/>
+     </foreign-key>
+
+     <column name="sublocation_id" type="integer" /> 
+     <foreign-key foreignTable="internetbazar_sublocation">
+       <reference local="sublocation_id" foreign="id"/>
+     </foreign-key>
+     
+     <column name="category_id" required="true" type="integer" />       
+     <foreign-key foreignTable="internetbazar_category">
+       <reference local="category_id" foreign="id"/>
+     </foreign-key>
+     
+     <column name="subcategory_id" type="integer" /> 
+     <foreign-key foreignTable="internetbazar_subcategory">
+       <reference local="subcategory_id" foreign="id"/>
+     </foreign-key>
+     
+     <column name="milage_id" type="integer" /> 
+     <foreign-key foreignTable="internetbazar_milage">
+       <reference local="milage_id" foreign="id"/>
+     </foreign-key>
+     
+      <column name="gearbox_id" type="integer" /> 
+     <foreign-key foreignTable="internetbazar_gearbox">
+       <reference local="gearbox_id" foreign="id"/>
+     </foreign-key>
+              
+     <column name="yearmodel_id" type="integer" /> 
+     <foreign-key foreignTable="internetbazar_yearmodel">
+       <reference local="yearmodel_id" foreign="id"/>
+     </foreign-key>
+     
+     <column name="fuel_id" type="integer" /> 
+     <foreign-key foreignTable="internetbazar_fuel">
+       <reference local="fuel_id" foreign="id"/>
+     </foreign-key>
+     
+     <column name="room_id" type="integer" /> 
+     <foreign-key foreignTable="internetbazar_room">
+       <reference local="room_id" foreign="id"/>
+     </foreign-key>
+     
+     <column name="length" type="integer" /> 
+     <column name="area" type="integer" /> 
+     <column name="street" type="varchar" size="90"/> 
+     <column name="rent" type="integer" /> 
+     
+     <column name="postalcode" type="varchar" size="10" />                    
+   </table>
+   
+   <table name="internetbazar_image" phpName="Image">
+     <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+     <column name="itemid" type="integer" required="true" />
+     <column name="path" type="varchar" size="100" required="true"/>          
+     <foreign-key foreignTable="internetbazar_item">
+       <reference local="itemid" foreign="id"/>
+     </foreign-key>
+
+     <column name="imagetype_id"  required="true" type="integer" /> 
+     <foreign-key foreignTable="internetbazar_imagetype">
+       <reference local="imagetype_id" foreign="id"/>
+     </foreign-key>
+
+     <unique>
+       <unique-column name="itemid"/>
+       <unique-column name="path"/>   
+     </unique> 
+   </table>
+
+   <table name="internetbazar_imagetype" phpName="ImageType">
+     <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+     <column name="description" type="varchar" size="25" />     
+   </table>  
+   
+ 
+   <table name="internetbazar_category" phpName="Category">
+     <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+     <column name="name" type="varchar" required="true" size="100" />
+     <column name="supercategory_id" type="integer" />
+     <column name="price" required="true" type="varchar" size="8" /> 
+     
+     <foreign-key foreignTable="internetbazar_supercategory">
+       <reference local="supercategory_id" foreign="id"/>
+     </foreign-key>
+   </table>
+   
+   <table name="internetbazar_supercategory" phpName="SuperCategory">
+     <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+     <column name="name" required="true" type="varchar" size="100" />
+     
+   </table>
+   
+   <table name="internetbazar_subcategory" phpName="SubCategory">
+     <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+     <column name="name" required="true" type="varchar" size="100" />
+     <column name="category_id" required="true" type="integer" /> 
+     <foreign-key foreignTable="internetbazar_category">
+       <reference local="category_id" foreign="id"/>
+     </foreign-key>
+
+   </table>  
+   
+   <table name="internetbazar_milage" phpName="Milage">
+     <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+     <column name="name" type="varchar" required="true" size="30" />
+     <column name="value" required="true" type="integer" />
+   </table>  
+   
+   <table name="internetbazar_gearbox" phpName="Gearbox">
+     <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+     <column name="name" required="true" type="varchar" size="50" />     
+   </table>  
+   
+   <table name="internetbazar_yearmodel" phpName="Yearmodel">
+     <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+     <column name="name" required="true" type="varchar" size="50" />
+     <column name="value" required="true" type="integer" />
+   </table>  
+   
+   <table name="internetbazar_fuel" phpName="Fuel">
+     <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+     <column name="name" required="true" type="varchar" size="50" />     
+   </table>  
+   
+   <table name="internetbazar_room" phpName="Room">
+     <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+     <column name="name" required="true" type="varchar" size="10" />
+     <column name="value" required="true" type="integer" />
+   </table>  
+   
+   <table name="internetbazar_location" phpName="Location">
+     <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+     <column name="name" required="true" type="varchar" size="50" />     
+     <column name="connectedTo" type="varchar" size="50" />     
+   </table>
+
+   <table name="internetbazar_sublocation" phpName="SubLocation">
+     <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+     <column name="name" type="varchar" required="true" size="50" />     
+     <column name="location_id" required="true" type="integer" /> 
+     <foreign-key foreignTable="internetbazar_location">
+       <reference local="location_id" foreign="id"/>
+     </foreign-key>
+   </table>
+
+   <table name="internetbazar_mode" phpName="Mode">
+     <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+     <column name="description" required="true" type="varchar" size="25" />     
+   </table> 
+
+   <table name="internetbazar_status" phpName="Status">
+     <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+     <column name="description" required="true" type="varchar" size="25" />     
+   </table> 
+
+   <table name="internetbazar_customertype" phpName="CustomerType">
+     <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+     <column name="description" required="true" type="varchar" size="25" />     
+   </table> 
+ 
+ </database>

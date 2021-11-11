@@ -1,0 +1,25 @@
+dev:
+  propel:
+    param:
+      classname: DebugPDO
+test:
+  propel:
+    class: sfPropelDatabase
+    param:
+      classname: DebugPDO
+      dsn: 'mysql:host=localhost;dbname=internetbazar_test'
+      username: johan
+      password: johan
+      encoding: utf8
+      persistent: true
+all:
+  propel:
+    class: sfPropelDatabase
+    param:
+      dsn: 'mysql:dbname=internetbazar;host=localhost'
+      username: johan
+      password: johan
+      encoding: utf8
+      persistent: true
+      pooling: true
+      classname: PropelPDO

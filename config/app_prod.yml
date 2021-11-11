@@ -1,0 +1,137 @@
+# default values
+all:
+  sf_guard_plugin:
+    remember_cookie_name: internetbazar
+  mail_passwd_subject: Ваш пароль
+  mail_passwd_body:   Пожалуста, это Ваш пароль:<br>{placeholder}<br><br>Ссылка: {placeholder2}<br><br>С уважением,Internetbazar
+  main_mail:          noreply
+  contact_mail:       contact
+  imagefolder:        '06'
+  max_items_per_page: 30
+  rules_url:          http://www.internetbazar.com.ua/ru/service/rules
+  item_url:           http://www.internetbazar.com.ua/ru/item/show/id/{placeholder}
+  item_slug_url:      http://www.internetbazar.com.ua/ru/item/bazar/{placeholder}
+  mail_from:          noreply@internetbazar.com.ua
+
+  promotion_subject:  Доска бесплатних объявлений! www.internetbazar.com.ua
+  promotion_body:     Добрый день,<br><br>Internetbazar предоставляет Вам возможность бесплатно разместить или найти частные объявления и объявления фирм, например: б/у авто, недвижимость, мебель, бытовая и электро техника и многое другое со всей Украины.<br>http://www.internetbazar.com.ua/<br><br>Заходите и посмотрите, Вам точно понравится.<br><br>С уважением,<br>Internetbazar
+ 
+  approve_mail_body:  <i>Не отвечайте на это сообщение!</i><br>Ваше объявление было опубликовано. Если товар \ услуга проданы, удалите объявлениe. Вы можете также изменить цену товара \ услуги. Для этого Вам необходим пароль, который находится ниже в этом сообщении. <br><br>С уважением, Internetbazar<br><br>Пароль: {placeholder1}<br>Ссылка на объявление: {placeholder2}
+
+  reject_mail_body: <i>Не отвечайте на это сообщение!</i><br><br>Ваше объявление противоречит <a href="{placeholder1}">правилам</a> Internetbazar и не может быть опубликованным. У Вас есть возможность изменить объявление. Для этого нажмите на ссылку и используйте пароль, который указан ниже. <br>Комментар: {placeholder2}<br><br>С уважением, Internetbazar<br><br>Пароль: {placeholder3}<br>Ссылка: {placeholder4}
+
+  request_mail_body: Greetings! {placeholder1} is interested in the product: {placeholder2}.He can be reached on this address: {placeholder3}. This is his message<br>: {placeholder4} <br>The ad can be found here: {placeholder5}
+
+  request_mail_body: <br>{placeholder4}<br><br>Контактное лицо: {placeholder1}<br>Объявление находится на {placeholder5}<br><br>Информация от Internetbazar:<br><br>Отправка письма была совершена через веб-формуляр на www.internetbazar.com.ua и касается Вашего объявления "{placeholder2}". Контактное лицо не располагает информацией о адресе вашей электронной почты, пока Вы не ответите на это письмо.Внимание, Internetbazar не известно является ли правильным адрес ({placeholder3}) отправителя.
+
+  request_mail_tip: <i>Не отвечайте на это сообщение!</i><br><br>{placeholder1} хочет порекомендовать Вам это объявление. Нажмите на ссылку, чтобы прочитать объявлениe. Некоторые программы не открывают ссылок. Чтобы открыть объявление скопируйте ссылку и откройте ее в новом окне. Большие и маленькие буквы должны быть написаны правильно, чтобы ссылка открылась.<br><br>ссылка: {placeholder2}<br><br>С уважением, Internetbazar
+
+  mail_tip_subject:  Друг хочет порекомендовать Вам это объявление
+
+  mail_request_subject: относительно {placeholder1}
+
+  mail_approve_subject: Ваше объявление было опубликовано
+  mail_reject_subject: Объявление противоречит правилам Internetbazar
+
+  mail_remove_subject: Ваше объявление удалено
+  remove_mail_body: К сожелению Ваше объявление удалено.<br>Причина: {placeholder2}<br>Смотрите <a href='{placeholder1}'>правила</a>.<br><br>С уважением, Internetbazar
+
+  submit_mail_body: <i>Не отвечайте на это сообщение!</i><br><br>Перед опубликованием объявления просматривается и устанавливается соответствует ли оно правилам Internetbazar. При соблюдении правил, объявление будет опубликовано в течение 24 часов.<br>С уважением, Internetbazar.
+
+  forbidden_str: куплю|продам|продаю|продаем|продается|сдается|сдам|сниму|Срочно|продажа|предложение|услуги|оренда|покупка|покупаю|сдаю|орендую|здається|здам|візьму|продаж|аренда|купівля|зніму|арендую|предлагаю
+
+
+# Development environment settings
+dev:
+  boat-cat-val:       11
+  car-cat-val:        1
+  apartment-cat-val:  15
+  motorcycle-cat-val: 7
+  house-cat-val:      16
+  upload_dir:        /uploads	
+  lvivid:            1
+  volinskaid:        2
+  rovenskaid:        3
+  ternopolskaid:     4
+  zakarpatskaid:     5
+  ivanofrankoid:     6
+  chernovitskaid:    7
+  chmelnitskaid:     8
+  zhitomirskaid:     9
+  vinitskaid:        10
+  kievid:            11
+  cherkasskayaid:    12
+  chernigovskayaid:  13
+  sumskayaid:        14
+  poltavaid:         15
+  kirovogradid:      16
+  oddessaid:         17
+  nikolaevid:        18
+  chersonskaid:      19
+  dneprid:           20
+  charkovid:         21
+  luganskid:         22
+  donetskid:         23
+  zaporozhskaid:     24
+  krimid:            25
+
+  smtp_server:       smtp.gmail.com
+  mailuser:          internetbazar@gmail.com
+  mailpasswd:        yrax52123
+  mailport:          465
+  mailenv:           dev
+  capitolid:         13
+prod:
+  boat-cat-val:       11
+  car-cat-val:        1
+  apartment-cat-val:  15
+  motorcycle-cat-val: 7
+  house-cat-val:      16
+  upload_dir:        /uploads	
+  lvivid:            1
+  volinskaid:        2
+  rovenskaid:        3
+  ternopolskaid:     4
+  zakarpatskaid:     5
+  ivanofrankoid:     6
+  chernovitskaid:    7
+  chmelnitskaid:     8
+  zhitomirskaid:     9
+  vinitskaid:        10
+  kievid:            11
+  cherkasskayaid:    12
+  chernigovskayaid:  13
+  sumskayaid:        14
+  poltavaid:         15
+  kirovogradid:      16
+  oddessaid:         17
+  nikolaevid:        18
+  chersonskaid:      19
+  dneprid:           20
+  charkovid:         21
+  luganskid:         22
+  donetskid:         23
+  zaporozhskaid:     24
+  krimid:            25
+
+  capitolid:         13
+  show_adsense:      false
+  show_custom_banners: true
+  show_rightbanner: true
+  show_banner_top: true
+  show_payingbanner: true
+
+  #smtp_server:       smtp.glesys.com
+  #mailuser:          internetbazar
+  #mailpasswd:        klipp123
+  #mailport:          25
+  #mailenv:           prod
+
+  mailsenduser:      intetbazar
+  mailsendpasswd:    ineT322CC
+
+  smtp_server:       smtp.gmail.com
+  mailuser:          internetbazar@gmail.com
+  mailpasswd:        yrax52123
+  mailport:          465
+  mailenv:           dev

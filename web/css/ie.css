@@ -1,0 +1,12 @@
+
+div#holder {    
+    margin-left: 7px;
+}
+
+label span.notify {
+    float: left;
+    font-size: 11px;
+    margin: 5px 0 0 270px;
+    width: 330px;
+}
+

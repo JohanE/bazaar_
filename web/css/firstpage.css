@@ -1,0 +1,108 @@
+
+
+#Main {
+	width:1100px;
+	margin-left: 10px;
+}
+
+#Main .header {
+    margin-left: 60px;
+    width: 1100px;
+    float: left;
+}
+
+div.puff {
+   margin-left: 60px;
+   width: 520px;
+}
+
+div.puff h1 {
+    font-family:Myriad Pro,Myriad,Arial,Helvetica,sans-serif;
+    font-size:1.4em;
+    font-weight:normal;
+}
+
+div.puff h2 {
+    font-family:Myriad Pro,Myriad,Arial,Helvetica,sans-serif;
+    font-size:1.2em;
+    font-weight:normal;
+}
+
+
+td,tr,table {	
+	padding:0;
+	margin:0;
+}
+
+img {
+	border:none;
+	margin:0;
+	padding:0;
+}
+ul,ol {
+	margin-top:0;
+} 
+
+a:hover {
+	text-decoration:underline;
+} 
+
+div.region_div, div.region_firstdiv {
+    float: left;
+    margin-top: 5px;
+}
+
+div.region_firstdiv {
+    margin-left: 30px;
+}
+
+#MyTable {
+    margin-top:15px;
+    width:80%;	
+}
+
+#MyTable td {
+    vertical-align:top;
+}
+
+#MyTable .ColumnMiddle {
+	width:178px;
+	padding-left:28px;
+	padding-right:20px;
+}
+
+#MyTable .ColumnRight {
+	padding:10px 0 0 9px;
+}
+
+
+#MyTable .Map {
+	background:url(/imgs/ukraine.gif) no-repeat; 
+	height:334px; 
+	width:490px; 
+}
+
+table.oblasti
+{
+    width: 250px;
+    font-size: 1em;
+} 
+
+.oblasti th	{
+	padding:0px 7px 1px 0;
+
+	}	
+	
+.oblasti td	{
+    padding:0px 0 1px 0;
+
+}	
+	
+div.small_banner_div {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 800px;
+}
+
+

@@ -1,0 +1,21 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           CustomerType
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          customer_type
+    with_propel_route:     1
+
+    config:
+      actions: ~
+      fields:  ~
+      list:    
+         display: [id, description]
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

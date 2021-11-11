@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>show</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">show</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/frontend_dev.php/uk/item/bazar/powertool-100</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[@id='product']/h2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>header</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Змінити, видалити або продовжити ваше оголошення</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[@id='product']/p[2]/strong</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[@id='product']/p[3]/strong</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[@id='product']/p[4]/strong</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//img[@alt='powertool_100']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//img[@alt='powertool_100']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//img[@alt=' ']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[@id='img2']/a/img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='product']/div[4]/p[1]/strong</td>
+	<td>Текст оголошення:</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[@id='product']/div[4]/p[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Написать автору</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>send_ad</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>error_from_ad</td>
+	<td>Це поле є обов`язковим для заповнення</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>error_email_ad</td>
+	<td>Невірний е-мейл</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>sender_name</td>
+	<td>jojje test</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>sender_email</td>
+	<td>jojje dn.se</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>mailbody</td>
+	<td>Hej<br /><br />leget?</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>send_ad</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>error_email_ad</td>
+	<td>Невірний е-мейл</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>sender_email</td>
+	<td>jojje@dn.se</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>send_ad</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>response_area_ad</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Порадити другу</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>send_friend</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>error_email</td>
+	<td>Невірний е-мейл</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>friend</td>
+	<td>johan eek</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>send_friend</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>error_email</td>
+	<td>Невірний е-мейл</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>mailto</td>
+	<td>joh dd.se</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>send_friend</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>error_email</td>
+	<td>Невірний е-мейл</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>mailto</td>
+	<td>joh@dd.se</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>send_friend</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>response_area</td>
+	<td>Повідомлення надіслано</td>
+</tr>
+</tbody></table>
+</body>
+</html>

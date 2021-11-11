@@ -1,0 +1,38 @@
+The internetbazar board system
+
+- based on symfony 1.2.7, propel orm
+- supports russian and ukrainian languages
+System requirements:
+  - Only tested with Ubuntu Linux but should work with other Linux / UNIX
+    dialects. 
+  - PHP >= 5.2
+  - Mysql >= 5.0
+  - Apache2 web server
+  
+
+Configuration
+- In production mode. Replace config/app.yml with config/app_prod.yml
+  (change its name to "app.yml")
+- Dont deploy frontend_dev.php and backeend.dev.php to production
+  server! They can be found in the "additionals" folder, and should only reside under the "web" directory during development.
+- For admin to work locally, run the sf_user sql script from the additionals folder.
+- Run the "temp_image_info.sql" script in the additionals folder.
+  This is to create a log of every deleted image, so they can be 
+  deleted physically at a later stage (see the ImageCleaner task).
+- Database settings are found here: additionals/database.yml
+  They should be moved to the config folder. They are in the additionals folder only to prevent deploying the wrong settings to production.
+- The main sql script is found here: data/sql/lib.model.schema.sql
+  It is generated every time you run the command: symfony propel:build-sql 
+- Make sure you have defined a separate database for tests in database.yml
+  (in order for unit tests to work)
+- There are unit tests and selenium tests checked in under the "test" dir.
+- Install this for apache in order for some urls to work:
+  install module rewrite : a2enmod rewrite
+- Make sure image library gt is installed: apt-get install php5-gd
+- An example apache config file (for local use) can be found in the 
+  additionals dir.
+- Make sure to create a "log" and "cache" directory in the root
+  with permissions 777.
+- See the file "crontab.txt" in the additionals folder to see what crontab settings to use in production environment.
+
+over and out

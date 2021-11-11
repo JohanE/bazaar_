@@ -1,0 +1,206 @@
+propel:
+  _attributes:
+    defaultIdMethod: native
+    noxsd: true
+
+  internetbazar_ibmail:
+    _attributes: { phpName: IBMail  }
+    id: { index: true, type: integer, required: true, primaryKey: true, autoIncrement: true }
+    email: { type: varchar, required: true, size: '100', index: unique } 
+    created_at: { type: timestamp }
+    sendstatus_id: { type: integer, foreignTable: internetbazar_sendstatus, foreignReference: id, index: true }
+
+  internetbazar_sendstatus:
+    _attributes: { phpName: Sendstatus }
+    id: { type: integer, required: true, primaryKey: true, autoIncrement: true, index: true }
+    description: { required: true, type: varchar, size: '25' }
+
+  internetbazar_item:
+    _attributes: { phpName: Item }
+    id: { index: true, type: integer, required: true, primaryKey: true, autoIncrement: true }
+    name: { type: varchar, required: true, size: '100' }
+    email: { type: varchar, required: true, size: '100' }
+    phone: { type: varchar, size: '100' }
+    title: { type: varchar, required: true, size: '100', index: true }
+    body: { type: varchar, required: true, size: '2000' }
+    site: { type: varchar, required: false, size: '60' }
+    price: { required: true, type: integer, index: true }
+    created_at: { type: timestamp }
+    approved_at: { type: timestamp }	  
+    valid_until: { type: timestamp }	  
+    updated_at: { type: timestamp }
+    password: { type: varchar, size: '10' }
+    slug: { type: varchar, required: false, size: '100', index:unique }
+    status_id: { type: integer, foreignTable: internetbazar_status, foreignReference: id, index: true }
+    mode_id: { type: integer, foreignTable: internetbazar_mode, foreignReference: id, index: true }
+    customertype_id: { type: integer, foreignTable: internetbazar_customertype, foreignReference: id, index: true }
+    location_id: { required: true, type: integer, foreignTable: internetbazar_location, foreignReference: id, index: true }
+    sublocation_id: { type: integer, foreignTable: internetbazar_sublocation, foreignReference: id, index: true }
+    category_id: { required: true, type: integer, foreignTable: internetbazar_category, foreignReference: id, index: true }
+    subcategory_id: { type: integer, foreignTable: internetbazar_subcategory, foreignReference: id, index: true }
+    milage_id: { type: integer, foreignTable: internetbazar_milage, foreignReference: id, index: true }
+    gearbox_id: { type: integer, foreignTable: internetbazar_gearbox, foreignReference: id, index: true }
+    yearmodel_id: { type: integer, foreignTable: internetbazar_yearmodel, foreignReference: id, index: true}
+    fuel_id: { type: integer, foreignTable: internetbazar_fuel, foreignReference: id, index: true }
+    room_id: { type: integer, foreignTable: internetbazar_room, foreignReference: id, index: true }
+    length: { type: integer }
+    area: { type: integer }
+    street: { type: varchar, size: '90' }
+    rent: { type: integer }
+    postalcode: { type: varchar, size: '10' }
+    nr_of_expiration_reminders: { type: smallint }
+  internetbazar_image:
+    _attributes: { phpName: Image }
+    id: { type: integer, required: true, primaryKey: true, autoIncrement: true, index: unique }
+    itemid: { type: integer, required: true, foreignTable: internetbazar_item, foreignReference: id }
+    path: { type: varchar, size: '100', required: true }
+    imagetype_id: { required: true, type: integer, foreignTable: internetbazar_imagetype, foreignReference: id }
+    _uniques: { '': [itemid, path, imagetype_id] }
+  internetbazar_imagetype:
+    _attributes: { phpName: ImageType }
+    id: { type: integer, required: true, primaryKey: true, autoIncrement: true, index: true }
+    description: { type: varchar, size: '25' }
+
+  internetbazar_category:    
+    _attributes: { isI18N: true, i18nTable: internetbazar_category_i18n, phpName: Category }
+    id: { type: integer, required: true, primaryKey: true, autoIncrement: true, index: unique }
+    supercategory_id: { type: integer, foreignTable: internetbazar_supercategory, foreignReference: id, index: true }
+    price: { required: true, type: varchar, size: '8' }
+    sort_field: { type: integer}
+
+  internetbazar_category_i18n:
+    _attributes: { phpName: CategoryI18n }
+    id:        { type: integer, required: true, primaryKey: true, foreignTable: internetbazar_category, foreignReference: id,onDelete: cascade, index: true}
+    culture:   { isCulture: true, type: varchar, size: 7, required: true, primaryKey: true }
+    name:      { type: varchar(100), required: true }
+
+  internetbazar_supercategory:
+    _attributes: { isI18N: true, i18nTable: internetbazar_supercategory_i18n, phpName: SuperCategory }
+    id: { type: integer, required: true, primaryKey: true, autoIncrement: true, index: true }
+    sort_field: { type: integer}
+
+  internetbazar_supercategory_i18n:
+    _attributes: { phpName: SuperCategoryI18n }
+    id:        { type: integer, required: true, primaryKey: true, foreignTable: internetbazar_supercategory, foreignReference: id, onDelete: cascade, index: true }
+    culture:   { isCulture: true, type: varchar, size: 7, required: true, primaryKey: true }
+    name:      { type: varchar(100), required: true }
+
+
+  internetbazar_subcategory:
+    _attributes: { isI18N: true, i18nTable: internetbazar_subcategory_i18n, phpName: SubCategory }
+    id: { type: integer, required: true, primaryKey: true, autoIncrement: true, index: true }    
+    category_id: { required: true, type: integer, foreignTable: internetbazar_category, foreignReference: id }
+
+  internetbazar_subcategory_i18n:
+    _attributes: { phpName: SubCategoryI18n }
+    id:        { type: integer, required: true, primaryKey: true, foreignTable: internetbazar_subcategory, foreignReference: id, onDelete: cascade, index: true }
+    culture:   { isCulture: true, type: varchar, size: 7, required: true, primaryKey: true }
+    name:      { type: varchar(100), required: true }
+
+  internetbazar_location:
+    _attributes: { isI18N: true, i18nTable: internetbazar_location_i18n, phpName: Location }
+    id: { type: integer, required: true, primaryKey: true, autoIncrement: true, onDelete: cascade , index: true}    
+    connected_to: { type: varchar, size: '50' }
+
+  internetbazar_location_i18n:
+    _attributes: { phpName: LocationI18n }
+    id:        { type: integer, required: true, primaryKey: true, foreignTable: internetbazar_location, foreignReference: id, onDelete: cascade, index: true }
+    culture:   { isCulture: true, type: varchar, size: 7, required: true, primaryKey: true }
+    name:      { type: varchar(70), required: true }
+
+  internetbazar_sublocation:
+    _attributes: { isI18N: true, i18nTable: internetbazar_sublocation_i18n, phpName: SubLocation }    
+    id: { type: integer, required: true, primaryKey: true, autoIncrement: true, index: true }    
+    location_id: { required: true, type: integer, foreignTable: internetbazar_location, foreignReference: id }
+
+  internetbazar_sublocation_i18n:
+    _attributes: { phpName: SubLocationI18n }
+    id:        { type: integer, required: true, primaryKey: true, foreignTable: internetbazar_sublocation, foreignReference: id, onDelete: cascade, index: true}
+    culture:   { isCulture: true, type: varchar, size: 7, required: true, primaryKey: true }
+    name:      { type: varchar(70), required: true }
+
+  internetbazar_milage:
+    _attributes: { isI18N: true, i18nTable: internetbazar_milage_i18n, phpName: Milage }    
+    id: { type: integer, required: true, primaryKey: true, autoIncrement: true, index: true }
+    value: { required: true, type: integer }
+
+  internetbazar_milage_i18n:
+    _attributes: { phpName: MilageI18n }
+    id:        { type: integer, required: true, primaryKey: true, foreignTable: internetbazar_milage, foreignReference: id, onDelete: cascade, index: true}
+    culture:   { isCulture: true, type: varchar, size: 7, required: true, primaryKey: true }
+    name:      { type: varchar(30), required: true }
+
+  internetbazar_gearbox:    
+    _attributes: { isI18N: true, i18nTable: internetbazar_gearbox_i18n, phpName: Gearbox }    
+    id: { type: integer, required: true, primaryKey: true, autoIncrement: true, index: true }    
+
+  internetbazar_gearbox_i18n:
+    _attributes: { phpName: GearboxI18n }
+    id:        { type: integer, required: true, primaryKey: true, foreignTable: internetbazar_gearbox, foreignReference: id, onDelete: cascade, index: true}
+    culture:   { isCulture: true, type: varchar, size: 7, required: true, primaryKey: true }
+    name:      { type: varchar(70), required: true }
+
+  internetbazar_fuel:
+    _attributes: { isI18N: true, i18nTable: internetbazar_fuel_i18n, phpName: Fuel }    
+    id: { type: integer, required: true, primaryKey: true, autoIncrement: true, index: true }
+
+  internetbazar_fuel_i18n:
+    _attributes: { phpName: FuelI18n }
+    id:        { type: integer, required: true, primaryKey: true, foreignTable: internetbazar_fuel, foreignReference: id, onDelete: cascade, index: true }
+    culture:   { isCulture: true, type: varchar, size: 7, required: true, primaryKey: true }
+    name:      { type: varchar(70), required: true }
+    
+
+  internetbazar_yearmodel:
+    _attributes: { isI18N: true, i18nTable: internetbazar_yearmodel_i18n, phpName: Yearmodel }    
+    id: { type: integer, required: true, primaryKey: true, autoIncrement: true, index: true }
+    value: { required: true, type: integer }  
+
+  internetbazar_yearmodel_i18n:
+    _attributes: { phpName: YearmodelI18n }
+    id:        { type: integer, required: true, primaryKey: true, foreignTable: internetbazar_yearmodel, foreignReference: id, onDelete: cascade, index: true}
+    culture:   { isCulture: true, type: varchar, size: 7, required: true, primaryKey: true }
+    name:      { type: varchar(50), required: true }
+
+  internetbazar_room:
+    _attributes: { isI18N: true, i18nTable: internetbazar_room_i18n, phpName: Room }    
+    id: { type: integer, required: true, primaryKey: true, autoIncrement: true, index: true }
+    value: { required: true, type: integer }
+
+  internetbazar_room_i18n:
+    _attributes: { phpName: RoomI18n }
+    id:        { type: integer, required: true, primaryKey: true, foreignTable: internetbazar_room, foreignReference: id, onDelete: cascade, index: true}
+    culture:   { isCulture: true, type: varchar, size: 7, required: true, primaryKey: true }
+    name:      { type: varchar(20), required: true }
+  
+  internetbazar_mode:
+    _attributes: { isI18N: true, i18nTable: internetbazar_mode_i18n, phpName: Mode }    
+    id: { type: integer, required: true, primaryKey: true, autoIncrement: true, index: true }
+
+  internetbazar_mode_i18n:
+    _attributes: { phpName: ModeI18n }
+    id:        { type: integer, required: true, primaryKey: true, foreignTable: internetbazar_mode, foreignReference: id, onDelete: cascade, index: true}
+    culture:   { isCulture: true, type: varchar, size: 7, required: true, primaryKey: true }
+    description:      { type: varchar(40), required: true }
+
+  internetbazar_status:
+    _attributes: { phpName: Status }
+    id: { type: integer, required: true, primaryKey: true, autoIncrement: true, index: true }
+    description: { required: true, type: varchar, size: '25' }
+
+  internetbazar_system_setting:
+    _attributes: { phpName: SystemSetting }
+    id: { type: integer, required: true, primaryKey: true, autoIncrement: true, index: true }
+    name: { required: true, type: varchar, size: '35' }
+    value: { required: true, type: varchar, size: '50' }
+
+  internetbazar_customertype:
+    _attributes: { isI18N: true, i18nTable: internetbazar_customertype_i18n, phpName: CustomerType }    
+    id: { type: integer, required: true, primaryKey: true, autoIncrement: true, index: true }    
+
+  internetbazar_customertype_i18n:
+    _attributes: { phpName: CustomerTypeI18n }
+    id:        { type: integer, required: true, primaryKey: true, foreignTable: internetbazar_customertype, foreignReference: id,onDelete: cascade, index: true }
+    culture:   { isCulture: true, type: varchar, size: 7, required: true, primaryKey: true }
+    description:             { type: varchar(50), required: true }
+    plural_description:      { type: varchar(50), required: true }

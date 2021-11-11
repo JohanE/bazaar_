@@ -1,0 +1,5 @@
+<?php ?>
+<h1>Page not found</h1>
+<?php echo link_to('To the homepage', '@homepage', array('title' => 'To the homepage')); ?><br/>
+<?php echo link_to_function('Go back one page', 'history.go(-1)', array('title' => 'Go back one page')) ?>
+<?php ?>

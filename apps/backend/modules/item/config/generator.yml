@@ -1,0 +1,35 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           Item
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          item
+    with_propel_route:     1
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+         batch_actions: {}
+         object_actions:
+           preview:    { label: "Просмотреть", credentials: [[regular ,admin]] }
+           _edit:      { credentials: [[regular ,admin]] }
+           _delete:    { credentials: [admin] }         
+         max_per_page: 20
+         sort: [updated_at, desc]
+         layout: stacked
+         title: Список объявления
+         display: [title, name, email, created_at, updated_at, customertype]
+         params:  |
+           %%=title%% | %%name%% | %%customertype%% |
+            (<em>%%email%%</em>) | создали: %%created_at%% | обновлен: %%updated_at%%                  
+      filter:  
+         display: [status_id, title]
+      form:    ~
+      edit:    ~ 
+
+      new:     ~

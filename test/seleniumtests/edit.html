@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>edit</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">edit</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/frontend_dev.php/uk/item/show/id/1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Змінити, видалити або продовжити ваше оголошення</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_password_login</td>
+	<td>generated</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='OK']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>item_name</td>
+	<td>Herbert Svenning_100</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>item_email</td>
+	<td>johan@swe.se</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>item_phone</td>
+	<td>324234423423</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>item_body</td>
+	<td>Den e fin o bra på många sätt</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>item_price</td>
+	<td>28100</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>item_location_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>item_sublocation_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Категорія: вантажні автомобілі</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>item_file</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>img0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//input[@class='btn delete' and @value='Видалити оголошення']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Головне фото</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForTextPresent</td>
+	<td>Додаткові фото</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_title</td>
+	<td>the new title</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Перевірка оголошення</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Ваше ім'я</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Ваш Email</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Контактный телефон</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Тема</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Текст оголошення</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Ціна</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Область</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Місто</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Категорія</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//input[@value='Змінити оголошення']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Головне фото</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Додаткові фото</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Змінити оголошення']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='img0']/a[@class='delete']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td></td>
+	<td>Головне фото відсутнє. Завантажте головне фото або видаліть додадкові.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='img1']/a[@class='delete']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='img1']/a[@class='delete']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Перевірка оголошення</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Змінити оголошення']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_file</td>
+	<td>/home/joe/Desktop/banner_728.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>file-inp-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>item_file</td>
+	<td>/home/joe/Desktop/banner_728.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>file-inp-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Контактні дані:</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Перевірка оголошення</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submitbtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Дякуєм за співпрацю!</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

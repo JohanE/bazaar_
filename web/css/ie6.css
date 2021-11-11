@@ -1,0 +1,9 @@
+#langs {
+    right: 30px;
+}
+#product div.sidebar {
+    margin-right: 0;
+}
+input.search-btn {
+    right: 50px;
+}

@@ -1,0 +1,182 @@
+system_setting:
+  class: sfPropelRouteCollection
+  options:
+    model:                SystemSetting
+    module:               system_setting
+    prefix_path:          system_setting
+    column:               id
+    with_wildcard_routes: true
+
+ib_mail:
+  class: sfPropelRouteCollection
+  options:
+    model:                IBMail
+    module:               ibmail
+    prefix_path:          ibmail
+    column:               id
+    with_wildcard_routes: true
+
+location_i18n:
+  class: sfPropelRouteCollection
+  options:
+    model:               LocationI18n
+    module:              location_i18n
+    prefix_path:         location_i18n
+    column:              id
+    with_wildcard_routes: true
+
+super_category_i18n:
+  class: sfPropelRouteCollection
+  options:
+    model:               SuperCategoryI18n
+    module:              super_category_i18n
+    prefix_path:         super_category_i18n
+    column:              id
+    with_wildcard_routes: true
+
+customer_type:
+  class: sfPropelRouteCollection
+  options:
+    model:               CustomerType
+    module:              customer_type
+    prefix_path:         customer_type
+    column:              id
+    with_wildcard_routes: true
+
+status:
+  class: sfPropelRouteCollection
+  options:
+    model:               Status
+    module:              status
+    prefix_path:         status
+    column:              id
+    with_wildcard_routes: true
+
+mode:
+  class: sfPropelRouteCollection
+  options:
+    model:               Mode
+    module:              mode
+    prefix_path:         mode
+    column:              id
+    with_wildcard_routes: true
+
+room:
+  class: sfPropelRouteCollection
+  options:
+    model:               Room
+    module:              room
+    prefix_path:         room
+    column:              id
+    with_wildcard_routes: true
+
+yearmodel:
+  class: sfPropelRouteCollection
+  options:
+    model:               Yearmodel
+    module:              yearmodel
+    prefix_path:         yearmodel
+    column:              id
+    with_wildcard_routes: true
+
+fuel:
+  class: sfPropelRouteCollection
+  options:
+    model:               Fuel
+    module:              fuel
+    prefix_path:         fuel
+    column:              id
+    with_wildcard_routes: true
+
+gearbox:
+  class: sfPropelRouteCollection
+  options:
+    model:               Gearbox
+    module:              gearbox
+    prefix_path:         gearbox
+    column:              id
+    with_wildcard_routes: true
+
+milage:
+  class: sfPropelRouteCollection
+  options:
+    model:               Milage
+    module:              milage
+    prefix_path:         milage
+    column:              id
+    with_wildcard_routes: true
+
+sub_location:
+  class: sfPropelRouteCollection
+  options:
+    model:               SubLocation
+    module:              sub_location
+    prefix_path:         sub_location
+    column:              id
+    with_wildcard_routes: true
+
+location:
+  class: sfPropelRouteCollection
+  options:
+    model:               Location
+    module:              location
+    prefix_path:         location
+    column:              id
+    with_wildcard_routes: true
+
+sub_category:
+  class: sfPropelRouteCollection
+  options:
+    model:               SubCategory
+    module:              sub_category
+    prefix_path:         sub_category
+    column:              id
+    with_wildcard_routes: true
+
+super_category:
+  class: sfPropelRouteCollection
+  options:
+    model:               SuperCategory
+    module:              super_category
+    prefix_path:         super_category
+    column:              id
+    with_wildcard_routes: true
+
+category:
+  class: sfPropelRouteCollection
+  options:
+    model:               Category
+    module:              category
+    prefix_path:         category
+    column:              id
+    with_wildcard_routes: true
+
+image_type:
+  class: sfPropelRouteCollection
+  options:
+    model:               ImageType
+    module:              ImageType
+    prefix_path:         ImageType
+    column:              id
+    with_wildcard_routes: true
+
+item:
+  class: sfPropelRouteCollection
+  options:
+    model:               Item
+    module:              item
+    prefix_path:         item
+    column:              id
+    with_wildcard_routes: true
+
+# default rules
+homepage:
+  url:   /
+  param: { module: item, action: index }
+
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

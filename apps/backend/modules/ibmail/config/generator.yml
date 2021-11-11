@@ -1,0 +1,25 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           IBMail
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          ib_mail
+    with_propel_route:     1
+
+    config:
+      actions: ~
+      fields:  ~
+      list:    
+         max_per_page: 100
+         display: [id, email, created_at, Sendstatus]
+         batch_actions:
+           _delete:    ~
+           send:     ~
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~
